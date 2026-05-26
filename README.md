@@ -1,4 +1,4 @@
-![wallpaper](images/wallpaper.png)
+![wallpaper](wallpaper.png)
 
 ## 🛠️ Skills & Tools
 
