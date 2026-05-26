@@ -24,7 +24,7 @@
 🔗 [View Project](https://andreaisabelmontana.github.io/Software-Development-And-Devops/)
 
 ### Interactive Resume
-🔗 [View Project](https://andreaisabelmontana.github.io)
+🔗 [View Project](https://andreaisabelmontana.github.io/aim-for-the-future.github.io/)
 
 ### Machine Learning
 🔗 [View Project](https://andreaisabelmontana.github.io) 
