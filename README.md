@@ -1,3 +1,5 @@
+![Banner](images/wallpaper.png)
+
 ## 🛠️ Skills & Tools
 
 ### Languages
