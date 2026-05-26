@@ -5,7 +5,7 @@
 🔗 [View Project](YOUR-LINK-HERE)
 
 ### Accessories
-🔗 [View Project](https://andreaisabelmontana.github.io/AlmaDeMaria/)
+🔗 [View Project](https://andreaisabelmontana.github.io/Alma-De-Maria/)
 
 ### Art Gallery
 🔗 [View Project](YOUR-LINK-HERE)
