@@ -1,7 +1,9 @@
 ![wallpaper](wallpaper.png)
-
-## 🚀 Example Projects
+## Experience 
 Real-Estate Market Predictor: 
+Online Jewelry:
+
+## 🚀 Template Projects 
 E-Commerce Website: https://andreaisabelmontana.github.io/Software-Development-And-Devops/
 Interactive Resume: https://aim-for-the-future.github.io/
 
