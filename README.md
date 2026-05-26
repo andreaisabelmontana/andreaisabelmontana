@@ -1,5 +1,10 @@
 ![wallpaper](wallpaper.png)
 
+## 🚀 Example Projects
+Real-Estate Market Predictor: 
+E-Commerce Website: https://andreaisabelmontana.github.io/Software-Development-And-Devops/
+Interactive Resume: https://aim-for-the-future.github.io/
+
 ## 🛠️ Skills & Tools
 
 ### Languages
