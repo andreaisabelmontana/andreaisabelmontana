@@ -39,6 +39,7 @@
     </td>
     <td align="center" valign="top">
       <strong>Machine Learning</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/sound-classifier/">CC Sound Classifier</a>
       🔗 <a href="https://andreaisabelmontana.github.io/fraud-detector/">CC Fraud Detector</a>
     </td>
     <td align="center" valign="top">
