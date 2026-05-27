@@ -1,20 +1,26 @@
-![wallpaper](wallpaper.png)
-## 💼 Experience
+<div class="projects-grid">
 
-### Real-Estate Market
-🔗 [View Project](YOUR-LINK-HERE)
+  <div class="project-card">
+    <h3>Real-Estate Market</h3>
+    <a href="#">🔗 View Project</a>
+  </div>
 
-### Accessories
-🔗 [View Project](https://andreaisabelmontana.github.io/Alma-De-Maria/)
+  <div class="project-card">
+    <h3>Accessories</h3>
+    <a href="#">🔗 View Project</a>
+  </div>
 
-### Art Gallery
-🔗 [View Project](YOUR-LINK-HERE)
+  <div class="project-card">
+    <h3>Art Gallery</h3>
+    <a href="#">🔗 View Project</a>
+  </div>
 
-### Google Maps Awards
-🔗 [View Project](https://andreaisabelmontana.github.io/Google-Maps-Awards-2026)
+  <div class="project-card">
+    <h3>Google Maps Awards</h3>
+    <a href="#">🔗 View Project</a>
+  </div>
 
-### Lego
-🔗 [View Project](https://andreaisabelmontana.github.io/lego-report)
+</div>
 
 ---
 
