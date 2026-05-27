@@ -55,6 +55,10 @@
     <td align="center" valign="top">
       <strong>Computer Vision</strong><br/>
       🔗 <a href="https://andreaisabelmontana.github.io/vision-proctor/">Vision Proctor</a>
+    </td> 
+    <td align="center" valign="top">
+      <strong>High Performance Computing</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/miniSWE/">miniSWE</a>
     </td>
     <td></td>
     <td></td>
