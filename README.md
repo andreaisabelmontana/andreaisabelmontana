@@ -30,11 +30,11 @@
 <table>
   <tr>
     <td align="center" valign="top">
-      <strong>E-Commerce</strong><br/>
+      <strong>Software Development</strong><br/>
       🔗 <a href="https://andreaisabelmontana.github.io/Software-Development-And-Devops/">The Shop</a>
     </td>
     <td align="center" valign="top">
-      <strong>Interactive Resume</strong><br/>
+      <strong>Talent&Career</strong><br/>
       🔗 <a href="https://andreaisabelmontana.github.io/aim-for-the-future.github.io/">Node 3JS</a>
     </td>
     <td align="center" valign="top">
