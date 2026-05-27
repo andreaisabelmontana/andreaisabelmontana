@@ -98,11 +98,11 @@
 
 ## 🌱 Growth Mindset
 
-- Spatial Computing
-- AI Agents & Agentic Systems
-- Computer Vision
-- Human-Computer Interaction
-- WebXR & Immersive Experiences
-- Advanced Three.js
+Spatial Computing
+AI Agents & Agentic Systems
+Computer Vision
+Human-Computer Interaction
+WebXR & Immersive Experiences
+Advanced Modeling & Rendering
 
 </div>
