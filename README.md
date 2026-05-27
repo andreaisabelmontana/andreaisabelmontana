@@ -27,22 +27,22 @@
 ## 🚀 Template Projects
 
 ### E-Commerce
-🔗 [View Project](https://andreaisabelmontana.github.io/Software-Development-And-Devops/)
+🔗 [The Shop](https://andreaisabelmontana.github.io/Software-Development-And-Devops/)
 
 ### Interactive Resume
-🔗 [View Project](https://andreaisabelmontana.github.io/aim-for-the-future.github.io/)
+🔗 [Node 3JS](https://andreaisabelmontana.github.io/aim-for-the-future.github.io/)
 
 ### Machine Learning
-🔗 [View Project](https://andreaisabelmontana.github.io/fraud-detector/) 
+🔗 [CC Fraud Detector](https://andreaisabelmontana.github.io/fraud-detector/) 
 
 ### Recommendation Engines
-🔗 [View Project](https://andreaisabelmontana.github.io/skincares-advisor/#analyze) 
+🔗 [SkinCare](https://andreaisabelmontana.github.io/skincares-advisor/#analyze) 
 
 ### Natural Language Processing
-🔗 [View Project](https://andreaisabelmontana.github.io/nlp-alignment-drift/)
+🔗 [NLP Alighment Drift](https://andreaisabelmontana.github.io/nlp-alignment-drift/)
 
 ### Computer Vision
-🔗 [View Project](https://andreaisabelmontana.github.io/vision-proctor/)
+🔗 [Vistion Proctor](https://andreaisabelmontana.github.io/vision-proctor/)
 
 ## 🛠️ Skills & Tools
 
