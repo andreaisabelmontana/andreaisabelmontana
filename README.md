@@ -1,22 +1,22 @@
 <div class="projects-grid">
 
   <div class="project-card">
-    <h3>Real-Estate Market</h3>
+    <h3>Top Living</h3>
     <a href="#">🔗 View Project</a>
   </div>
 
   <div class="project-card">
-    <h3>Accessories</h3>
+    <h3>Alma De Maria</h3>
     <a href="#">🔗 View Project</a>
   </div>
 
   <div class="project-card">
-    <h3>Art Gallery</h3>
+    <h3>Arte De La Montana</h3>
     <a href="#">🔗 View Project</a>
   </div>
 
   <div class="project-card">
-    <h3>Google Maps Awards</h3>
+    <h3>DJthesia</h3>
     <a href="#">🔗 View Project</a>
   </div>
 
