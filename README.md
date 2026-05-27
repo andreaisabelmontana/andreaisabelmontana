@@ -33,7 +33,7 @@
 🔗 [View Project](https://andreaisabelmontana.github.io/aim-for-the-future.github.io/)
 
 ### Machine Learning
-🔗 [View Project](https://andreaisabelmontana.github.io) 
+🔗 [View Project](https://andreaisabelmontana.github.io/fraud-detector/) 
 
 ### Recommendation Engines
 🔗 [View Project](https://andreaisabelmontana.github.io/skincares-advisor/#analyze) 
