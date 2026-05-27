@@ -1,23 +1,23 @@
 <div class="projects-grid">
 
   <div class="project-card">
-    <h3>Top Living</h3>
-    <a href="#">🔗 View Project</a>
+    <h3>Real Estate</h3>
+    <a href="#">🔗 Top Living Inmobiliaria</a>
   </div>
 
   <div class="project-card">
-    <h3>Alma De Maria</h3>
-    <a href="#">🔗 View Project</a>
+    <h3>Jewelry</h3>
+    <a href="#">🔗 Alma de Maria</a>
   </div>
 
   <div class="project-card">
-    <h3>Arte De La Montana</h3>
-    <a href="#">🔗 View Project</a>
+    <h3>Art & Design Portfolio</h3>
+    <a href="#">🔗 Arte de la Montana</a>
   </div>
 
   <div class="project-card">
-    <h3>DJ-thesia</h3>
-    <a href="#">🔗 View Project</a>
+    <h3>Robotics</h3>
+    <a href="#">🔗 DJ-thesia</a>
   </div>
 
 </div>
