@@ -65,9 +65,7 @@
 
 ## 🧠 Mathematical Thinking
 
-| 📊 Statistics | ∫ Calculus | ⚡ Algorithms | 🗄️ Databases |
-|---|---|---|---|
-| [Open](https://andreaisabelmontana.github.io/stats-lab/) | [Open](https://andreaisabelmontana.github.io/calc-lab/) | [Open](https://andreaisabelmontana.github.io/algos-lab/) | [Open](https://andreaisabelmontana.github.io/sql-lab/) |
+| [Statistics](https://andreaisabelmontana.github.io/stats-lab/) | [Calculus](https://andreaisabelmontana.github.io/calc-lab/) | [algorithms](https://andreaisabelmontana.github.io/algos-lab/) | [Databases](https://andreaisabelmontana.github.io/sql-lab/) |
 
 ---
 
