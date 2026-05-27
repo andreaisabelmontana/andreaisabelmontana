@@ -35,6 +35,14 @@
 ### Machine Learning
 🔗 [View Project](https://andreaisabelmontana.github.io) 
 
+### Recommendation Engines
+🔗 [View Project](https://andreaisabelmontana.github.io/skincares-advisor/#analyze) 
+
+### Natural Language Processing
+🔗 [View Project](https://andreaisabelmontana.github.io/nlp-alignment-drift/)
+
+### Computer Vision
+🔗 [View Project](https://andreaisabelmontana.github.io/vision-proctor/)
 
 ## 🛠️ Skills & Tools
 
