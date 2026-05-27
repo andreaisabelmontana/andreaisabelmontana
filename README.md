@@ -16,7 +16,7 @@
   </div>
 
   <div class="project-card">
-    <h3>DJthesia</h3>
+    <h3>DJ-thesia</h3>
     <a href="#">🔗 View Project</a>
   </div>
 
