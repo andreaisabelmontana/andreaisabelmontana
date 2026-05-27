@@ -13,7 +13,7 @@
       🔗 <a href="#">Alma de Maria</a>
     </td>
     <td align="center" valign="top">
-      <strong>Art & Design Portfolio</strong><br/>
+      <strong>Art & Design </strong><br/>
       🔗 <a href="#">Arte de la Montana</a>
     </td>
     <td align="center" valign="top">
