@@ -1,103 +1,94 @@
-<div class="portfolio-page">
+<div align="center">
 
-  <section class="section">
-    <h2>💼 Experience</h2>
+## 💼 Experience
 
-    <div class="projects-grid four-cols">
-      <div class="project-card">
-        <h3>Real Estate</h3>
-        <a href="#">🔗 Top Living Inmobiliaria</a>
-      </div>
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Real Estate</strong><br/>
+      🔗 <a href="#">Top Living Inmobiliaria</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Jewelry</strong><br/>
+      🔗 <a href="#">Alma de Maria</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Art & Design Portfolio</strong><br/>
+      🔗 <a href="#">Arte de la Montana</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Robotics</strong><br/>
+      🔗 <a href="#">DJ-thesia</a>
+    </td>
+  </tr>
+</table>
 
-      <div class="project-card">
-        <h3>Jewelry</h3>
-        <a href="#">🔗 Alma de Maria</a>
-      </div>
+---
 
-      <div class="project-card">
-        <h3>Art & Design Portfolio</h3>
-        <a href="#">🔗 Arte de la Montana</a>
-      </div>
+## 🚀 Template Projects
 
-      <div class="project-card">
-        <h3>Robotics</h3>
-        <a href="#">🔗 DJ-thesia</a>
-      </div>
-    </div>
-  </section>
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>E-Commerce</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/Software-Development-And-Devops/">The Shop</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Interactive Resume</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/aim-for-the-future.github.io/">Node 3JS</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Machine Learning</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/fraud-detector/">CC Fraud Detector</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Recommendation Engines</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/skincares-advisor/#analyze">SkinCare</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Natural Language Processing</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/nlp-alignment-drift/">NLP Alignment Drift</a>
+    </td>
+    <td align="center" valign="top">
+      <strong>Computer Vision</strong><br/>
+      🔗 <a href="https://andreaisabelmontana.github.io/vision-proctor/">Vision Proctor</a>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-  <section class="section">
-    <h2>🚀 Template Projects</h2>
+## 🛠️ Skills & Tools
 
-    <div class="projects-grid four-cols">
-      <div class="project-card">
-        <h3>E-Commerce</h3>
-        <a href="https://andreaisabelmontana.github.io/Software-Development-And-Devops/">The Shop</a>
-      </div>
+### Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java" />
+</p>
 
-      <div class="project-card">
-        <h3>Interactive Resume</h3>
-        <a href="https://andreaisabelmontana.github.io/aim-for-the-future.github.io/">Node 3JS</a>
-      </div>
+### Frameworks & Libraries
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,threejs,tensorflow" />
+</p>
 
-      <div class="project-card">
-        <h3>Machine Learning</h3>
-        <a href="https://andreaisabelmontana.github.io/fraud-detector/">CC Fraud Detector</a>
-      </div>
+### Tools & Platforms
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma" />
+</p>
 
-      <div class="project-card">
-        <h3>Recommendation Engines</h3>
-        <a href="https://andreaisabelmontana.github.io/skincares-advisor/#analyze">SkinCare</a>
-      </div>
+### XR / Spatial Computing
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,blender" />
+</p>
 
-      <div class="project-card">
-        <h3>Natural Language Processing</h3>
-        <a href="https://andreaisabelmontana.github.io/nlp-alignment-drift/">NLP Alignment Drift</a>
-      </div>
+## 🌱 Growth Mindset
 
-      <div class="project-card">
-        <h3>Computer Vision</h3>
-        <a href="https://andreaisabelmontana.github.io/vision-proctor/">Vision Proctor</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section centered-text">
-    <h2>🛠️ Skills & Tools</h2>
-
-    <div class="skills-block">
-      <h3>Languages</h3>
-      <p>
-        <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java" />
-      </p>
-
-      <h3>Frameworks & Libraries</h3>
-      <p>
-        <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,threejs,tensorflow" />
-      </p>
-
-      <h3>Tools & Platforms</h3>
-      <p>
-        <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma" />
-      </p>
-
-      <h3>XR / Spatial Computing</h3>
-      <p>
-        <img src="https://skillicons.dev/icons?i=unity,blender" />
-      </p>
-    </div>
-  </section>
-
-  <section class="section centered-text">
-    <h2>🌱 Growth Mindset</h2>
-    <ul class="mindset-list">
-      <li>Spatial Computing</li>
-      <li>AI Agents & Agentic Systems</li>
-      <li>Computer Vision</li>
-      <li>Human-Computer Interaction</li>
-      <li>WebXR & Immersive Experiences</li>
-      <li>Advanced Three.js</li>
-    </ul>
-  </section>
+- Spatial Computing
+- AI Agents & Agentic Systems
+- Computer Vision
+- Human-Computer Interaction
+- WebXR & Immersive Experiences
+- Advanced Three.js
 
 </div>
