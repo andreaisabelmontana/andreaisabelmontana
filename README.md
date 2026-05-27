@@ -63,14 +63,11 @@
 
 ---
 
-## 🧠 Mathematical Thinking & Interactive Labs
+## 🧠 Mathematical Thinking
 
-| Lab | Focus Areas | Live Demo |
-|---|---|---|
-| 📊 **Statistics Lab** | Distributions (5 families with sliders) · Central Limit Theorem visualizations · Bayes 1000-person grid · Confidence interval coverage simulator · α/β/power analysis · Monte Carlo π · Random walks under √t envelope | [Open Stats Lab](https://andreaisabelmontana.github.io/stats-lab/) |
-| ∫ **Calculus Lab** | Tangent exploration · Riemann sums (4 methods) · Taylor series approximations · Vector fields & streamlines · Gradient contours · Interactive 3D surfaces | [Open Calculus Lab](https://andreaisabelmontana.github.io/calc-lab/) |
-| ⚡ **Algorithms Lab** | Sorting race visualizer · BFS / DFS / Dijkstra / A* pathfinding · Binary search · Hash tables · Graph traversal · Animated N-Queens | [Open Algorithms Lab](https://andreaisabelmontana.github.io/algos-lab/) |
-| 🗄️ **SQL Lab** | Interactive SQL concepts, database querying, relational thinking, and backend data exploration | [Open SQL Lab](https://andreaisabelmontana.github.io/sql-lab/) |
+| 📊 Statistics | ∫ Calculus | ⚡ Algorithms | 🗄️ SQL |
+|---|---|---|---|
+| [Open](https://andreaisabelmontana.github.io/stats-lab/) | [Open](https://andreaisabelmontana.github.io/calc-lab/) | [Open](https://andreaisabelmontana.github.io/algos-lab/) | [Open](https://andreaisabelmontana.github.io/sql-lab/) |
 
 ---
 
