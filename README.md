@@ -12,7 +12,7 @@
 | AI: Statistical Learning & Prediction | Machine learning, regression, classification | [🔗 Project](#) |
 | AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 Project](#) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
-| Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 Project](#) |
+| Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 Project]((https://andreaisabelmontana.github.io/robotics-lab-interactive/)) |
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 Project](#) |
 | Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 notes](https://andreaisabelmontana.github.io/cs-ethics/) |
 | UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | [🔗 Project](#) |
