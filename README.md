@@ -1,6 +1,10 @@
+# 👩‍💻 Andrea Montaña
+Compuer Science & Artificial Intelligence student with an interest in projection mapping systems and robotics for healthcare
+
 # 📚 Experience 
 
-[🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html) 
+[🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-
+inmobiliaria/properties.html) 
 [🔗 Arte de la Montana](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html) 
 
 
