@@ -11,7 +11,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | [🔗 Project](#) |
 | AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | [🔗 Project]() |
 | AI: Computer Vision | Image processing, deep learning, OpenCV | [🔗 notes](https://andreaisabelmontana.github.io/cs-vision/) |
-| AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | [🔗 Project](#) |
+| AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | [🔗 notes](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) |
 | AI: Statistical Learning & Prediction | Machine learning, regression, classification | [🔗 Project](#) |
 | AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 notes](https://andreaisabelmontana.github.io/reinforce-interactive/) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
