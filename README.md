@@ -22,7 +22,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 notes](https://andreaisabelmontana.github.io/blockchain-playground/) |
 | Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 notes](https://andreaisabelmontana.github.io/cs-ethics/) |
 | UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | [🔗 notes](https://andreaisabelmontana.github.io/uxui-hci-interactive/) |
-| Capstone Project | Final interdisciplinary AI/CS project | [🔗 Project]([https://andreaisabelmontana.github.io/apex-athlete/]) |
+| Capstone Project | Final interdisciplinary AI/CS project | [🔗 Project](https://andreaisabelmontana.github.io/apex-athlete/) |
 
 
 </div>
