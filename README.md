@@ -4,13 +4,13 @@ Compuer Science & Artificial Intelligence student with an interest in healthcare
 # 📚 Experience 
 
 [🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html) 
-Real estate specialist helping improve the digital infrastructure of Bogota, Colombia
+          Real estate specialist helping improve the digital infrastructure of Bogota, Colombia
 
 [🔗 Arte de la Montana](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html) 
-Personal Art & Design portfolio for freelance work
+          Personal Art & Design portfolio for freelance work
 
 [🔗 CyPhy Life](https://cyphy.life/)
-Researcher at IE University Robotics and AI laboratory
+          Researcher at IE University Robotics and AI laboratory
 
 
 # 📚 Course Portfolio
