@@ -1,5 +1,8 @@
 # 📚 Course Portfolio
 
+https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
+
+
 | Course | Topics | Project Repository |
 |---|---|---|
 | Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 notes](https://andreaisabelmontana.github.io/calculus-toolkit-site/) |
@@ -12,7 +15,7 @@
 | AI: Statistical Learning & Prediction | Machine learning, regression, classification | [🔗 Project](#) |
 | AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 Project](#) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
-| Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 notes](https://andreaisabelmontana.github.io/robotics-lab-interactive/)) |
+| Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 notes](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 Project](#) |
 | Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 notes](https://andreaisabelmontana.github.io/cs-ethics/) |
 | UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | [🔗 Project](#) |
