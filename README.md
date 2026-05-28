@@ -41,21 +41,25 @@ Compuer Science & Artificial Intelligence student with an interest in healthcare
 
 ### Tools & Platforms
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma,arduino" />
 </p>
 
-### XR / Spatial Computing
+### XR / Spatial Computing & Robotics
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,blender" />
+  <img src="https://skillicons.dev/icons?i=unity,blender,raspberrypi" />
 </p>
+
+---
 
 ## 🌱 Growth Mindset
 
-Spatial Computing
-AI Agents & Agentic Systems
-Computer Vision
-Human-Computer Interaction
-WebXR & Immersive Experiences
-Advanced Modeling & Rendering
+- Spatial Computing  
+- AI Agents & Agentic Systems  
+- Computer Vision  
+- Human-Computer Interaction  
+- WebXR & Immersive Experiences  
+- Robotics & Embedded Systems  
+- Advanced Modeling & Rendering  
 
+```
 </div>
