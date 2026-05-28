@@ -13,7 +13,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | AI: Computer Vision | Image processing, deep learning, OpenCV | [🔗 notes](https://andreaisabelmontana.github.io/cs-vision/) |
 | AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | [🔗 Project](#) |
 | AI: Statistical Learning & Prediction | Machine learning, regression, classification | [🔗 Project](#) |
-| AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 Project](#) |
+| AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 notes](https://andreaisabelmontana.github.io/reinforce-interactive/) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
 | Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 notes](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 Project](#) |
