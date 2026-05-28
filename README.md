@@ -6,7 +6,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | Course | Topics | Project Repository |
 |---|---|---|
 | Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 notes](https://andreaisabelmontana.github.io/calculus-toolkit-site/) |
-| Computer Programming II | Java, OOP, data structures, multithreading | [🔗 Project](#) |
+| Computer Programming II | Java, OOP, data structures, multithreading | [🔗 Project](https://andreaisabelmontana.github.io/java-study/#intro) |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps | [🔗 Project](#) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | [🔗 Project](#) |
 | AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | [🔗 Project]() |
