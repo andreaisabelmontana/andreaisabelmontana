@@ -16,7 +16,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | [🔗 notes](https://andreaisabelmontana.github.io/reinforce-interactive/) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
 | Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 notes](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
-| Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 Project](#) |
+| Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 notes](https://andreaisabelmontana.github.io/blockchain-playground/) |
 | Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 notes](https://andreaisabelmontana.github.io/cs-ethics/) |
 | UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | [🔗 notes](https://andreaisabelmontana.github.io/uxui-hci-interactive/) |
 | Capstone Project | Final interdisciplinary AI/CS project | [🔗 Project](#) |
