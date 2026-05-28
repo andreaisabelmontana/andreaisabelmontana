@@ -2,7 +2,7 @@
 
 | Course | Topics | Project Repository |
 |---|---|---|
-| Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 https://andreaisabelmontana.github.io/calculus-toolkit-site/](#) |
+| Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 notes]([#](https://andreaisabelmontana.github.io/calculus-toolkit-site/)) |
 | Computer Programming II | Java, OOP, data structures, multithreading | [🔗 Project](#) |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps | [🔗 Project](#) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | [🔗 Project](#) |
@@ -14,7 +14,7 @@
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | [🔗 Project](#) |
 | Robotics & Automation | ROS, robotic simulation, sensing & planning | [🔗 Project](#) |
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | [🔗 Project](#) |
-| Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 https://andreaisabelmontana.github.io/cs-ethics/](#) |
+| Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | [🔗 notes](https://andreaisabelmontana.github.io/cs-ethics/) |
 | UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | [🔗 Project](#) |
 | Capstone Project | Final interdisciplinary AI/CS project | [🔗 Project](#) |
 
