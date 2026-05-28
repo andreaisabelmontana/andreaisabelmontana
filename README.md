@@ -9,7 +9,7 @@ https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html
 | Computer Programming II | Java, OOP, data structures, multithreading | [🔗 notes](https://andreaisabelmontana.github.io/java-study/#intro) [🔗] https://andreaisabelmontana.github.io/library-system/|
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps | [🔗 Project](#) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | [🔗 Project](#) |
-| AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | [🔗 Project]() |
+| AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | [🔗 Project](https://andreaisabelmontana.github.io/nlp-lab/) |
 | AI: Computer Vision | Image processing, deep learning, OpenCV | [🔗 notes](https://andreaisabelmontana.github.io/cs-vision/) |
 | AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | [🔗 notes](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) |
 | AI: Statistical Learning & Prediction | Machine learning, regression, classification | [🔗 notes](https://andreaisabelmontana.github.io/stat-learning/) |
