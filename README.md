@@ -2,7 +2,7 @@
 
 | Course | Topics | Project Repository |
 |---|---|---|
-| Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 notes]([#](https://andreaisabelmontana.github.io/calculus-toolkit-site/)) |
+| Calculus for Computer Science | Calculus, optimization, algorithm analysis | [🔗 notes]([https://andreaisabelmontana.github.io/calculus-toolkit-site/)] |
 | Computer Programming II | Java, OOP, data structures, multithreading | [🔗 Project](#) |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps | [🔗 Project](#) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | [🔗 Project](#) |
