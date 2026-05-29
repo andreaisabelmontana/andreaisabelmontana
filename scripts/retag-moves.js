@@ -12,6 +12,7 @@ const TOKEN = execSync('gh auth token', { encoding: 'utf8' }).trim();
 // [repo, oldSlug, newSlug]
 const MOVES = [
   ['behavioral_design_pattern_exercise_observer', 'pop', 'sddo'],
+  ['structural_design_pattern_exercise_proxy', 'pop', 'sddo'],
   ['algos-lab', 'algos', 'reason'],
   ['hpc-miniweather', 'modeling', 'hpc'],
 ];

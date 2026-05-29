@@ -29,7 +29,7 @@ Computer Science & Artificial Intelligence student with an interest in projectio
 | Fundamentals of Data Analysis | Data wrangling, EDA, visualization | _— coming soon —_ |
 | Humanities | Critical thinking, ethics, cultural perspectives | _— coming soon —_ |
 | Physics for Computer Science | Mechanics, waves, computational physics | _— coming soon —_ |
-| Principles of Programming | Paradigms, language design, design patterns | 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
+| Principles of Programming | Paradigms, language design, design patterns | _— coming soon —_ |
 | Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | _— coming soon —_ |
 
 ### 📗 Year 2 
@@ -56,7 +56,7 @@ Computer Science & Artificial Intelligence student with an interest in projectio
 |---|---|---|
 | Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
 | IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
-| Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) |
+| Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) · 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
