@@ -1,5 +1,5 @@
 # 👩‍💻 Andrea Montaña
-Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
+Computer Science & Artificial Intelligence student with an interest in projection mapping and robotic systems
 
 # 📚 Experience
 
