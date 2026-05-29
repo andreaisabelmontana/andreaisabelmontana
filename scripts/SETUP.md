@@ -30,42 +30,69 @@ The workflow runs:
 - **On push** to `README.template.md`, the script, or the workflow
 - **Manually** from the Actions tab → "Update README" → "Run workflow"
 
-## Topic slug reference
+## Topic slug reference (BCSAI study plan order)
 
+### Year 1 — Semester 1
 | Slug | Course |
 |---|---|
-| `bcsai-calc` | Calculus for Computer Science |
 | `bcsai-discrete` | Discrete Mathematics |
+| `bcsai-business` | Introduction to Business Management |
+| `bcsai-research` | Learning to Observe, Experiment & Survey |
+| `bcsai-history` | The Big History of Ideas and Innovation |
+
+### Year 1 — Semester 2
+| Slug | Course |
+|---|---|
+| `bcsai-data` | Fundamentals of Data Analysis |
+| `bcsai-physics` | Physics for Computer Science |
+| `bcsai-pop` | Principles of Programming |
+| `bcsai-modeling` | Simulating and Modeling to Understand Change |
+
+### Year 2 — Semester 1
+| Slug | Course |
+|---|---|
+| `bcsai-algos` | Algorithms & Data Structures |
+| `bcsai-calc` | Calculus for Computer Science |
+| `bcsai-cloud` | Cloud Computing |
+| `bcsai-arch` | Computer Architecture, Networks & OS |
+| `bcsai-cp1` | Computer Programming I |
+| `bcsai-tech` | Low Code, No Code & Generative AI |
+
+### Year 2 — Semester 2
+| Slug | Course |
+|---|---|
+| `bcsai-mlf` | AI: Machine Learning Foundations |
+| `bcsai-affect` | AI: Personality & Emotion for AI Design |
+| `bcsai-cp2` | Computer Programming II |
+| `bcsai-db` | Designing and Using Databases |
+| `bcsai-entrep` | IE Impact Entrepreneurship |
 | `bcsai-linalg` | Matrices & Linear Transformations |
 | `bcsai-prob` | Probability for Computing Science |
-| `bcsai-physics` | Physics for Computer Science |
-| `bcsai-cp1` | Computer Programming I |
-| `bcsai-cp2` | Computer Programming II |
-| `bcsai-pop` | Principles of Programming |
-| `bcsai-algos` | Algorithms & Data Structures |
-| `bcsai-arch` | Computer Architecture, Networks & OS |
-| `bcsai-db` | Designing and Using Databases |
-| `bcsai-cloud` | Cloud Computing |
+
+### Year 3 — Semester 1
+| Slug | Course |
+|---|---|
 | `bcsai-sddo` | Software Development & DevOps |
-| `bcsai-data` | Fundamentals of Data Analysis |
-| `bcsai-research` | Learning to Observe, Experiment & Survey |
-| `bcsai-modeling` | Simulating and Modeling to Understand Change |
-| `bcsai-mlf` | AI: Machine Learning Foundations |
-| `bcsai-stat` | AI: Statistical Learning & Prediction |
 | `bcsai-reason` | AI: Reasoning & Problem Solving |
-| `bcsai-nlp` | AI: NLP & Semantic Analysis |
-| `bcsai-vision` | AI: Computer Vision |
-| `bcsai-rl` | AI: Reinforcement Learning |
-| `bcsai-chat` | AI: Chatbots & Recommendation Engines |
-| `bcsai-affect` | AI: Personality & Emotion for AI Design |
 | `bcsai-robolab` | Introduction to Robotics Lab |
-| `bcsai-robo` | Robotics & Automation |
+| `bcsai-hpc` | High Performance Computing |
+
+### Year 3 — Semester 2
+| Slug | Course |
+|---|---|
+| `bcsai-chat` | AI: Chatbots & Recommendation Engines |
+| `bcsai-vision` | AI: Computer Vision |
+| `bcsai-nlp` | AI: NLP & Semantic Analysis |
+| `bcsai-rl` | AI: Reinforcement Learning |
+| `bcsai-stat` | AI: Statistical Learning & Prediction |
+
+### Year 4 — Semester 2
+| Slug | Course |
+|---|---|
 | `bcsai-blockchain` | Blockchain, Cryptocurrencies & FinTech |
-| `bcsai-uxui` | UX/UI & Human-Computer Interaction |
 | `bcsai-ethics` | Ethics, Policy & Legislation in CS |
-| `bcsai-business` | Introduction to Business Management |
-| `bcsai-entrep` | IE Impact Entrepreneurship |
-| `bcsai-history` | The Big History of Ideas and Innovation |
+| `bcsai-robo` | Robotics & Automation |
+| `bcsai-uxui` | UX/UI & Human-Computer Interaction |
 | `bcsai-capstone` | Capstone Project |
 
 ## Icons in the table

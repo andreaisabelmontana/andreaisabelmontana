@@ -16,54 +16,57 @@ const USER = 'andreaisabelmontana';
 const TOKEN = process.env.GITHUB_TOKEN || '';
 const ROOT = path.resolve(__dirname, '..');
 
-// Ordered: [Category emoji + label, [course slug, display name, topic suffix, brief topic blurb]...]
+// Ordered by Year > Semester (derived from BCSAI syllabus metadata).
+// [section label, [course slug, display name, blurb]...]
 const CATEGORIES = [
-  ['🧮 Mathematics & Foundations', [
-    ['calc',     'Calculus for Computer Science',         'Calculus, optimization, algorithm analysis'],
-    ['discrete', 'Discrete Mathematics',                  'Logic, sets, graphs, combinatorics, proofs'],
-    ['linalg',   'Matrices & Linear Transformations',     'Linear algebra, vector spaces, eigenvalues'],
-    ['prob',     'Probability for Computing Science',     'Probability, distributions, stochastic processes'],
-    ['physics',  'Physics for Computer Science',          'Mechanics, waves, computational physics'],
+  ['📘 Year 1 — Semester 1', [
+    ['discrete', 'Discrete Mathematics',                       'Logic, sets, graphs, combinatorics, proofs'],
+    ['business', 'Introduction to Business Management',        'Management principles, organizations, strategy'],
+    ['research', 'Learning to Observe, Experiment & Survey',   'Research methods, experimental design, surveys'],
+    ['history',  'The Big History of Ideas and Innovation',    'History of science, innovation, intellectual thought'],
   ]],
-  ['💻 Computer Science Core', [
-    ['cp1',      'Computer Programming I',                'Programming fundamentals, control flow, functions'],
-    ['cp2',      'Computer Programming II',               'Java, OOP, data structures, multithreading'],
-    ['pop',      'Principles of Programming',             'Paradigms, language design, design patterns'],
-    ['algos',    'Algorithms & Data Structures',          'Sorting, searching, complexity, ADTs'],
-    ['arch',     'Computer Architecture, Networks & OS',  'CPU, memory, networking, OS internals'],
-    ['db',       'Designing and Using Databases',         'SQL, relational design, normalization, NoSQL'],
-    ['cloud',    'Cloud Computing',                       'Cloud architectures, IaaS/PaaS/SaaS, deployment'],
-    ['sddo',     'Software Development & DevOps',         'Agile, CI/CD, cloud systems, DevOps'],
-  ]],
-  ['📊 Data Science & Modeling', [
-    ['data',     'Fundamentals of Data Analysis',         'Data wrangling, EDA, visualization'],
-    ['research', 'Learning to Observe, Experiment & Survey', 'Research methods, experimental design, surveys'],
+  ['📘 Year 1 — Semester 2', [
+    ['data',     'Fundamentals of Data Analysis',              'Data wrangling, EDA, visualization'],
+    ['physics',  'Physics for Computer Science',               'Mechanics, waves, computational physics'],
+    ['pop',      'Principles of Programming',                  'Paradigms, language design, design patterns'],
     ['modeling', 'Simulating and Modeling to Understand Change', 'Simulation, dynamic systems, agent-based modeling'],
   ]],
-  ['🤖 Artificial Intelligence', [
-    ['mlf',      'AI: Machine Learning Foundations',      'Supervised/unsupervised learning, model evaluation'],
-    ['stat',     'AI: Statistical Learning & Prediction', 'Regression, classification, statistical inference'],
-    ['reason',   'AI: Reasoning & Problem Solving',       'Search algorithms, intelligent agents, game AI'],
-    ['nlp',      'AI: NLP & Semantic Analysis',           'NLP, transformers, sentiment analysis, LLMs'],
-    ['vision',   'AI: Computer Vision',                   'Image processing, deep learning, OpenCV'],
-    ['rl',       'AI: Reinforcement Learning',            'Q-learning, Deep RL, policy optimization'],
-    ['chat',     'AI: Chatbots & Recommendation Engines', 'Chatbots, recommender systems, conversational AI'],
-    ['affect',   'AI: Personality & Emotion for AI Design', 'Affective computing, persona design, emotional AI'],
+  ['📗 Year 2 — Semester 1', [
+    ['algos',    'Algorithms & Data Structures',               'Sorting, searching, complexity, ADTs'],
+    ['calc',     'Calculus for Computer Science',              'Calculus, optimization, algorithm analysis'],
+    ['cloud',    'Cloud Computing',                            'Cloud architectures, IaaS/PaaS/SaaS, deployment'],
+    ['arch',     'Computer Architecture, Networks & OS',       'CPU, memory, networking, OS internals'],
+    ['cp1',      'Computer Programming I',                     'Programming fundamentals, control flow, functions'],
+    ['tech',     'Low Code, No Code & Generative AI',          'No-code tools, automation, GenAI integration'],
   ]],
-  ['🦾 Robotics', [
-    ['robolab',  'Introduction to Robotics Lab',          'Raspberry Pi, Pepper robot, autonomous systems'],
-    ['robo',     'Robotics & Automation',                 'ROS, robotic simulation, sensing & planning'],
+  ['📗 Year 2 — Semester 2', [
+    ['mlf',      'AI: Machine Learning Foundations',           'Supervised/unsupervised learning, model evaluation'],
+    ['affect',   'AI: Personality & Emotion for AI Design',    'Affective computing, persona design, emotional AI'],
+    ['cp2',      'Computer Programming II',                    'Java, OOP, data structures, multithreading'],
+    ['db',       'Designing and Using Databases',              'SQL, relational design, normalization, NoSQL'],
+    ['entrep',   'IE Impact Entrepreneurship',                 'Entrepreneurship, social impact, venture building'],
+    ['linalg',   'Matrices & Linear Transformations',          'Linear algebra, vector spaces, eigenvalues'],
+    ['prob',     'Probability for Computing Science',          'Probability, distributions, stochastic processes'],
   ]],
-  ['🌐 Applied & Interdisciplinary', [
-    ['blockchain', 'Blockchain, Cryptocurrencies & FinTech', 'Blockchain, smart contracts, fintech systems'],
-    ['uxui',     'UX/UI & Human-Computer Interaction',    'User-centered design, usability, accessibility'],
-    ['ethics',   'Ethics, Policy & Legislation in CS',    'AI ethics, privacy, regulation'],
-    ['business', 'Introduction to Business Management',   'Management principles, organizations, strategy'],
-    ['entrep',   'IE Impact Entrepreneurship',            'Entrepreneurship, social impact, venture building'],
-    ['history',  'The Big History of Ideas and Innovation', 'History of science, innovation, intellectual thought'],
+  ['📙 Year 3 — Semester 1', [
+    ['sddo',     'Software Development & DevOps',              'Agile, CI/CD, cloud systems, DevOps, design patterns'],
+    ['reason',   'AI: Reasoning & Problem Solving',            'Search algorithms, intelligent agents, game AI'],
+    ['robolab',  'Introduction to Robotics Lab',               'Raspberry Pi, Pepper robot, autonomous systems'],
+    ['hpc',      'High Performance Computing',                 'Parallel computing, GPU, distributed systems'],
   ]],
-  ['🎓 Capstone', [
-    ['capstone', 'Capstone Project',                      'Final interdisciplinary AI/CS project'],
+  ['📙 Year 3 — Semester 2', [
+    ['chat',     'AI: Chatbots & Recommendation Engines',      'Chatbots, recommender systems, conversational AI'],
+    ['vision',   'AI: Computer Vision',                        'Image processing, deep learning, OpenCV'],
+    ['nlp',      'AI: NLP & Semantic Analysis',                'NLP, transformers, sentiment analysis, LLMs'],
+    ['rl',       'AI: Reinforcement Learning',                 'Q-learning, Deep RL, policy optimization'],
+    ['stat',     'AI: Statistical Learning & Prediction',      'Regression, classification, statistical inference'],
+  ]],
+  ['📕 Year 4 — Semester 2', [
+    ['blockchain', 'Blockchain, Cryptocurrencies & FinTech',   'Blockchain, smart contracts, fintech systems'],
+    ['ethics',   'Ethics, Policy & Legislation in CS',         'AI ethics, privacy, regulation'],
+    ['robo',     'Robotics & Automation',                      'ROS, robotic simulation, sensing & planning'],
+    ['uxui',     'UX/UI & Human-Computer Interaction',         'User-centered design, usability, accessibility'],
+    ['capstone', 'Capstone Project',                           'Final interdisciplinary AI/CS project'],
   ]],
 ];
 
