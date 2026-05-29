@@ -15,7 +15,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 # 📚 Course Portfolio
 
 <!-- COURSE_TABLE_START -->
-### 📘 Year 1 — Semester 1
+### 📘 Year 1 
 | Course | Topics | Repos |
 |---|---|---|
 | Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | _— coming soon —_ |
@@ -24,7 +24,6 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | _— coming soon —_ |
 | The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | _— coming soon —_ |
 
-### 📘 Year 1 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | Fundamentals of Data Analysis | Data wrangling, EDA, visualization | _— coming soon —_ |
@@ -33,7 +32,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Principles of Programming | Paradigms, language design, design patterns | 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
 | Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | _— coming soon —_ |
 
-### 📗 Year 2 — Semester 1
+### 📗 Year 2 
 | Course | Topics | Repos |
 |---|---|---|
 | Algorithms & Data Structures | Sorting, searching, complexity, ADTs | _— coming soon —_ |
@@ -43,7 +42,6 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Computer Programming I | Programming fundamentals, control flow, functions | _— coming soon —_ |
 | Technology with Impact | Disruptive tech, low-code/no-code, generative AI | _— coming soon —_ |
 
-### 📗 Year 2 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | _— coming soon —_ |
@@ -53,7 +51,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Matrices & Linear Transformations | Linear algebra, vector spaces, eigenvalues | _— coming soon —_ |
 | Probability for Computing Science | Probability, distributions, stochastic processes | 🌐 [stats-lab](https://andreaisabelmontana.github.io/stats-lab/) |
 
-### 📙 Year 3 — Semester 1
+### 📙 Year 3 
 | Course | Topics | Repos |
 |---|---|---|
 | Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
@@ -63,7 +61,6 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
 
-### 📙 Year 3 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) · 🌐 [skincares-advisor](https://andreaisabelmontana.github.io/skincares-advisor/) · 📂 [Chatbots-Recommendation-Engines](https://github.com/andreaisabelmontana/Chatbots-Recommendation-Engines) · 📂 [LaGuacamaya](https://github.com/andreaisabelmontana/LaGuacamaya) |
@@ -72,7 +69,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | 🌐 [reinforce-interactive](https://andreaisabelmontana.github.io/reinforce-interactive/) · 📂 [Reinforcement-Learning](https://github.com/andreaisabelmontana/Reinforcement-Learning) |
 | AI: Statistical Learning & Prediction | Regression, classification, statistical inference | 🌐 [fraud-detector](https://andreaisabelmontana.github.io/fraud-detector/) · 🌐 [sound-classifier](https://andreaisabelmontana.github.io/sound-classifier/) · 🌐 [stat-learning](https://andreaisabelmontana.github.io/stat-learning/) · 📂 [Statistical-Learning-Prediction](https://github.com/andreaisabelmontana/Statistical-Learning-Prediction) |
 
-### 📕 Year 4 — Semester 2
+### 📕 Year 4 
 | Course | Topics | Repos |
 |---|---|---|
 | Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/) · 📂 [Blockchain-Cryptocurrencies-Fintech](https://github.com/andreaisabelmontana/Blockchain-Cryptocurrencies-Fintech) |
