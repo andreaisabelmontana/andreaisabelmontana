@@ -36,6 +36,7 @@ The workflow runs:
 | Slug | Course |
 |---|---|
 | `bcsai-discrete` | Discrete Mathematics |
+| `bcsai-fps` | Fundamentals of Probability & Statistics |
 | `bcsai-business` | Introduction to Business Management |
 | `bcsai-research` | Learning to Observe, Experiment & Survey |
 | `bcsai-history` | The Big History of Ideas and Innovation |
@@ -44,6 +45,7 @@ The workflow runs:
 | Slug | Course |
 |---|---|
 | `bcsai-data` | Fundamentals of Data Analysis |
+| `bcsai-humanities` | Humanities |
 | `bcsai-physics` | Physics for Computer Science |
 | `bcsai-pop` | Principles of Programming |
 | `bcsai-modeling` | Simulating and Modeling to Understand Change |
@@ -56,14 +58,13 @@ The workflow runs:
 | `bcsai-cloud` | Cloud Computing |
 | `bcsai-arch` | Computer Architecture, Networks & OS |
 | `bcsai-cp1` | Computer Programming I |
-| `bcsai-tech` | Low Code, No Code & Generative AI |
+| `bcsai-tech` | Technology with Impact |
 
 ### Year 2 — Semester 2
 | Slug | Course |
 |---|---|
 | `bcsai-mlf` | AI: Machine Learning Foundations |
 | `bcsai-affect` | AI: Personality & Emotion for AI Design |
-| `bcsai-cp2` | Computer Programming II |
 | `bcsai-db` | Designing and Using Databases |
 | `bcsai-entrep` | IE Impact Entrepreneurship |
 | `bcsai-linalg` | Matrices & Linear Transformations |
@@ -72,6 +73,8 @@ The workflow runs:
 ### Year 3 — Semester 1
 | Slug | Course |
 |---|---|
+| `bcsai-cp2` | Computer Programming II |
+| `bcsai-iec` | IE Challenge |
 | `bcsai-sddo` | Software Development & DevOps |
 | `bcsai-reason` | AI: Reasoning & Problem Solving |
 | `bcsai-robolab` | Introduction to Robotics Lab |

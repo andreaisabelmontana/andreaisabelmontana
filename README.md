@@ -19,6 +19,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Course | Topics | Repos |
 |---|---|---|
 | Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | _— coming soon —_ |
+| Fundamentals of Probability & Statistics | Descriptive stats, distributions, inference | _— coming soon —_ |
 | Introduction to Business Management | Management principles, organizations, strategy | _— coming soon —_ |
 | Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | _— coming soon —_ |
 | The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | _— coming soon —_ |
@@ -27,6 +28,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Course | Topics | Repos |
 |---|---|---|
 | Fundamentals of Data Analysis | Data wrangling, EDA, visualization | _— coming soon —_ |
+| Humanities | Critical thinking, ethics, cultural perspectives | _— coming soon —_ |
 | Physics for Computer Science | Mechanics, waves, computational physics | _— coming soon —_ |
 | Principles of Programming | Paradigms, language design, design patterns | 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
 | Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | _— coming soon —_ |
@@ -39,14 +41,13 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Cloud Computing | Cloud architectures, IaaS/PaaS/SaaS, deployment | _— coming soon —_ |
 | Computer Architecture, Networks & OS | CPU, memory, networking, OS internals | _— coming soon —_ |
 | Computer Programming I | Programming fundamentals, control flow, functions | _— coming soon —_ |
-| Low Code, No Code & Generative AI | No-code tools, automation, GenAI integration | _— coming soon —_ |
+| Technology with Impact | Disruptive tech, low-code/no-code, generative AI | _— coming soon —_ |
 
 ### 📗 Year 2 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | _— coming soon —_ |
 | AI: Personality & Emotion for AI Design | Affective computing, persona design, emotional AI | _— coming soon —_ |
-| Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
 | Designing and Using Databases | SQL, relational design, normalization, NoSQL | 🌐 [sql-lab](https://andreaisabelmontana.github.io/sql-lab/) |
 | IE Impact Entrepreneurship | Entrepreneurship, social impact, venture building | _— coming soon —_ |
 | Matrices & Linear Transformations | Linear algebra, vector spaces, eigenvalues | _— coming soon —_ |
@@ -55,6 +56,8 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📙 Year 3 — Semester 1
 | Course | Topics | Repos |
 |---|---|---|
+| Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
+| IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
