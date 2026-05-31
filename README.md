@@ -36,12 +36,12 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📗 Year 2 — Semester 1
 | Course | Topics | Repos |
 |---|---|---|
-| Algorithms & Data Structures | Sorting, searching, complexity, ADTs | _— coming soon —_ |
+| Algorithms & Data Structures | Sorting, searching, complexity, ADTs | 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) |
 | Calculus for Computer Science | Calculus, optimization, algorithm analysis | 🌐 [calc-lab](https://andreaisabelmontana.github.io/calc-lab/) · 🌐 [calculus-toolkit-site](https://andreaisabelmontana.github.io/calculus-toolkit-site/) · 📂 [Calculus-For-Computer-Science](https://github.com/andreaisabelmontana/Calculus-For-Computer-Science) |
-| Cloud Computing | Cloud architectures, IaaS/PaaS/SaaS, deployment | _— coming soon —_ |
-| Computer Architecture, Networks & OS | CPU, memory, networking, OS internals | _— coming soon —_ |
-| Computer Programming I | Programming fundamentals, control flow, functions | _— coming soon —_ |
-| Technology with Impact | Disruptive tech, low-code/no-code, generative AI | _— coming soon —_ |
+| Cloud Computing | Cloud architectures, IaaS/PaaS/SaaS, deployment | 🌐 [cloud-lab](https://andreaisabelmontana.github.io/cloud-lab/) |
+| Computer Architecture, Networks & OS | CPU, memory, networking, OS internals | 🌐 [arch-lab](https://andreaisabelmontana.github.io/arch-lab/) |
+| Computer Programming I | Programming fundamentals, control flow, functions | 🌐 [cp1-lab](https://andreaisabelmontana.github.io/cp1-lab/) |
+| Technology with Impact | Disruptive tech, low-code/no-code, generative AI | 🌐 [tech-lab](https://andreaisabelmontana.github.io/tech-lab/) |
 
 ### 📗 Year 2 — Semester 2
 | Course | Topics | Repos |
@@ -59,7 +59,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
 | IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) · 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
-| AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
+| AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
 
