@@ -27,11 +27,11 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📘 Year 1 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
-| Fundamentals of Data Analysis | Data wrangling, EDA, visualization | _— coming soon —_ |
-| Humanities | Critical thinking, ethics, cultural perspectives | _— coming soon —_ |
-| Physics for Computer Science | Mechanics, waves, computational physics | _— coming soon —_ |
-| Principles of Programming | Paradigms, language design, design patterns | _— coming soon —_ |
-| Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | _— coming soon —_ |
+| Fundamentals of Data Analysis | Data wrangling, EDA, visualization | 🌐 [data-analysis-lab](https://andreaisabelmontana.github.io/data-analysis-lab/) |
+| Humanities | Critical thinking, ethics, cultural perspectives | 🌐 [humanities-lab](https://andreaisabelmontana.github.io/humanities-lab/) |
+| Physics for Computer Science | Mechanics, waves, computational physics | 🌐 [physics-cs-lab](https://andreaisabelmontana.github.io/physics-cs-lab/) |
+| Principles of Programming | Paradigms, language design, design patterns | 🌐 [programming-principles-lab](https://andreaisabelmontana.github.io/programming-principles-lab/) |
+| Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | 🌐 [modeling-lab](https://andreaisabelmontana.github.io/modeling-lab/) |
 
 ### 📗 Year 2 — Semester 1
 | Course | Topics | Repos |
