@@ -46,11 +46,11 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📗 Year 2 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
-| AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | _— coming soon —_ |
-| AI: Personality & Emotion for AI Design | Affective computing, persona design, emotional AI | _— coming soon —_ |
+| AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | 🌐 [ml-lab](https://andreaisabelmontana.github.io/ml-lab/) |
+| AI: Personality & Emotion for AI Design | Affective computing, persona design, emotional AI | 🌐 [affect-lab](https://andreaisabelmontana.github.io/affect-lab/) |
 | Designing and Using Databases | SQL, relational design, normalization, NoSQL | 🌐 [sql-lab](https://andreaisabelmontana.github.io/sql-lab/) |
-| IE Impact Entrepreneurship | Entrepreneurship, social impact, venture building | _— coming soon —_ |
-| Matrices & Linear Transformations | Linear algebra, vector spaces, eigenvalues | _— coming soon —_ |
+| IE Impact Entrepreneurship | Entrepreneurship, social impact, venture building | 🌐 [entrep-lab](https://andreaisabelmontana.github.io/entrep-lab/) |
+| Matrices & Linear Transformations | Linear algebra, vector spaces, eigenvalues | 🌐 [linalg-lab](https://andreaisabelmontana.github.io/linalg-lab/) |
 | Probability for Computing Science | Probability, distributions, stochastic processes | 🌐 [stats-lab](https://andreaisabelmontana.github.io/stats-lab/) |
 
 ### 📙 Year 3 — Semester 1
