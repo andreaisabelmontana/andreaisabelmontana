@@ -19,10 +19,10 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Course | Topics | Repos |
 |---|---|---|
 | Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | 🌐 [discrete-math-lab](https://andreaisabelmontana.github.io/discrete-math-lab/) |
-| Fundamentals of Probability & Statistics | Descriptive stats, distributions, inference | _— coming soon —_ |
-| Introduction to Business Management | Management principles, organizations, strategy | _— coming soon —_ |
-| Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | _— coming soon —_ |
-| The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | _— coming soon —_ |
+| Fundamentals of Probability & Statistics | Descriptive stats, distributions, inference | 🌐 [prob-stats-lab](https://andreaisabelmontana.github.io/prob-stats-lab/) |
+| Introduction to Business Management | Management principles, organizations, strategy | 🌐 [business-lab](https://andreaisabelmontana.github.io/business-lab/) |
+| Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | 🌐 [research-methods-lab](https://andreaisabelmontana.github.io/research-methods-lab/) |
+| The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | 🌐 [big-history-lab](https://andreaisabelmontana.github.io/big-history-lab/) |
 
 ### 📘 Year 1 — Semester 2
 | Course | Topics | Repos |
