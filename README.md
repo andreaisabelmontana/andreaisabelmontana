@@ -18,12 +18,13 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📘 Year 1 — Semester 1
 | Course | Topics | Repos |
 |---|---|---|
-| Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | _— coming soon —_ |
+| Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | 🌐 [discrete-math-lab](https://andreaisabelmontana.github.io/discrete-math-lab/) |
 | Fundamentals of Probability & Statistics | Descriptive stats, distributions, inference | _— coming soon —_ |
 | Introduction to Business Management | Management principles, organizations, strategy | _— coming soon —_ |
 | Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | _— coming soon —_ |
 | The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | _— coming soon —_ |
 
+### 📘 Year 1 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | Fundamentals of Data Analysis | Data wrangling, EDA, visualization | _— coming soon —_ |
@@ -42,6 +43,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Computer Programming I | Programming fundamentals, control flow, functions | _— coming soon —_ |
 | Technology with Impact | Disruptive tech, low-code/no-code, generative AI | _— coming soon —_ |
 
+### 📗 Year 2 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | _— coming soon —_ |
@@ -61,6 +63,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
 
+### 📙 Year 3 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
 | AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) · 🌐 [skincares-advisor](https://andreaisabelmontana.github.io/skincares-advisor/) · 📂 [Chatbots-Recommendation-Engines](https://github.com/andreaisabelmontana/Chatbots-Recommendation-Engines) · 📂 [LaGuacamaya](https://github.com/andreaisabelmontana/LaGuacamaya) |
@@ -114,4 +117,4 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 - Robotics & Embedded Systems
 - Advanced Modeling & Rendering
 
-<sub>Last refreshed 2026-05-30 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-05-31 · auto-generated from GitHub topics</sub>
