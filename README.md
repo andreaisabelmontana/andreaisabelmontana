@@ -1,4 +1,9 @@
 # 👩‍💻 Andrea Montaña
+
+<video src="https://github.com/andreaisabelmontana/andreaisabelmontana/raw/main/robotics.mp4" controls width="100%"></video>
+
+🤖 *Me working on robotics at the IE University Robotics & AI Lab.* ([watch the clip](https://github.com/andreaisabelmontana/andreaisabelmontana/raw/main/robotics.mp4))
+
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
 # 📚 Experience
