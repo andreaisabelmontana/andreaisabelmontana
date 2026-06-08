@@ -1,185 +1,120 @@
-# 👩‍💻 Andrea Isabel Montana
-**Full-Stack AI & Computer Science Engineer** | IE University BCSAI | Portfolio for Employers
+# 👩‍💻 Andrea Montaña
+Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
+
+# 📚 Experience
+
+[🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html)
+&nbsp;&nbsp;&nbsp;&nbsp;Real estate specialist helping improve the digital infrastructure of Bogota, Colombia
+
+[🔗 Arte de la Montana](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html)
+&nbsp;&nbsp;&nbsp;&nbsp;Personal Art & Design portfolio for freelance work
+
+[🔗 CyPhy Life](https://cyphy.life/)
+&nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
+
+# 📚 Course Portfolio
+
+<!-- COURSE_TABLE_START -->
+### 📘 Year 1 — Semester 1
+| Course | Topics | Repos |
+|---|---|---|
+| Discrete Mathematics | Logic, sets, graphs, combinatorics, proofs | 🌐 [discrete-math-lab](https://andreaisabelmontana.github.io/discrete-math-lab/) |
+| Fundamentals of Probability & Statistics | Descriptive stats, distributions, inference | 🌐 [prob-stats-lab](https://andreaisabelmontana.github.io/prob-stats-lab/) |
+| Introduction to Business Management | Management principles, organizations, strategy | 🌐 [business-lab](https://andreaisabelmontana.github.io/business-lab/) |
+| Learning to Observe, Experiment & Survey | Research methods, experimental design, surveys | 🌐 [research-methods-lab](https://andreaisabelmontana.github.io/research-methods-lab/) |
+| The Big History of Ideas and Innovation | History of science, innovation, intellectual thought | 🌐 [big-history-lab](https://andreaisabelmontana.github.io/big-history-lab/) |
+
+### 📘 Year 1 — Semester 2
+| Course | Topics | Repos |
+|---|---|---|
+| Fundamentals of Data Analysis | Data wrangling, EDA, visualization | 🌐 [data-analysis-lab](https://andreaisabelmontana.github.io/data-analysis-lab/) |
+| Humanities | Critical thinking, ethics, cultural perspectives | 🌐 [humanities-lab](https://andreaisabelmontana.github.io/humanities-lab/) |
+| Physics for Computer Science | Mechanics, waves, computational physics | 🌐 [physics-cs-lab](https://andreaisabelmontana.github.io/physics-cs-lab/) |
+| Principles of Programming | Paradigms, language design, design patterns | 🌐 [programming-principles-lab](https://andreaisabelmontana.github.io/programming-principles-lab/) |
+| Simulating and Modeling to Understand Change | Simulation, dynamic systems, agent-based modeling | 🌐 [modeling-lab](https://andreaisabelmontana.github.io/modeling-lab/) |
+
+### 📗 Year 2 — Semester 1
+| Course | Topics | Repos |
+|---|---|---|
+| Algorithms & Data Structures | Sorting, searching, complexity, ADTs | 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) |
+| Calculus for Computer Science | Calculus, optimization, algorithm analysis | 🌐 [calc-lab](https://andreaisabelmontana.github.io/calc-lab/) · 🌐 [calculus-toolkit-site](https://andreaisabelmontana.github.io/calculus-toolkit-site/) · 📂 [Calculus-For-Computer-Science](https://github.com/andreaisabelmontana/Calculus-For-Computer-Science) |
+| Cloud Computing | Cloud architectures, IaaS/PaaS/SaaS, deployment | 🌐 [cloud-lab](https://andreaisabelmontana.github.io/cloud-lab/) |
+| Computer Architecture, Networks & OS | CPU, memory, networking, OS internals | 🌐 [arch-lab](https://andreaisabelmontana.github.io/arch-lab/) |
+| Computer Programming I | Programming fundamentals, control flow, functions | 🌐 [cp1-lab](https://andreaisabelmontana.github.io/cp1-lab/) |
+| Technology with Impact | Disruptive tech, low-code/no-code, generative AI | 🌐 [tech-lab](https://andreaisabelmontana.github.io/tech-lab/) |
+
+### 📗 Year 2 — Semester 2
+| Course | Topics | Repos |
+|---|---|---|
+| AI: Machine Learning Foundations | Supervised/unsupervised learning, model evaluation | 🌐 [ml-lab](https://andreaisabelmontana.github.io/ml-lab/) |
+| AI: Personality & Emotion for AI Design | Affective computing, persona design, emotional AI | 🌐 [affect-lab](https://andreaisabelmontana.github.io/affect-lab/) |
+| Designing and Using Databases | SQL, relational design, normalization, NoSQL | 🌐 [sql-lab](https://andreaisabelmontana.github.io/sql-lab/) |
+| IE Impact Entrepreneurship | Entrepreneurship, social impact, venture building | 🌐 [entrep-lab](https://andreaisabelmontana.github.io/entrep-lab/) |
+| Matrices & Linear Transformations | Linear algebra, vector spaces, eigenvalues | 🌐 [linalg-lab](https://andreaisabelmontana.github.io/linalg-lab/) |
+| Probability for Computing Science | Probability, distributions, stochastic processes | 🌐 [stats-lab](https://andreaisabelmontana.github.io/stats-lab/) |
+
+### 📙 Year 3 — Semester 1
+| Course | Topics | Repos |
+|---|---|---|
+| Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
+| IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
+| Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) · 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
+| AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
+| Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
+| High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
+
+### 📙 Year 3 — Semester 2
+| Course | Topics | Repos |
+|---|---|---|
+| AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) · 🌐 [skincares-advisor](https://andreaisabelmontana.github.io/skincares-advisor/) · 📂 [Chatbots-Recommendation-Engines](https://github.com/andreaisabelmontana/Chatbots-Recommendation-Engines) · 📂 [LaGuacamaya](https://github.com/andreaisabelmontana/LaGuacamaya) |
+| AI: Computer Vision | Image processing, deep learning, OpenCV | 🌐 [cs-vision](https://andreaisabelmontana.github.io/cs-vision/) · 🌐 [vision-proctor](https://andreaisabelmontana.github.io/vision-proctor/) · 📂 [Computer-Vision](https://github.com/andreaisabelmontana/Computer-Vision) |
+| AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | 🌐 [nlp-alignment-drift](https://andreaisabelmontana.github.io/nlp-alignment-drift/) · 🌐 [nlp-lab](https://andreaisabelmontana.github.io/nlp-lab/) · 📂 [Natural-Language-Processing-Semantic-Analysis](https://github.com/andreaisabelmontana/Natural-Language-Processing-Semantic-Analysis) |
+| AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | 🌐 [reinforce-interactive](https://andreaisabelmontana.github.io/reinforce-interactive/) · 📂 [Reinforcement-Learning](https://github.com/andreaisabelmontana/Reinforcement-Learning) |
+| AI: Statistical Learning & Prediction | Regression, classification, statistical inference | 🌐 [fraud-detector](https://andreaisabelmontana.github.io/fraud-detector/) · 🌐 [sound-classifier](https://andreaisabelmontana.github.io/sound-classifier/) · 🌐 [stat-learning](https://andreaisabelmontana.github.io/stat-learning/) · 📂 [Statistical-Learning-Prediction](https://github.com/andreaisabelmontana/Statistical-Learning-Prediction) |
+
+### 📕 Year 4 — Semester 2
+| Course | Topics | Repos |
+|---|---|---|
+| Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/) · 📂 [Blockchain-Cryptocurrencies-Fintech](https://github.com/andreaisabelmontana/Blockchain-Cryptocurrencies-Fintech) |
+| Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | 🌐 [cs-ethics](https://andreaisabelmontana.github.io/cs-ethics/) |
+| Robotics & Automation | ROS, robotic simulation, sensing & planning | 🌐 [Robotics-Automation](https://andreaisabelmontana.github.io/Robotics-Automation/) |
+| UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/) · 📂 [UX-UI-Human-Computer-Interaction](https://github.com/andreaisabelmontana/UX-UI-Human-Computer-Interaction) |
+| Capstone Project | Final interdisciplinary AI/CS project | 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/) · 📂 [Final-Project](https://github.com/andreaisabelmontana/Final-Project) |
+
+<!-- COURSE_TABLE_END -->
+
+## 🛠️ Skills & Tools
+
+### Languages
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java" />
+</p>
+
+### Frameworks & Libraries
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,threejs,tensorflow" />
+</p>
+
+### Tools & Platforms
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma,arduino" />
+</p>
+
+### XR / Spatial Computing & Robotics
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=unity,blender,raspberrypi" />
+</p>
 
 ---
 
-## ✨ About Me
+## 🌱 Growth Mindset
 
-I'm a computer science student at IE University specializing in **AI and data science**, with a passion for building **interactive learning tools** and **practical AI applications**. My portfolio showcases deep technical expertise across the full CS curriculum—30+ interactive educational labs, production ML applications, game AI, and DevOps projects.
+- Spatial Computing
+- AI Agents & Agentic Systems
+- Computer Vision
+- Human-Computer Interaction
+- WebXR & Immersive Experiences
+- Robotics & Embedded Systems
+- Advanced Modeling & Rendering
 
-**What I bring:** Full-stack development · Machine learning · Algorithm visualization · Interactive education tech · Cloud architecture · DevOps
-
----
-
-## 🎯 Featured Projects (Top 7)
-
-### 1️⃣ **ml-lab** — Machine Learning Fundamentals
-[🔗 Repository](https://github.com/andreaisabelmontana/ml-lab) | [🌐 Live Demo](https://andreaisabelmontana.github.io/ml-lab/)
-
-11 interactive ML demos covering the complete pipeline: train/test split & overfitting, gradient descent, bias-variance tradeoff, k-NN, logistic regression, decision trees, k-means clustering, PCA, confusion matrix, ROC curve.
-
-**Why it matters:** Demonstrates deep understanding of ML fundamentals through interactive visualization. Zero dependencies, pure HTML/Canvas.
-
----
-
-### 2️⃣ **nlp-lab** — Natural Language Processing
-[🔗 Repository](https://github.com/andreaisabelmontana/nlp-lab) | [🌐 Live Demo](https://andreaisabelmontana.github.io/nlp-lab/)
-
-23 interactive NLP demos + 310 study flashcards. Covers everything from tokenization and embeddings through attention mechanisms to transformers.
-
-**Why it matters:** Comprehensive NLP curriculum in one interactive site. Proof of mastery across the entire NLP stack.
-
----
-
-### 3️⃣ **reinforce-interactive** — Reinforcement Learning Playground
-[🔗 Repository](https://github.com/andreaisabelmontana/reinforce-interactive) | [🌐 Live Demo](https://andreaisabelmontana.github.io/reinforce-interactive/)
-
-Interactive exploration of all core RL concepts: bandits, MDPs, dynamic programming, temporal difference learning, function approximation, REINFORCE, A2C, DQN, evolution strategies, multi-agent systems. 100% client-side.
-
-**Why it matters:** Shows hands-on RL expertise. Beautiful pedagogy with working implementations.
-
----
-
-### 4️⃣ **ai-reasoning-games** — Game AI & Search Algorithms
-[🔗 Repository](https://github.com/andreaisabelmontana/ai-reasoning-games) | [🌐 Play Games](https://andreaisabelmontana.github.io/ai-reasoning-games/)
-
-Three fully playable games (Quoridor, Ghosts, UNO) with AI opponents. Features alpha-beta minimax, belief-state reasoning, heuristic evaluation. Includes presentation deck with live demos.
-
-**Why it matters:** Real AI agents in action. Demonstrates adversarial search, heuristics, imperfect information handling.
-
----
-
-### 5️⃣ **fraud-detector** — Real-Time ML in Production
-[🔗 Repository](https://github.com/andreaisabelmontana/fraud-detector)
-
-Live transaction stream with real-time fraud classification. Threshold-driven classifier on streaming data.
-
-**Why it matters:** Practical ML engineering. Shows ability to deploy models in production scenarios.
-
----
-
-### 6️⃣ **topliving-inmobiliaria** — Full-Stack DevOps Showcase
-[🔗 Repository](https://github.com/andreaisabelmontana/topliving-inmobiliaria) | [🌐 Live](https://andreaisabelmontana.github.io/topliving-inmobiliaria/)
-
-Real estate platform showcasing modern DevOps practices: CI/CD pipelines, containerization, cloud deployment, infrastructure as code.
-
-**Why it matters:** Production-ready full-stack application. Demonstrates DevOps maturity and software engineering best practices.
-
----
-
-### 7️⃣ **apex-athlete** — Capstone Project
-[🔗 Repository](https://github.com/andreaisabelmontana/apex-athlete) | [🌐 Live Demo](https://andreaisabelmontana.github.io/apex-athlete/)
-
-APEX: Unified digital infrastructure for high-performance multisport athletes. Interactive concept site showcasing modern frontend architecture.
-
-**Why it matters:** Final capstone project. Shows ability to design and execute complex, user-facing applications.
-
----
-
-## 📚 Complete Learning Lab Series (30+ repos)
-
-All with **zero dependencies**, pure HTML/Canvas/KaTeX, production-ready code.
-
-| Lab | Topics | Complexity |
-|-----|--------|-----------|
-| [**linalg-lab**](https://github.com/andreaisabelmontana/linalg-lab) | Vectors, matrices, transformations, eigenvalues, Gram-Schmidt | Advanced |
-| [**algos-lab**](https://github.com/andreaisabelmontana/algos-lab) | Sorting, pathfinding (BFS/Dijkstra/A*), hash tables, backtracking, DP, Big-O | Advanced |
-| [**calc-lab**](https://github.com/andreaisabelmontana/calc-lab) | Tangents, Riemann sums, Taylor series, vector fields, 3D surfaces | Advanced |
-| [**discrete-math-lab**](https://github.com/andreaisabelmontana/discrete-math-lab) | Logic, sets, relations, arithmetic, automata | Intermediate |
-| [**prob-stats-lab**](https://github.com/andreaisabelmontana/prob-stats-lab) | 12 probability & statistics interactive demos | Intermediate |
-| [**arch-lab**](https://github.com/andreaisabelmontana/arch-lab) | CPU, caches, paging, scheduling, networking | Advanced |
-| [**cloud-lab**](https://github.com/andreaisabelmontana/cloud-lab) | Cloud architectures, service models, scaling, reliability | Intermediate |
-| [**affect-lab**](https://github.com/andreaisabelmontana/affect-lab) | Neural foundations, emotion models, personality, attention | Advanced |
-| [**chatbots-recsys-lab**](https://github.com/andreaisabelmontana/chatbots-recsys-lab) | 24+ collaborative filtering, content-based, bandits, matrix factorization, NDCG | Advanced |
-| [**cs-ethics**](https://github.com/andreaisabelmontana/cs-ethics) | AI ethics, privacy, regulation, responsible AI | Intermediate |
-| [**entrep-lab**](https://github.com/andreaisabelmontana/entrep-lab) | Entrepreneurship, design thinking, unit economics, cap tables | Business |
-| [**business-lab**](https://github.com/andreaisabelmontana/business-lab) | Strategy, finance, market structure | Business |
-| [**research-methods-lab**](https://github.com/andreaisabelmontana/research-methods-lab) | Sampling, experiments, surveys | Research |
-| [**big-history-lab**](https://github.com/andreaisabelmontana/big-history-lab) | 9 timelines, S-curves, acceleration | Academic |
-| [**modeling-lab**](https://github.com/andreaisabelmontana/modeling-lab) | Monte Carlo, regression, classification | Intermediate |
-| [**data-analysis-lab**](https://github.com/andreaisabelmontana/data-analysis-lab) | Data wrangling, EDA, visualization | Intermediate |
-| [**physics-cs-lab**](https://github.com/andreaisabelmontana/physics-cs-lab) | Mechanics to quantum computing | Advanced |
-| [**tech-lab**](https://github.com/andreaisabelmontana/tech-lab) | Low-code/no-code, automation, generative AI explainers | Intermediate |
-| [**programming-principles-lab**](https://github.com/andreaisabelmontana/programming-principles-lab) | Language paradigms, design patterns | Intermediate |
-| [**uxui-hci-interactive**](https://github.com/andreaisabelmontana/uxui-hci-interactive) | UX, UI, HCI concepts | Intermediate |
-| [**humanities-lab**](https://github.com/andreaisabelmontana/humanities-lab) | Critical thinking, ethics, culture | Academic |
-
-**[→ View all `-lab` repositories](https://github.com/andreaisabelmontana?tab=repositories&q=-lab&type=source)**
-
----
-
-## 🤖 AI/ML Production Projects
-
-| Project | Description | Impact |
-|---------|-------------|--------|
-| [**nlp-alignment-drift**](https://github.com/andreaisabelmontana/nlp-alignment-drift) | Visualizes safety drift in LLMs across multi-turn conversations | AI Safety |
-| [**sound-classifier**](https://github.com/andreaisabelmontana/sound-classifier) | ESC-50 animal sound classifier: Random Forest vs CNN on log-mel spectrograms | ML Engineering |
-| [**vision-proctor**](https://github.com/andreaisabelmontana/vision-proctor) | Live exam proctoring with face & gaze detection via MediaPipe | Computer Vision |
-| [**skincares-advisor**](https://github.com/andreaisabelmontana/skincares-advisor) | Skincare ingredient analyzer with NLP | NLP/UX |
-| [**hpc-miniweather**](https://github.com/andreaisabelmontana/hpc-miniweather) | HPC weather simulation visualization | High-Performance Computing |
-| [**blockchain-playground**](https://github.com/andreaisabelmontana/blockchain-playground) | 17 blockchain & fintech modules | Cryptocurrency/Fintech |
-
----
-
-## 🎮 Interactive Applications & Games
-
-| Project | Description | Tech Stack |
-|---------|-------------|-----------|
-| [**library-system**](https://github.com/andreaisabelmontana/library-system) | Multi-role library management: loans, fines, CSV export | HTML/JS |
-| [**java-study**](https://github.com/andreaisabelmontana/java-study) | CP2 Java study companion: lessons, quiz mode, cheatsheet | HTML/JS |
-| [**LaGuacamaya**](https://github.com/andreaisabelmontana/LaGuacamaya) | AI assistant for Venezuela Club at IE University | Chatbot/NLP |
-| [**robotics-lab-interactive**](https://github.com/andreaisabelmontana/robotics-lab-interactive) | Introduction to Robotics: kinematics, sensors, PID, autonomous systems | Interactive |
-
----
-
-## 🏗️ Technical Stack
-
-**Languages:** Python, JavaScript/TypeScript, Java, C, SQL, HTML/CSS  
-**ML/AI Frameworks:** TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy  
-**Frontend:** React, Three.js, Canvas API, Tailwind CSS, KaTeX  
-**DevOps & Cloud:** Docker, GitHub Actions, CI/CD, Firebase, Vercel  
-**Databases:** PostgreSQL, SQL, NoSQL  
-**Tools:** Git, GitHub, VS Code, Figma, Arduino
-
----
-
-## 📊 By The Numbers
-
-- **80+ repositories** showcasing breadth and depth
-- **30+ interactive educational labs** with zero dependencies
-- **500+ hours** of educational content created
-- **Full CS curriculum** covered through portfolio projects
-- **5 AI specializations** completed (ML, NLP, CV, RL, Ethics)
-- **3 playable games** with intelligent AI opponents
-
----
-
-## 🎓 Education
-
-**IE University** — Bachelor in Computer Science with AI Specialization (BCSAI)  
-*Expected graduation: May 2025*
-
-**Specialized in:** Machine Learning · Natural Language Processing · Computer Vision · Reinforcement Learning · AI Ethics · Robotics
-
----
-
-## 🌟 Why Hire Me?
-
-✅ **Proven Expertise:** 30+ production-ready educational labs demonstrating mastery of CS fundamentals  
-✅ **Full-Stack Capability:** From frontend interfaces to ML backends to DevOps infrastructure  
-✅ **Pedagogical Mindset:** Ability to break down complex concepts and explain clearly (proven by lab quality)  
-✅ **Production Ready:** All projects follow best practices, are well-documented, and deploy cleanly  
-✅ **Continuous Learner:** Portfolio spans the entire BCSAI curriculum + specialized AI track  
-✅ **Portfolio Polish:** Professional README files, organized repositories, clean code, no dead projects
-
----
-
-## 🔗 Let's Connect
-
-- **GitHub:** [@andreaisabelmontana](https://github.com/andreaisabelmontana)
-- **Portfolio Site:** [aim-for-the-future.github.io](https://andreaisabelmontana.github.io)
-- **LinkedIn & Email:** Available upon request
-
----
-
-<sub>**Last updated:** June 2025 | This portfolio is actively maintained and continuously improved. Check back for new projects!</sub>
+<sub>Last refreshed 2026-06-08 · auto-generated from GitHub topics</sub>
