@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/4796f1fa-31ee-4160-9982-cf13d103edd6
 
-🤖 *Me working on robotics at the IE University Robotics & AI Lab.*
+🤖 *Me working on robotics since the age of 10*
 
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
