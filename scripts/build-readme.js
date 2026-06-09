@@ -6,6 +6,9 @@
  * Convention: tag a course repo with a topic from the CATEGORIES table below
  * (e.g. `bcsai-calc`, `bcsai-nlp`). The script reads `has_pages` to decide
  * between 🌐 (live site) and 📂 (source-only).
+ *
+ * Independent projects / study rebuilds aren't topic-tagged, so they're
+ * curated per-course in EXTRA below and merged into the same row.
  */
 
 const fs = require('fs');
@@ -17,63 +20,87 @@ const TOKEN = process.env.GITHUB_TOKEN || '';
 const ROOT = path.resolve(__dirname, '..');
 
 // Ordered by Year > Semester (derived from BCSAI syllabus metadata).
-// [section label, [course slug, display name, blurb]...]
+// [section label, [course slug, display name]...]
 const CATEGORIES = [
   ['📘 Year 1 — Semester 1', [
-    ['discrete', 'Discrete Mathematics',                       'Logic, sets, graphs, combinatorics, proofs'],
-    ['fps',      'Fundamentals of Probability & Statistics',   'Descriptive stats, distributions, inference'],
-    ['business', 'Introduction to Business Management',        'Management principles, organizations, strategy'],
-    ['research', 'Learning to Observe, Experiment & Survey',   'Research methods, experimental design, surveys'],
-    ['history',  'The Big History of Ideas and Innovation',    'History of science, innovation, intellectual thought'],
+    ['discrete', 'Discrete Mathematics'],
+    ['fps',      'Fundamentals of Probability & Statistics'],
+    ['business', 'Introduction to Business Management'],
+    ['research', 'Learning to Observe, Experiment & Survey'],
+    ['history',  'The Big History of Ideas and Innovation'],
   ]],
   ['📘 Year 1 — Semester 2', [
-    ['data',     'Fundamentals of Data Analysis',              'Data wrangling, EDA, visualization'],
-    ['humanities', 'Humanities',                               'Critical thinking, ethics, cultural perspectives'],
-    ['physics',  'Physics for Computer Science',               'Mechanics, waves, computational physics'],
-    ['pop',      'Principles of Programming',                  'Paradigms, language design, design patterns'],
-    ['modeling', 'Simulating and Modeling to Understand Change', 'Simulation, dynamic systems, agent-based modeling'],
+    ['data',     'Fundamentals of Data Analysis'],
+    ['humanities', 'Humanities'],
+    ['physics',  'Physics for Computer Science'],
+    ['pop',      'Principles of Programming'],
+    ['modeling', 'Simulating and Modeling to Understand Change'],
   ]],
   ['📗 Year 2 — Semester 1', [
-    ['algos',    'Algorithms & Data Structures',               'Sorting, searching, complexity, ADTs'],
-    ['calc',     'Calculus for Computer Science',              'Calculus, optimization, algorithm analysis'],
-    ['cloud',    'Cloud Computing',                            'Cloud architectures, IaaS/PaaS/SaaS, deployment'],
-    ['arch',     'Computer Architecture, Networks & OS',       'CPU, memory, networking, OS internals'],
-    ['cp1',      'Computer Programming I',                     'Programming fundamentals, control flow, functions'],
-    ['tech',     'Technology with Impact',                     'Disruptive tech, low-code/no-code, generative AI'],
+    ['algos',    'Algorithms & Data Structures'],
+    ['calc',     'Calculus for Computer Science'],
+    ['cloud',    'Cloud Computing'],
+    ['arch',     'Computer Architecture, Networks & OS'],
+    ['cp1',      'Computer Programming I'],
+    ['tech',     'Technology with Impact'],
   ]],
   ['📗 Year 2 — Semester 2', [
-    ['mlf',      'AI: Machine Learning Foundations',           'Supervised/unsupervised learning, model evaluation'],
-    ['affect',   'AI: Personality & Emotion for AI Design',    'Affective computing, persona design, emotional AI'],
-    ['db',       'Designing and Using Databases',              'SQL, relational design, normalization, NoSQL'],
-    ['entrep',   'IE Impact Entrepreneurship',                 'Entrepreneurship, social impact, venture building'],
-    ['linalg',   'Matrices & Linear Transformations',          'Linear algebra, vector spaces, eigenvalues'],
-    ['prob',     'Probability for Computing Science',          'Probability, distributions, stochastic processes'],
+    ['mlf',      'AI: Machine Learning Foundations'],
+    ['affect',   'AI: Personality & Emotion for AI Design'],
+    ['db',       'Designing and Using Databases'],
+    ['entrep',   'IE Impact Entrepreneurship'],
+    ['linalg',   'Matrices & Linear Transformations'],
+    ['prob',     'Probability for Computing Science'],
   ]],
   ['📙 Year 3 — Semester 1', [
-    ['cp2',      'Computer Programming II',                    'Java, OOP, data structures, multithreading'],
-    ['iec',      'IE Challenge',                               'Cross-disciplinary applied challenge'],
-    ['sddo',     'Software Development & DevOps',              'Agile, CI/CD, cloud systems, DevOps, design patterns'],
-    ['reason',   'AI: Reasoning & Problem Solving',            'Search algorithms, intelligent agents, game AI'],
-    ['robolab',  'Introduction to Robotics Lab',               'Raspberry Pi, Pepper robot, autonomous systems'],
-    ['hpc',      'High Performance Computing',                 'Parallel computing, GPU, distributed systems'],
+    ['cp2',      'Computer Programming II'],
+    ['iec',      'IE Challenge'],
+    ['sddo',     'Software Development & DevOps'],
+    ['reason',   'AI: Reasoning & Problem Solving'],
+    ['robolab',  'Introduction to Robotics Lab'],
+    ['hpc',      'High Performance Computing'],
   ]],
   ['📙 Year 3 — Semester 2', [
-    ['chat',     'AI: Chatbots & Recommendation Engines',      'Chatbots, recommender systems, conversational AI'],
-    ['vision',   'AI: Computer Vision',                        'Image processing, deep learning, OpenCV'],
-    ['nlp',      'AI: NLP & Semantic Analysis',                'NLP, transformers, sentiment analysis, LLMs'],
-    ['rl',       'AI: Reinforcement Learning',                 'Q-learning, Deep RL, policy optimization'],
-    ['stat',     'AI: Statistical Learning & Prediction',      'Regression, classification, statistical inference'],
+    ['chat',     'AI: Chatbots & Recommendation Engines'],
+    ['vision',   'AI: Computer Vision'],
+    ['nlp',      'AI: NLP & Semantic Analysis'],
+    ['rl',       'AI: Reinforcement Learning'],
+    ['stat',     'AI: Statistical Learning & Prediction'],
   ]],
   ['📕 Year 4 — Semester 2', [
-    ['blockchain', 'Blockchain, Cryptocurrencies & FinTech',   'Blockchain, smart contracts, fintech systems'],
-    ['ethics',   'Ethics, Policy & Legislation in CS',         'AI ethics, privacy, regulation'],
-    ['robo',     'Robotics & Automation',                      'ROS, robotic simulation, sensing & planning'],
-    ['uxui',     'UX/UI & Human-Computer Interaction',         'User-centered design, usability, accessibility'],
-    ['capstone', 'Capstone Project',                           'Final interdisciplinary AI/CS project'],
+    ['blockchain', 'Blockchain, Cryptocurrencies & FinTech'],
+    ['ethics',   'Ethics, Policy & Legislation in CS'],
+    ['robo',     'Robotics & Automation'],
+    ['uxui',     'UX/UI & Human-Computer Interaction'],
+    ['capstone', 'Capstone Project'],
   ]],
 ];
 
 const TOPIC_PREFIX = 'bcsai-';
+
+const PAGES = (slug) => `🌐 [${slug}](https://${USER}.github.io/${slug}/)`;
+const SRC = (slug) => `📂 [${slug}](https://github.com/${USER}/${slug})`;
+
+// Independent projects & study rebuilds, curated into the course they fit.
+// Merged with topic-tagged course repos in the same row.
+const EXTRA = {
+  data:    [PAGES('vigiview'), PAGES('shopsmart')],
+  physics: [PAGES('pyfreebody'), PAGES('radioform-web')],
+  arch:    [PAGES('hostpad-802.11r')],
+  mlf:     [PAGES('efficient-classifier-rebuild')],
+  db:      [PAGES('fantasy-forum'), SRC('tablepro-rebuild')],
+  entrep:  [PAGES('foodloop-rebuild')],
+  sddo:    [PAGES('qrate'), PAGES('rerun'), PAGES('dotfiles'), PAGES('sublime-config'), PAGES('dev-vm-setup'), PAGES('milan-academic-pages')],
+  hpc:     [PAGES('gpu-montecarlo-risk-rebuild'), PAGES('uncorrelated-returns'), PAGES('aimes-emanager'), PAGES('hpc-course'), PAGES('hpc_foundations_book'), PAGES('hpc_applications_book')],
+  chat:    [PAGES('mistral-kit'), PAGES('radical-bot')],
+  vision:  [PAGES('fatigued-driver-detector'), PAGES('ie-tower-vpr'), PAGES('crittercut')],
+  nlp:     [PAGES('truthlens')],
+  rl:      [PAGES('mountain-car-control'), PAGES('mesh-parking-rl'), PAGES('swipe-rl'), PAGES('rl-control-lab')],
+  stat:    [PAGES('beyondstats')],
+  blockchain: [PAGES('rodeo'), PAGES('harthat-web3-tutorial')],
+  ethics:  [PAGES('openpolicystack'), PAGES('garlic')],
+  robo:    [PAGES('botzo'), PAGES('niryo-one-digital-twin'), PAGES('niryo-one-datasets'), PAGES('turtlebot2-service'), PAGES('digital-twin-scalability')],
+};
 
 function ghRequest(url) {
   return new Promise((resolve, reject) => {
@@ -145,15 +172,15 @@ function buildTable(repos) {
   const lines = [];
   for (const [categoryHeader, courses] of CATEGORIES) {
     lines.push(`### ${categoryHeader}`);
-    lines.push('| Course | Topics | Repos |');
-    lines.push('|---|---|---|');
-    for (const [slug, name, blurb] of courses) {
+    lines.push('| Course | Coursework & Projects |');
+    lines.push('|---|---|');
+    for (const [slug, name] of courses) {
       const matched = (byTopic.get(slug) || [])
-        .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name));
-      const cell = matched.length
-        ? matched.map(renderRepoLink).join(' · ')
-        : '_— coming soon —_';
-      lines.push(`| ${name} | ${blurb} | ${cell} |`);
+        .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name))
+        .map(renderRepoLink);
+      const links = [...matched, ...(EXTRA[slug] || [])];
+      const cell = links.length ? links.join(' · ') : '_— coming soon —_';
+      lines.push(`| ${name} | ${cell} |`);
     }
     lines.push('');
   }
