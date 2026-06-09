@@ -6,9 +6,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
   <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
 </p>
 
-# 👩‍💻 Andrea Montaña
-Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
-
 # 📚 Experience
 
 [🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html)
