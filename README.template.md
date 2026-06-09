@@ -14,6 +14,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 [🔗 Arte de la Montana](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html)
 &nbsp;&nbsp;&nbsp;&nbsp;Personal Art & Design portfolio for freelance work
 
+[🔗 Alma de María](https://andreaisabelmontana.github.io/Alma-De-Maria/)
+&nbsp;&nbsp;&nbsp;&nbsp;Showcase site for an artisanal rosary & religious jewelry brand
+
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
 
