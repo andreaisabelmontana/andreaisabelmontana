@@ -1,6 +1,4 @@
-<p align="center">
-  <video src="https://github.com/andreaisabelmontana/andreaisabelmontana/raw/main/robotics.mp4" controls muted loop width="100%"></video>
-</p>
+https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 # 👩‍💻 Andrea Montaña
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
