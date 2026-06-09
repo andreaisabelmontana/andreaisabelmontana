@@ -20,6 +20,32 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
 
+# 🚀 Projects & Rebuilds
+
+Independent builds, each from scratch in its own repo.
+
+**AI / Machine Learning**
+- **[efficient-classifier](https://github.com/andreaisabelmontana/efficient-classifier-rebuild)** — dataset-agnostic, YAML-driven multi-pipeline classification framework &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/efficient-classifier-rebuild/)
+- **[heuristic-compiler](https://github.com/andreaisabelmontana/heuristic-compiler-rebuild)** — compile heuristic rules (JSON) into a live classifier &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/heuristic-compiler-rebuild/)
+
+**Quant & HPC**
+- **[gpu-montecarlo-risk](https://github.com/andreaisabelmontana/gpu-montecarlo-risk-rebuild)** — multi-backend Monte-Carlo VaR/CVaR engine (C · OpenMP · CUDA) &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/gpu-montecarlo-risk-rebuild/)
+- **[dalio-uncorrelated-returns](https://github.com/andreaisabelmontana/dalio-uncorrelated-returns-rebuild)** — uncorrelated-return portfolios via clustering + risk parity &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/dalio-uncorrelated-returns-rebuild/)
+- **[time-series-momentum](https://github.com/andreaisabelmontana/time-series-momentum-rebuild)** — TSMOM trend-following strategy + backtest &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/time-series-momentum-rebuild/)
+
+**Computer Vision & Game AI**
+- **[holovinyl](https://github.com/andreaisabelmontana/holovinyl-rebuild)** — turn any object into a record (webcam CV → music) &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/holovinyl-rebuild/)
+- **[victoria](https://github.com/andreaisabelmontana/victoria-rebuild)** — Connect 4 AI (negamax + α-β), playable in-browser &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/victoria-rebuild/)
+- **[neural-noir](https://github.com/andreaisabelmontana/neural-noir-rebuild)** — offline procedural detective game &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/neural-noir-rebuild/)
+
+**Web Apps**
+- **[foodloop](https://github.com/andreaisabelmontana/foodloop-rebuild)** — neighborhood surplus-food marketplace landing + waitlist &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/foodloop-rebuild/)
+- **[memora](https://github.com/andreaisabelmontana/memora-rebuild)** — a calm personal reflection library + AI Librarian &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/memora-rebuild/)
+
+**Systems & Tools**
+- **[terminalchat](https://github.com/andreaisabelmontana/terminalchat-rebuild)** — multi-client C TCP chat (rooms, DMs, threads)
+- **[tablepro](https://github.com/andreaisabelmontana/tablepro-rebuild)** — terminal database manager (SQLite · Postgres · MySQL)
+
 # 📚 Course Portfolio
 
 <!-- COURSE_TABLE_START -->
