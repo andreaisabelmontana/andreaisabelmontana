@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
-</p>
-
 https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🛠️ Skills & Tools
@@ -66,5 +62,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 | 1.1 | Discrete Mathematics | 🌐 [discrete-math-lab](https://andreaisabelmontana.github.io/discrete-math-lab/) |
 
 <!-- COURSE_TABLE_END -->
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
+</p>
 
 <sub>Last refreshed 2026-06-09 · auto-generated from GitHub topics</sub>
