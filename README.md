@@ -1,6 +1,5 @@
-https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
-
 # 👩‍💻 Andrea Montaña
+https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
 # 📚 Experience
