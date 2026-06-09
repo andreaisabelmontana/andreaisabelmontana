@@ -1,9 +1,4 @@
 # 👩‍💻 Andrea Montaña
-
-https://github.com/user-attachments/assets/4796f1fa-31ee-4160-9982-cf13d103edd6
-
-🤖 *Me working on robotics since the age of 10*
-
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
 # 📚 Experience
@@ -16,9 +11,6 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
-
-[🔗 ENCORE — Google Maps Platform Awards 2025](https://andreaisabelmontana.github.io/Google-Maps-Awards-2025/)
-&nbsp;&nbsp;&nbsp;&nbsp;A map of live-music memory — pin the shows that mattered, relive the ones you missed, and graph your Spotify taste geographically
 
 # 📚 Course Portfolio
 
@@ -125,4 +117,4 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 - Robotics & Embedded Systems
 - Advanced Modeling & Rendering
 
-<sub>Last refreshed 2026-06-08 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-09 · auto-generated from GitHub topics</sub>
