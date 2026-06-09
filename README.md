@@ -24,6 +24,16 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 Independent builds, each from scratch in its own repo.
 
+**⭐ From-Scratch Builds — a 56-project collection**
+
+A sweep of original builds across robotics, high-performance computing, the web, distributed systems, blockchain and more — each its own repo + live site, gathered into one editorial index. &nbsp;·&nbsp; [🌐 browse all 56](https://andreaisabelmontana.github.io/researcher-rebuilds/)
+
+- **[Robot-Arm Digital Twin](https://andreaisabelmontana.github.io/niryo-one-digital-twin/)** — live virtual replica of a robot arm (ROS · CoppeliaSim · Docker), split across Edge/Fog/Cloud
+- **[Quadruped Robot Dog](https://andreaisabelmontana.github.io/botzo/)** — open-source <€500 walking robot (ROS2 · inverse kinematics · firmware · CAD)
+- **[On-Chain Robot Task DAO](https://andreaisabelmontana.github.io/rodeo/)** — ROS × Ethereum DAO for robots (smart contracts · escrow · verification oracle)
+- **[HPC Execution Manager](https://andreaisabelmontana.github.io/aimes-emanager/)** — pilot-job workflow scheduler across supercomputers
+- **[Smart Cooking Projection Interface](https://andreaisabelmontana.github.io/SPICE/)** — projects interactive recipe steps onto the counter, tracked by computer vision
+
 **AI / Machine Learning**
 - **[efficient-classifier](https://github.com/andreaisabelmontana/efficient-classifier-rebuild)** — dataset-agnostic, YAML-driven multi-pipeline classification framework &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/efficient-classifier-rebuild/)
 - **[heuristic-compiler](https://github.com/andreaisabelmontana/heuristic-compiler-rebuild)** — compile heuristic rules (JSON) into a live classifier &nbsp;·&nbsp; [🌐 site](https://andreaisabelmontana.github.io/heuristic-compiler-rebuild/)
