@@ -87,36 +87,8 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 
 ## 🛠️ Skills & Tools
 
-### Languages
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
 </p>
-
-### Frameworks & Libraries
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,threejs,tensorflow" />
-</p>
-
-### Tools & Platforms
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,firebase,vercel,docker,figma,arduino" />
-</p>
-
-### XR / Spatial Computing & Robotics
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,blender,raspberrypi" />
-</p>
-
----
-
-## 🌱 Growth Mindset
-
-- Spatial Computing
-- AI Agents & Agentic Systems
-- Computer Vision
-- Human-Computer Interaction
-- WebXR & Immersive Experiences
-- Robotics & Embedded Systems
-- Advanced Modeling & Rendering
 
 <sub>Last refreshed 2026-06-09 · auto-generated from GitHub topics</sub>
