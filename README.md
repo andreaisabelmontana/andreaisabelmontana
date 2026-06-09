@@ -1,5 +1,11 @@
 https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
+## 🛠️ Skills & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
+</p>
+
 # 👩‍💻 Andrea Montaña
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
@@ -84,11 +90,5 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Capstone Project | Final interdisciplinary AI/CS project | 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/) |
 
 <!-- COURSE_TABLE_END -->
-
-## 🛠️ Skills & Tools
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
-</p>
 
 <sub>Last refreshed 2026-06-09 · auto-generated from GitHub topics</sub>
