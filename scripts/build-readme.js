@@ -169,18 +169,24 @@ function buildTable(repos) {
     }
   }
 
-  const lines = ['| Course | Coursework & Projects |', '|---|---|'];
-  for (const [, courses] of CATEGORIES) {
+  // Build rows in chronological order, numbered `<year>.<course-in-year>`.
+  const rows = [];
+  const perYear = {};
+  for (const [header, courses] of CATEGORIES) {
+    const year = (header.match(/Year (\d)/) || [])[1] || '?';
     for (const [slug, name] of courses) {
+      perYear[year] = (perYear[year] || 0) + 1;
       const matched = (byTopic.get(slug) || [])
         .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name))
         .map(renderRepoLink);
       const links = [...matched, ...(EXTRA[slug] || [])];
       const cell = links.length ? links.join(' · ') : '_— coming soon —_';
-      lines.push(`| ${name} | ${cell} |`);
+      rows.push(`| ${year}.${perYear[year]} | ${name} | ${cell} |`);
     }
   }
-  lines.push('');
+  rows.reverse(); // most recent / last-year courses first
+
+  const lines = ['| # | Course | Coursework & Projects |', '|---|---|---|', ...rows, ''];
 
   // Orphans: repos tagged `bcsai-<slug>` where <slug> isn't in CATEGORIES.
   const known = new Set();
