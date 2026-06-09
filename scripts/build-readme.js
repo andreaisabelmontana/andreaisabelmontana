@@ -169,11 +169,8 @@ function buildTable(repos) {
     }
   }
 
-  const lines = [];
-  for (const [categoryHeader, courses] of CATEGORIES) {
-    lines.push(`### ${categoryHeader}`);
-    lines.push('| Course | Coursework & Projects |');
-    lines.push('|---|---|');
+  const lines = ['| Course | Coursework & Projects |', '|---|---|'];
+  for (const [, courses] of CATEGORIES) {
     for (const [slug, name] of courses) {
       const matched = (byTopic.get(slug) || [])
         .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name))
@@ -182,8 +179,8 @@ function buildTable(repos) {
       const cell = links.length ? links.join(' · ') : '_— coming soon —_';
       lines.push(`| ${name} | ${cell} |`);
     }
-    lines.push('');
   }
+  lines.push('');
 
   // Orphans: repos tagged `bcsai-<slug>` where <slug> isn't in CATEGORIES.
   const known = new Set();
