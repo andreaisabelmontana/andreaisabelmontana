@@ -1,6 +1,6 @@
-# 👩‍💻 Andrea Montaña
 https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
+# 👩‍💻 Andrea Montaña
 Computer Science & Artificial Intelligence student with an interest in healthcare via projection mapping and robotic systems
 
 # 📚 Experience
@@ -39,7 +39,7 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 | Course | Topics | Repos |
 |---|---|---|
 | Algorithms & Data Structures | Sorting, searching, complexity, ADTs | 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/) |
-| Calculus for Computer Science | Calculus, optimization, algorithm analysis | 🌐 [calc-lab](https://andreaisabelmontana.github.io/calc-lab/) · 🌐 [calculus-toolkit-site](https://andreaisabelmontana.github.io/calculus-toolkit-site/) · 📂 [Calculus-For-Computer-Science](https://github.com/andreaisabelmontana/Calculus-For-Computer-Science) |
+| Calculus for Computer Science | Calculus, optimization, algorithm analysis | 🌐 [calc-lab](https://andreaisabelmontana.github.io/calc-lab/) · 🌐 [calculus-toolkit-site](https://andreaisabelmontana.github.io/calculus-toolkit-site/) |
 | Cloud Computing | Cloud architectures, IaaS/PaaS/SaaS, deployment | 🌐 [cloud-lab](https://andreaisabelmontana.github.io/cloud-lab/) |
 | Computer Architecture, Networks & OS | CPU, memory, networking, OS internals | 🌐 [arch-lab](https://andreaisabelmontana.github.io/arch-lab/) |
 | Computer Programming I | Programming fundamentals, control flow, functions | 🌐 [cp1-lab](https://andreaisabelmontana.github.io/cp1-lab/) |
@@ -58,30 +58,30 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 ### 📙 Year 3 — Semester 1
 | Course | Topics | Repos |
 |---|---|---|
-| Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) · 📂 [Computer-Programming-II](https://github.com/andreaisabelmontana/Computer-Programming-II) |
+| Computer Programming II | Java, OOP, data structures, multithreading | 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/) · 🌐 [library-system](https://andreaisabelmontana.github.io/library-system/) |
 | IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
-| Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) · 🍴 [behavioral_design_pattern_exercise_observer](https://github.com/andreaisabelmontana/behavioral_design_pattern_exercise_observer) · 🍴 [structural_design_pattern_exercise_proxy](https://github.com/andreaisabelmontana/structural_design_pattern_exercise_proxy) |
-| AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) · 📂 [Representation-Reasoning-Problem-Solving](https://github.com/andreaisabelmontana/Representation-Reasoning-Problem-Solving) |
-| Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 📂 [Intro-to-Robotics-LAB](https://github.com/andreaisabelmontana/Intro-to-Robotics-LAB) |
+| Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) |
+| AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) |
+| Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
 
 ### 📙 Year 3 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
-| AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) · 🌐 [skincares-advisor](https://andreaisabelmontana.github.io/skincares-advisor/) · 📂 [Chatbots-Recommendation-Engines](https://github.com/andreaisabelmontana/Chatbots-Recommendation-Engines) · 📂 [LaGuacamaya](https://github.com/andreaisabelmontana/LaGuacamaya) |
-| AI: Computer Vision | Image processing, deep learning, OpenCV | 🌐 [cs-vision](https://andreaisabelmontana.github.io/cs-vision/) · 🌐 [vision-proctor](https://andreaisabelmontana.github.io/vision-proctor/) · 📂 [Computer-Vision](https://github.com/andreaisabelmontana/Computer-Vision) |
-| AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | 🌐 [nlp-alignment-drift](https://andreaisabelmontana.github.io/nlp-alignment-drift/) · 🌐 [nlp-lab](https://andreaisabelmontana.github.io/nlp-lab/) · 📂 [Natural-Language-Processing-Semantic-Analysis](https://github.com/andreaisabelmontana/Natural-Language-Processing-Semantic-Analysis) |
-| AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | 🌐 [reinforce-interactive](https://andreaisabelmontana.github.io/reinforce-interactive/) · 📂 [Reinforcement-Learning](https://github.com/andreaisabelmontana/Reinforcement-Learning) |
-| AI: Statistical Learning & Prediction | Regression, classification, statistical inference | 🌐 [fraud-detector](https://andreaisabelmontana.github.io/fraud-detector/) · 🌐 [sound-classifier](https://andreaisabelmontana.github.io/sound-classifier/) · 🌐 [stat-learning](https://andreaisabelmontana.github.io/stat-learning/) · 📂 [Statistical-Learning-Prediction](https://github.com/andreaisabelmontana/Statistical-Learning-Prediction) |
+| AI: Chatbots & Recommendation Engines | Chatbots, recommender systems, conversational AI | 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/) · 🌐 [skincares-advisor](https://andreaisabelmontana.github.io/skincares-advisor/) |
+| AI: Computer Vision | Image processing, deep learning, OpenCV | 🌐 [cs-vision](https://andreaisabelmontana.github.io/cs-vision/) · 🌐 [vision-proctor](https://andreaisabelmontana.github.io/vision-proctor/) |
+| AI: NLP & Semantic Analysis | NLP, transformers, sentiment analysis, LLMs | 🌐 [nlp-alignment-drift](https://andreaisabelmontana.github.io/nlp-alignment-drift/) · 🌐 [nlp-lab](https://andreaisabelmontana.github.io/nlp-lab/) |
+| AI: Reinforcement Learning | Q-learning, Deep RL, policy optimization | 🌐 [reinforce-interactive](https://andreaisabelmontana.github.io/reinforce-interactive/) |
+| AI: Statistical Learning & Prediction | Regression, classification, statistical inference | 🌐 [fraud-detector](https://andreaisabelmontana.github.io/fraud-detector/) · 🌐 [sound-classifier](https://andreaisabelmontana.github.io/sound-classifier/) · 🌐 [stat-learning](https://andreaisabelmontana.github.io/stat-learning/) |
 
 ### 📕 Year 4 — Semester 2
 | Course | Topics | Repos |
 |---|---|---|
-| Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/) · 📂 [Blockchain-Cryptocurrencies-Fintech](https://github.com/andreaisabelmontana/Blockchain-Cryptocurrencies-Fintech) |
+| Blockchain, Cryptocurrencies & FinTech | Blockchain, smart contracts, fintech systems | 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/) |
 | Ethics, Policy & Legislation in CS | AI ethics, privacy, regulation | 🌐 [cs-ethics](https://andreaisabelmontana.github.io/cs-ethics/) |
 | Robotics & Automation | ROS, robotic simulation, sensing & planning | 🌐 [Robotics-Automation](https://andreaisabelmontana.github.io/Robotics-Automation/) |
-| UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/) · 📂 [UX-UI-Human-Computer-Interaction](https://github.com/andreaisabelmontana/UX-UI-Human-Computer-Interaction) |
-| Capstone Project | Final interdisciplinary AI/CS project | 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/) · 📂 [Final-Project](https://github.com/andreaisabelmontana/Final-Project) |
+| UX/UI & Human-Computer Interaction | User-centered design, usability, accessibility | 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/) |
+| Capstone Project | Final interdisciplinary AI/CS project | 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/) |
 
 <!-- COURSE_TABLE_END -->
 
