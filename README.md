@@ -17,6 +17,9 @@ Computer Science & Artificial Intelligence student with an interest in healthcar
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
 
+[🔗 ENCORE — Google Maps Platform Awards 2025](https://andreaisabelmontana.github.io/Google-Maps-Awards-2025/)
+&nbsp;&nbsp;&nbsp;&nbsp;A map of live-music memory — pin the shows that mattered, relive the ones you missed, and graph your Spotify taste geographically
+
 # 📚 Course Portfolio
 
 <!-- COURSE_TABLE_START -->
