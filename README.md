@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 | IE Challenge | Cross-disciplinary applied challenge | _— coming soon —_ |
 | Software Development & DevOps | Agile, CI/CD, cloud systems, DevOps, design patterns | 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/) · 🌐 [Software-Development-And-Devops](https://andreaisabelmontana.github.io/Software-Development-And-Devops/) · 🌐 [topliving-inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/) |
 | AI: Reasoning & Problem Solving | Search algorithms, intelligent agents, game AI | 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/) |
-| Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
+| Introduction to Robotics Lab | Raspberry Pi, Pepper robot, autonomous systems | 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) · 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/) |
 | High Performance Computing | Parallel computing, GPU, distributed systems | 🌐 [hpc-miniweather](https://andreaisabelmontana.github.io/hpc-miniweather/) |
 
 ### 📙 Year 3 — Semester 2
