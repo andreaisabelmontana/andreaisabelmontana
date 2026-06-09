@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
+</p>
+
 https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🛠️ Skills & Tools
