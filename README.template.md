@@ -3,7 +3,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ## 🛠️ Skills & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,cpp,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
 </p>
 
 # 📚 Experience
