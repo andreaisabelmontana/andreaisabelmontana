@@ -20,6 +20,11 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
 
+# 🧪 Projects & Experiments
+
+[🔗 Polar Bear Club](https://andreaisabelmontana.github.io/polar-bear-club/)
+&nbsp;&nbsp;&nbsp;&nbsp;A playful login flow that ends on a 3D iceberg with a polar bear you can walk around (three.js)
+
 # 📚 Course Portfolio
 
 <!-- COURSE_TABLE_START -->
