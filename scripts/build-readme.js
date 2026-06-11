@@ -83,6 +83,7 @@ const DESC = {
   // Year 4
   'apex-athlete': 'Unified multisport training-data platform',
   'uxui-hci-interactive': 'Interactive UX/UI design tutorials',
+  'polar-club': 'Membership club concept site',
   'Robotics-Automation': 'Interactive robotics course demos',
   'botzo': 'Budget DIY quadruped robot build',
   'niryo-one-digital-twin': 'Real-time robot-arm digital twin',
