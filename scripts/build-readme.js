@@ -104,6 +104,7 @@ const EXTRA = {
   blockchain: [PAGES('rodeo'), PAGES('harthat-web3-tutorial')],
   ethics:  [PAGES('openpolicystack'), PAGES('garlic')],
   robo:    [PAGES('botzo'), PAGES('niryo-one-digital-twin'), PAGES('niryo-one-datasets'), PAGES('turtlebot2-service'), PAGES('digital-twin-scalability')],
+  uxui:    [PAGES('polar-club')],
 };
 
 function ghRequest(url) {

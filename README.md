@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 | # | Course | Coursework & Projects |
 |---|---|---|
 | 4.5 | Capstone Project | 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/) |
-| 4.4 | UX/UI & Human-Computer Interaction | 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/) |
+| 4.4 | UX/UI & Human-Computer Interaction | 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/) · 🌐 [polar-club](https://andreaisabelmontana.github.io/polar-club/) |
 | 4.3 | Robotics & Automation | 🌐 [Robotics-Automation](https://andreaisabelmontana.github.io/Robotics-Automation/) · 🌐 [botzo](https://andreaisabelmontana.github.io/botzo/) · 🌐 [niryo-one-digital-twin](https://andreaisabelmontana.github.io/niryo-one-digital-twin/) · 🌐 [niryo-one-datasets](https://andreaisabelmontana.github.io/niryo-one-datasets/) · 🌐 [turtlebot2-service](https://andreaisabelmontana.github.io/turtlebot2-service/) · 🌐 [digital-twin-scalability](https://andreaisabelmontana.github.io/digital-twin-scalability/) |
 | 4.2 | Ethics, Policy & Legislation in CS | 🌐 [cs-ethics](https://andreaisabelmontana.github.io/cs-ethics/) · 🌐 [openpolicystack](https://andreaisabelmontana.github.io/openpolicystack/) · 🌐 [garlic](https://andreaisabelmontana.github.io/garlic/) |
 | 4.1 | Blockchain, Cryptocurrencies & FinTech | 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/) · 🌐 [rodeo](https://andreaisabelmontana.github.io/rodeo/) · 🌐 [harthat-web3-tutorial](https://andreaisabelmontana.github.io/harthat-web3-tutorial/) |
@@ -70,4 +70,4 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
   <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
 </p>
 
-<sub>Last refreshed 2026-06-10 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-11 · auto-generated from GitHub topics</sub>
