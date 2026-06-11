@@ -9,16 +9,16 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 # 📚 Experience
 
 [🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html)
-&nbsp;&nbsp;&nbsp;&nbsp;Real estate specialist helping improve the digital infrastructure of Bogota, Colombia
+&nbsp;&nbsp;&nbsp;&nbsp;Search homes to buy or rent in Bogotá, Colombia
 
-[🔗 Arte de la Montana](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html)
-&nbsp;&nbsp;&nbsp;&nbsp;Personal Art & Design portfolio for freelance work
+[🔗 Arte de la Montaña](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html)
+&nbsp;&nbsp;&nbsp;&nbsp;Original paintings and custom commissions
 
 [🔗 Alma de María](https://andreaisabelmontana.github.io/Alma-De-Maria/)
-&nbsp;&nbsp;&nbsp;&nbsp;Showcase site for an artisanal rosary & religious jewelry brand
+&nbsp;&nbsp;&nbsp;&nbsp;Handcrafted rosaries and religious jewelry
 
 [🔗 CyPhy Life](https://cyphy.life/)
-&nbsp;&nbsp;&nbsp;&nbsp;Researcher at IE University Robotics and AI laboratory
+&nbsp;&nbsp;&nbsp;&nbsp;AI, robotics, and HCI research at IE University
 
 # 📚 Course Portfolio
 

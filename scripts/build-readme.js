@@ -78,8 +78,122 @@ const CATEGORIES = [
 
 const TOPIC_PREFIX = 'bcsai-';
 
-const PAGES = (slug) => `🌐 [${slug}](https://${USER}.github.io/${slug}/)`;
-const SRC = (slug) => `📂 [${slug}](https://github.com/${USER}/${slug})`;
+// Short purpose tagline per repo, keyed by repo name. Appended after each link.
+const DESC = {
+  // Year 4
+  'apex-athlete': 'Unified multisport training-data platform',
+  'uxui-hci-interactive': 'Interactive UX/UI design tutorials',
+  'Robotics-Automation': 'Interactive robotics course demos',
+  'botzo': 'Budget DIY quadruped robot build',
+  'niryo-one-digital-twin': 'Real-time robot-arm digital twin',
+  'niryo-one-datasets': 'Robot-arm telemetry ML datasets',
+  'turtlebot2-service': 'Robot navigation as network services',
+  'digital-twin-scalability': 'ML autoscaling for SLA breaches',
+  'cs-ethics': 'Interactive CS ethics & policy atlas',
+  'openpolicystack': 'Microservices for evidence-based policy',
+  'garlic': 'Encode web text against scrapers',
+  'blockchain-playground': 'In-browser blockchain concept demos',
+  'rodeo': 'Blockchain multi-robot coordination framework',
+  'harthat-web3-tutorial': 'Local Solidity smart-contract tutorial',
+  // Year 3 S2
+  'fraud-detector': 'Tune fraud classification thresholds',
+  'sound-classifier': 'Classify animal sounds from audio',
+  'stat-learning': 'Interactive ML algorithm demos',
+  'beyondstats': 'Gender-inequality scoring explorer',
+  'reinforce-interactive': 'Interactive reinforcement-learning demos',
+  'mountain-car-control': 'RL agent solving Mountain Car',
+  'mesh-parking-rl': 'Grid-based RL autonomous parking',
+  'swipe-rl': 'Preference-based RL from swipes',
+  'rl-control-lab': 'Benchmark RL algorithms head-to-head',
+  'nlp-alignment-drift': 'Visualize multi-turn LLM safety drift',
+  'nlp-lab': 'Interactive NLP concept demos',
+  'truthlens': 'AI fact-checking workspace',
+  'stash': 'YouTube transcript saver & summarizer',
+  'cs-vision': 'Interactive computer-vision demos',
+  'vision-proctor': 'Browser exam proctoring via face detection',
+  'fatigued-driver-detector': 'Detect driver drowsiness with CV',
+  'ie-tower-vpr': 'Visual place recognition by image retrieval',
+  'crittercut': 'Crop & trim animal-behavior videos',
+  'SPICE': 'Projected interactive cooking guide',
+  'holovinyl-rebuild': 'Turn objects into playable records',
+  'chatbots-recsys-lab': 'Interactive recommender-systems demos',
+  'skincares-advisor': 'Decode & categorize skincare ingredients',
+  'mistral-kit': 'Chat UI components for Mistral',
+  'radical-bot': 'Minimal from-scratch chatbot tutorial',
+  'bookdb-discovery': 'AI-chat book recommendations',
+  'moviewatchlist': 'Track watched & unwatched movies',
+  'memora-rebuild': 'Capture & reflect on memories',
+  // Year 3 S1
+  'hpc-miniweather': 'In-browser HPC stencil simulation',
+  'gpu-montecarlo-risk-rebuild': 'GPU Monte Carlo risk engine',
+  'uncorrelated-returns': 'Diversification portfolio optimizer',
+  'time-series-momentum-rebuild': 'Cross-asset momentum backtester',
+  'aimes-emanager': 'Pilot-job workflow manager for HPC',
+  'hpc-course': 'Hands-on HPC course with clusters',
+  'hpc_foundations_book': 'Intro book on HPC fundamentals',
+  'hpc_applications_book': 'Book on supercomputing applications',
+  'robotics-lab-interactive': 'Browser sandbox for robotics concepts',
+  'ai-reasoning-games': 'Playable AI strategy demos',
+  'symphony': 'C++20 graph-search algorithms framework',
+  'victoria-rebuild': 'Play Connect 4 vs AI',
+  'neural-noir-rebuild': 'Procedural detective deduction game',
+  'sddo-notes': 'Software dev & DevOps study notes',
+  'Software-Development-And-Devops': 'Demo e-commerce shop app',
+  'topliving-inmobiliaria': 'Colombian real-estate listings platform',
+  'qrate': 'In-browser QR code generator',
+  'rerun': 'Workflow automation ops dashboard',
+  'bug-tracker': 'Auto-tagging issue tracker',
+  'daybook': 'Local daily journaling app',
+  'dotfiles': 'Version-controlled machine setup',
+  'sublime-config': 'Synced editor config',
+  'dev-vm-setup': 'Automated dev VM provisioning',
+  'java-study': 'Interactive Java learning site',
+  'library-system': 'Multi-role library management app',
+  'futclub-manager': 'Football club management app',
+  // Year 2
+  'stats-lab': 'Interactive statistics visualizer',
+  'linalg-lab': 'Interactive linear-algebra visualizer',
+  'entrep-lab': 'Venture-building & validation tools',
+  'foodloop-rebuild': 'Surplus-food discount marketplace',
+  'sql-lab': 'Browser SQL learning playground',
+  'fantasy-forum': 'Fantasy football discussion forum',
+  'matchup': 'Football tournament standings tracker',
+  'tablepro-rebuild': 'Spreadsheet-style data table tool',
+  'affect-lab': 'Emotion-modeling neural-net demos',
+  'ml-lab': 'Interactive ML concept visualizer',
+  'efficient-classifier-rebuild': 'YAML-configured classification pipeline',
+  'heuristic-compiler-rebuild': 'Compiles JSON rules into a classifier',
+  'tech-lab': 'Low-code & generative-AI demos',
+  'cp1-lab': 'Interactive C programming visualizer',
+  'arch-lab': 'Architecture & networking sims',
+  'hostpad-802.11r': 'Fast-roaming Wi-Fi configuration',
+  'terminalchat-rebuild': 'Terminal LAN chat client',
+  'cloud-lab': 'Interactive cloud-computing simulator',
+  'petcare': 'Pet management DevOps app',
+  'calc-lab': 'Interactive calculus visualizer',
+  'calculus-toolkit-site': 'Browser calculus plotting toolkit',
+  'algos-lab': 'Animated algorithm visualizer',
+  // Year 1
+  'modeling-lab': 'Modeling & simulation playground',
+  'programming-principles-lab': 'Code-execution concept visualizer',
+  'physics-cs-lab': 'Interactive physics simulation lab',
+  'pyfreebody': 'Python free-body diagram generator',
+  'radioform-web': 'Browser parametric EQ tool',
+  'humanities-lab': 'Technology-and-society study companion',
+  'data-analysis-lab': 'Statistical inference visualizer',
+  'vigiview': 'Adverse drug event explorer',
+  'shopsmart': 'Grocery price-comparison app',
+  'big-history-lab': 'Cosmic-to-human history visualizer',
+  'research-methods-lab': 'Research methods visualizer',
+  'business-lab': 'Business & market concept visualizer',
+  'prob-stats-lab': 'Probability & statistics visualizer',
+  'discrete-math-lab': 'Discrete-math concept visualizer',
+};
+
+const desc = (slug) => (DESC[slug] ? ` — ${DESC[slug]}` : '');
+
+const PAGES = (slug) => `🌐 [${slug}](https://${USER}.github.io/${slug}/)${desc(slug)}`;
+const SRC = (slug) => `📂 [${slug}](https://github.com/${USER}/${slug})${desc(slug)}`;
 
 // Independent projects & study rebuilds, curated into the course they fit.
 // Merged with topic-tagged course repos in the same row.
@@ -92,7 +206,7 @@ const EXTRA = {
   db:      [PAGES('fantasy-forum'), PAGES('matchup'), SRC('tablepro-rebuild')],
   entrep:  [PAGES('foodloop-rebuild')],
   cp2:     [PAGES('futclub-manager')],
-  iec:     ['🎤 [pitch deck](https://canva.link/hah28m2jrnhfj42)'],
+  iec:     ['🎤 [pitch deck](https://canva.link/hah28m2jrnhfj42) — IE Challenge startup pitch'],
   sddo:    [PAGES('qrate'), PAGES('rerun'), PAGES('bug-tracker'), PAGES('daybook'), PAGES('dotfiles'), PAGES('sublime-config'), PAGES('dev-vm-setup')],
   reason:  [PAGES('symphony'), PAGES('victoria-rebuild'), PAGES('neural-noir-rebuild')],
   hpc:     [PAGES('gpu-montecarlo-risk-rebuild'), PAGES('uncorrelated-returns'), PAGES('time-series-momentum-rebuild'), PAGES('aimes-emanager'), PAGES('hpc-course'), PAGES('hpc_foundations_book'), PAGES('hpc_applications_book')],
@@ -158,7 +272,7 @@ function pickUrl(repo) {
 }
 
 function renderRepoLink(repo) {
-  return `${pickEmoji(repo)} [${repo.name}](${pickUrl(repo)})`;
+  return `${pickEmoji(repo)} [${repo.name}](${pickUrl(repo)})${desc(repo.name)}`;
 }
 
 function buildTable(repos) {
@@ -185,7 +299,7 @@ function buildTable(repos) {
         .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name))
         .map(renderRepoLink);
       const links = [...matched, ...(EXTRA[slug] || [])];
-      const cell = links.length ? links.join(' · ') : '_— coming soon —_';
+      const cell = links.length ? links.join('<br>') : '_— coming soon —_';
       rows.push(`| ${year}.${perYear[year]} | ${name} | ${cell} |`);
     }
   }
