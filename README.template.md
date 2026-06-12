@@ -20,33 +20,12 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 [🔗 CyPhy Life](https://cyphy.life/)
 &nbsp;&nbsp;&nbsp;&nbsp;AI, robotics, and HCI research at IE University
 
-# 🧪 Kinetic Lab
+# 🧪 Kinetic Lab — curiosity rebuilds
 
-A collection of 15 from-scratch, browser-based interactive simulations, games, and small apps — built with vanilla JavaScript, Canvas, WebGL, and a little Three.js.
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
 
 [🔗 Kinetic Lab — open the collection](https://andreaisabelmontana.github.io/kinetic-lab/)
-&nbsp;&nbsp;&nbsp;&nbsp;Hub linking everything below
-
-**Simulations** &nbsp;
-[Orrery Lab](https://andreaisabelmontana.github.io/orrery-lab/) ·
-[Event Horizon](https://andreaisabelmontana.github.io/event-horizon/) ·
-[Ripple](https://andreaisabelmontana.github.io/ripple/) ·
-[Antfarm](https://andreaisabelmontana.github.io/antfarm/) ·
-[Murmuration](https://andreaisabelmontana.github.io/murmuration/) ·
-[Strange Attractors](https://andreaisabelmontana.github.io/strange-attractors/) ·
-[Fractal Voyager](https://andreaisabelmontana.github.io/fractal-voyager/)
-
-**Games** &nbsp;
-[Knightmare](https://andreaisabelmontana.github.io/knightmare/) ·
-[Gyrocube](https://andreaisabelmontana.github.io/gyrocube/) ·
-[Rebound](https://andreaisabelmontana.github.io/rebound/) ·
-[Coil](https://andreaisabelmontana.github.io/coil/) ·
-[Sonar](https://andreaisabelmontana.github.io/sonar/)
-
-**Apps & Data** &nbsp;
-[Nestmatch](https://andreaisabelmontana.github.io/nestmatch/) ·
-[Bank Marketing ML](https://andreaisabelmontana.github.io/bank-marketing-ml/) ·
-[Knightmare Server](https://github.com/andreaisabelmontana/knightmare-server)
+&nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
 
 # 📚 Course Portfolio
 
