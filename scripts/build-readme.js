@@ -82,6 +82,9 @@ const TOPIC_PREFIX = 'bcsai-';
 const DESC = {
   // Year 4
   'apex-athlete': 'Unified multisport training-data platform',
+  'Blockchain-Cryptocurrencies-Fintech': 'Cornell notes + ChainForge mini-blockchain capstone',
+  'UX-UI-Human-Computer-Interaction': 'Cornell notes + UX Audit Kit capstone',
+  'Final-Project': 'Cornell notes + Capstone Cockpit toolkit',
   'uxui-hci-interactive': 'Interactive UX/UI design tutorials',
   'polar-club': 'Membership club concept site',
   'Robotics-Automation': 'Interactive robotics course demos',
@@ -216,10 +219,11 @@ const EXTRA = {
   nlp:     [PAGES('truthlens'), PAGES('stash')],
   rl:      [PAGES('mountain-car-control'), PAGES('mesh-parking-rl'), PAGES('swipe-rl'), PAGES('rl-control-lab')],
   stat:    [PAGES('beyondstats')],
-  blockchain: [PAGES('rodeo'), PAGES('harthat-web3-tutorial')],
+  blockchain: [SRC('Blockchain-Cryptocurrencies-Fintech'), PAGES('rodeo'), PAGES('harthat-web3-tutorial')],
   ethics:  [PAGES('openpolicystack'), PAGES('garlic')],
   robo:    [PAGES('botzo'), PAGES('niryo-one-digital-twin'), PAGES('niryo-one-datasets'), PAGES('turtlebot2-service'), PAGES('digital-twin-scalability')],
-  uxui:    [PAGES('polar-club')],
+  uxui:    [SRC('UX-UI-Human-Computer-Interaction'), PAGES('polar-club')],
+  capstone: [SRC('Final-Project')],
 };
 
 function ghRequest(url) {
@@ -296,10 +300,18 @@ function buildTable(repos) {
     const year = (header.match(/Year (\d)/) || [])[1] || '?';
     for (const [slug, name] of courses) {
       perYear[year] = (perYear[year] || 0) + 1;
-      const matched = (byTopic.get(slug) || [])
-        .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name))
-        .map(renderRepoLink);
-      const links = [...matched, ...(EXTRA[slug] || [])];
+      const matchedRepos = (byTopic.get(slug) || [])
+        .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name));
+      const matchedNames = new Set(matchedRepos.map((r) => r.name));
+      const matched = matchedRepos.map(renderRepoLink);
+      // Drop any curated EXTRA link whose repo is already matched via topic
+      // (lets us hand-seed repos the public API temporarily omits, without
+      // duplicating them once the API starts returning them again).
+      const extra = (EXTRA[slug] || []).filter((s) => {
+        const m = s.match(/\[([^\]]+)\]/);
+        return !(m && matchedNames.has(m[1]));
+      });
+      const links = [...matched, ...extra];
       const cell = links.length ? links.join('<br>') : '_— coming soon —_';
       rows.push(`| ${year}.${perYear[year]} | ${name} | ${cell} |`);
     }
