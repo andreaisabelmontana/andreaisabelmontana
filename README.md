@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 # 📚 Course Portfolio
 A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser.
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
-&nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- COURSE_TABLE_START -->
 | # | Course | Coursework & Projects |
