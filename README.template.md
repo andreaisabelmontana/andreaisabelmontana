@@ -141,8 +141,6 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <img src="https://streak-stats.demolab.com?user=andreaisabelmontana&hide_border=true&background=00000000&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6&sideLabels=888888&dates=888888&sideNums=888888&currStreakNum=888888&stroke=888888" alt="GitHub streak" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=andreaisabelmontana&no-frame=true&no-bg=true&margin-w=4&column=7&theme=flat" alt="Trophies" />
-
 </div>
 
 <p align="center">
