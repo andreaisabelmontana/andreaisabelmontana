@@ -6,8 +6,8 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
-**_Building toward healthcare solutions that fuse AI projection mapping with robotic systems._**
-**_Learning by building from scratch — 205 original repos, ~200 live demos, zero forks._**
+**CS + AI student-athlete at IE University (BCSAI).**
+**I build interactive demos from scratch in plain JavaScript — 205 repos, ~200 live, 0 forks.**
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🧑‍💻 About
 
-I'm Andrea, a Computer Science &amp; AI student-athlete at IE University building toward healthcare solutions that integrate **AI projection mapping** with **robotic systems**. I learn by building from scratch — no engines, no frameworks I can lean on — which is why my GitHub holds **205 original repos and roughly 200 live demos** spanning computer vision, physics simulation, reinforcement learning, and interactive math. Everything here is hand-rolled and runnable in a browser, because I'd rather show the work than describe it.
+Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/).
 
 ## ✨ Featured Projects
 
@@ -42,15 +42,15 @@ I'm Andrea, a Computer Science &amp; AI student-athlete at IE University buildin
 <td width="50%" valign="top">
 
 ### 👁️ [cs-vision](https://andreaisabelmontana.github.io/cs-vision/)
-**17 browser-native computer-vision demos — camera models to diffusion.**<br>
-<sub>Hand-rolled vanilla-JS CV spanning classical pipelines through CNNs and ViT, with no framework dependencies.</sub>
+**17 computer-vision algorithms written from scratch — no libraries.**<br>
+<sub>Pinhole camera (K[R|t]), DFT, Sobel edges with corner non-max suppression, a CNN forward pass (conv / ReLU / pooling), segmentation, detection, autoencoder, self-supervised learning. 1,589 lines of vanilla JS.</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### 📐 [linalg-lab](https://andreaisabelmontana.github.io/linalg-lab/)
-**Eleven draggable, mathematically-exact linear-algebra demos.**<br>
-<sub>Turns abstract math into hands-on canvas interactions that are genuinely instructive.</sub>
+**11 interactive 2D linear-algebra demos with exact matrix math.**<br>
+<sub>Span tests via the cross product (|v×w| > 1e-6), determinants as signed area, eigenvectors, and the image of the integer lattice under any 2×2 matrix you drag. 917 lines.</sub>
 
 </td>
 </tr>
@@ -58,15 +58,15 @@ I'm Andrea, a Computer Science &amp; AI student-athlete at IE University buildin
 <td width="50%" valign="top">
 
 ### 🕳️ [black-hole-simulation](https://andreaisabelmontana.github.io/black-hole-simulation/)
-**Real-time Three.js N-body accretion disk with binary-hole mode.**<br>
-<sub>A 40,000-particle GPU physics sim with honest Newtonian gravity — immediately screenshot-worthy.</sub>
+**12,000-particle Newtonian accretion disk in Three.js.**<br>
+<sub>Inverse-square gravity (a = G·m / d³) integrated every frame, circular-orbit initial velocities (v = √(Gm/r)), optional binary black hole. No textures — the disk is the dynamics.</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🎥 [vision-proctor](https://andreaisabelmontana.github.io/vision-proctor/)
-**Browser-only exam proctor — real-time face detection, zero uploads.**<br>
-<sub>Privacy-first applied ML running entirely client-side, tied to my healthcare on-device-sensing focus.</sub>
+**Webcam exam proctor on MediaPipe BlazeFace, fully client-side.**<br>
+<sub>Runs ~30 fps in the browser with no uploads. Flags three states: no face, multiple faces, and looking away (head off-axis for more than 0.4s).</sub>
 
 </td>
 </tr>
@@ -74,21 +74,19 @@ I'm Andrea, a Computer Science &amp; AI student-athlete at IE University buildin
 <td width="50%" valign="top">
 
 ### ⛓️ [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/)
-**18 in-browser blockchain demos with real SHA-256, ECDSA, PoW.**<br>
-<sub>Implements actual cryptographic primitives and proof-of-work mining — systems depth beyond UI.</sub>
+**17 blockchain primitives built up from a hash function.**<br>
+<sub>Proof-of-work mining (increment the nonce until N leading zeros), Merkle trees, ECDSA and SHA-256 via Web Crypto, plus a toy EVM, UTXO and account models, ERC-20, and an AMM. 995 lines.</sub>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🏊 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/)
-**Triathlon coaching demo with real sports-science forecasting math.**<br>
-<sub>A SaaS-grade interactive fusing my student-athlete identity with genuine physiological modeling (TSS, cardiac-lag).</sub>
+**Triathlon training-load model: NP, IF, TSS, CTL/ATL/TSB.**<br>
+<sub>Normalized Power as the 4th root of mean power⁴, Intensity Factor = NP/FTP, TSS = hours · IF² · 100, fitness/fatigue/form tracking, and race-time forecasting.</sub>
 
 </td>
 </tr>
 </table>
-
-<div align="center"><sub>↓ and below: every course of my degree, each with its own interactive site</sub></div>
 
 ## 🛠️ Skills &amp; Tools
 
@@ -187,4 +185,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
   <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
 </p>
 
-<sub>Last refreshed 2026-06-13 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-14 · auto-generated from GitHub topics</sub>
