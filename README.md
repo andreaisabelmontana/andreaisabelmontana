@@ -172,19 +172,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <!-- COURSE_TABLE_END -->
 
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=andreaisabelmontana&show_icons=true&include_all_commits=true&hide=stars,issues&hide_border=true&bg_color=00000000&title_color=8b5cf6&icon_color=8b5cf6&text_color=888888" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andreaisabelmontana&layout=compact&langs_count=10&hide_border=true&bg_color=00000000&title_color=8b5cf6&text_color=888888" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=andreaisabelmontana&hide_border=true&background=00000000&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6&sideLabels=888888&dates=888888&sideNums=888888&currStreakNum=888888&stroke=888888" alt="GitHub streak" />
-
-</div>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=andreaisabelmontana&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
-</p>
-
 <sub>Last refreshed 2026-06-15 · auto-generated from GitHub topics</sub>
