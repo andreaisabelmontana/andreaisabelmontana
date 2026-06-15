@@ -315,6 +315,7 @@ function buildTable(repos) {
   // Build rows in chronological order, numbered `<year>.<course-in-year>`.
   const rows = [];
   const perYear = {};
+  let covered = 0; // course rows with at least one project, for the stats badge
   for (const [header, courses] of CATEGORIES) {
     const year = (header.match(/Year (\d)/) || [])[1] || '?';
     for (const [slug, name] of courses) {
@@ -331,6 +332,7 @@ function buildTable(repos) {
         return !(m && matchedNames.has(m[1]));
       });
       const links = [...matched, ...extra];
+      if (links.length) covered++;
       const cell = links.length ? links.join('<br>') : '_— coming soon —_';
       rows.push(`| ${year}.${perYear[year]} | ${name} | ${cell} |`);
     }
@@ -353,13 +355,46 @@ function buildTable(repos) {
     lines.push('');
   }
 
-  return lines.join('\n');
+  return { table: lines.join('\n'), covered };
+}
+
+// Live figures for the "By the numbers" badges, computed from the same repo
+// list that builds the table so they never drift from reality. Counts public
+// repos only, so a personal token that can see private repos still matches CI.
+function accountStats(repos, covered) {
+  const pub = repos.filter((r) => !r.private);
+  const maxYear = Math.max(
+    ...CATEGORIES.map(([h]) => Number((h.match(/Year (\d)/) || [])[1]) || 0),
+  );
+  return {
+    repos: pub.length,
+    live: pub.filter((r) => r.has_pages).length,
+    forks: pub.filter((r) => r.fork).length,
+    courses: covered,
+    year: maxYear,
+  };
+}
+
+function renderStats(s) {
+  const badge = (label, value, color, logo, alt) =>
+    `<img src="https://img.shields.io/badge/${label}-${value}-${color}?style=for-the-badge&logo=${logo}&logoColor=white" alt="${alt}" />`;
+  return [
+    badge('Repositories', s.repos, '8b5cf6', 'github', `${s.repos} repositories`),
+    badge('Live_Sites', s.live, '22c55e', 'githubpages', `${s.live} live sites`),
+    badge('Forks', s.forks, 'ec4899', 'git', `${s.forks} forks`),
+    badge('Courses_Documented', s.courses, '3b82f6', 'googlescholar', `${s.courses} courses`),
+    badge('BCSAI', `Year_${s.year}`, 'f59e0b', 'academia', `Year ${s.year}`),
+  ].join('\n');
 }
 
 async function main() {
   const repos = await fetchAllRepos();
   console.error(`Fetched ${repos.length} repos`);
-  const table = buildTable(repos);
+  const { table, covered } = buildTable(repos);
+  const stats = accountStats(repos, covered);
+  console.error(
+    `Stats: ${stats.repos} repos · ${stats.live} live · ${stats.forks} forks · ${stats.courses} courses · Year ${stats.year}`,
+  );
 
   const template = fs.readFileSync(path.join(ROOT, 'README.template.md'), 'utf8');
   const stamp = new Date().toISOString().slice(0, 10);
@@ -368,6 +403,10 @@ async function main() {
     .replace(
       /<!-- COURSE_TABLE_START -->[\s\S]*?<!-- COURSE_TABLE_END -->/,
       `<!-- COURSE_TABLE_START -->\n${table}\n<!-- COURSE_TABLE_END -->`,
+    )
+    .replace(
+      /<!-- STATS_START -->[\s\S]*?<!-- STATS_END -->/,
+      `<!-- STATS_START -->\n${renderStats(stats)}\n<!-- STATS_END -->`,
     )
     .replace(
       /<!-- LAST_UPDATED -->/,

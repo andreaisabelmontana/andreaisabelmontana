@@ -21,11 +21,13 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ### 📊 By the numbers
 
+<!-- STATS_START -->
 <img src="https://img.shields.io/badge/Repositories-205-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="205 repositories" />
-<img src="https://img.shields.io/badge/Live_Sites-~200-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="~200 live sites" />
+<img src="https://img.shields.io/badge/Live_Sites-200-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="200 live sites" />
 <img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
 <img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
 <img src="https://img.shields.io/badge/BCSAI-Year_4-f59e0b?style=for-the-badge&logo=academia&logoColor=white" alt="Year 4" />
+<!-- STATS_END -->
 
 <sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
 
