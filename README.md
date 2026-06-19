@@ -25,10 +25,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 </div>
 
-## 🧑‍💻 About
-
-Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/).
-
 ## ✨ Featured Projects
 
 <table>
@@ -111,7 +107,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## 🧪 Interactive Simulations &amp; Games — curiosity rebuilds
 
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** 
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
 &nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
