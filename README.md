@@ -17,14 +17,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ---
 
-<div align="center">
-
-
-
-<sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
-
-</div>
-
 ## ✨ Featured Projects
 
 <table>
