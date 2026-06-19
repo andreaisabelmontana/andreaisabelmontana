@@ -7,7 +7,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
 **CS + AI student-athlete at IE University (BCSAI).**
-**I build interactive demos from scratch in plain JavaScript — 205 repos, ~200 live, 0 forks.**
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
