@@ -35,7 +35,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## ✨ Featured Projects
 
-> Four production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+> Five production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
 
 <table>
 <tr>
@@ -67,6 +67,15 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 ### 🧩 [parsekit](https://github.com/andreaisabelmontana/parsekit)
 **A strongly-typed parser-combinator library for TypeScript.**<br>
 <sub><code>seq</code> returns a typed tuple; <code>alt</code> / <code>many</code> / <code>sepBy</code> / <code>lazy</code> handle recursive grammars — with a full JSON parser (agrees with <code>JSON.parse</code>) and an arithmetic evaluator built on top. Strict TS, zero deps, 22 tests.</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson) — a regex engine in C
+**Thompson NFA construction: linear-time matching with no backtracking.**<br>
+<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang for seconds. ~350 lines, zero dependencies, tested under ASan + UBSan.</sub>
 
 </td>
 </tr>

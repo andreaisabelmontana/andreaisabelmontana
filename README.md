@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ### 📊 By the numbers
 
 <!-- STATS_START -->
-<img src="https://img.shields.io/badge/Repositories-209-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="209 repositories" />
+<img src="https://img.shields.io/badge/Repositories-210-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="210 repositories" />
 <img src="https://img.shields.io/badge/Live_Sites-201-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="201 live sites" />
 <img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
 <img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
@@ -39,7 +39,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## ✨ Featured Projects
 
-> Four production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+> Five production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
 
 <table>
 <tr>
@@ -71,6 +71,15 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 ### 🧩 [parsekit](https://github.com/andreaisabelmontana/parsekit)
 **A strongly-typed parser-combinator library for TypeScript.**<br>
 <sub><code>seq</code> returns a typed tuple; <code>alt</code> / <code>many</code> / <code>sepBy</code> / <code>lazy</code> handle recursive grammars — with a full JSON parser (agrees with <code>JSON.parse</code>) and an arithmetic evaluator built on top. Strict TS, zero deps, 22 tests.</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson) — a regex engine in C
+**Thompson NFA construction: linear-time matching with no backtracking.**<br>
+<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang for seconds. ~350 lines, zero dependencies, tested under ASan + UBSan.</sub>
 
 </td>
 </tr>
