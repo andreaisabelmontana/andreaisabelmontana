@@ -22,10 +22,11 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ### 📊 By the numbers
 
 <!-- STATS_START -->
-<img src="https://img.shields.io/badge/Repositories-205-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="205 repositories" />
-<img src="https://img.shields.io/badge/Live_Sites-200-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="200 live sites" />
+<img src="https://img.shields.io/badge/Repositories-209-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="209 repositories" />
+<img src="https://img.shields.io/badge/Live_Sites-201-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="201 live sites" />
 <img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
 <img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
+<img src="https://img.shields.io/badge/BCSAI-Year_4-f59e0b?style=for-the-badge&logo=academia&logoColor=white" alt="Year 4" />
 <!-- STATS_END -->
 
 <sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
@@ -34,11 +35,45 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🧑‍💻 About
 
-Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/).
+Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/). Lately I've also been shipping production-grade tools in systems and typed languages — **Rust, Go, C++, and TypeScript** — the four flagships below.
 
 ## ✨ Featured Projects
 
+> Four production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🦀 [repoforge](https://andreaisabelmontana.github.io/repoforge/)
+**Async Rust CLI that audits any GitHub account against an 11-check quality rubric — and auto-fixes the gaps.**<br>
+<sub>Scores every repo 0–100 and generates the missing README / license / CI / .gitignore / topics, applied by direct commit or pull request. Run across this account it lifted the average **51.8 → 69.6**. tokio + reqwest, 12 tests, live HTML dashboard, weekly self-audit.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 [linkrot](https://github.com/andreaisabelmontana/linkrot)
+**Fast concurrent broken-link & asset checker, in Go.**<br>
+<sub>Bounded-concurrency BFS crawl of same-host pages, then every link verified in parallel (HEAD→GET), reported broken-first with the page that references it. <code>--fail-on-error</code> CI gate. Standard library + x/net only.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [nanograd](https://github.com/andreaisabelmontana/nanograd)
+**A reverse-mode autograd engine + neural net, from scratch in header-only C++17.**<br>
+<sub>The machinery behind <code>loss.backward()</code> in ~200 lines, zero deps: a dynamic computation graph, topological backprop, and an MLP that learns XOR (loss 5.0 → 0.004). Gradients verified against finite differences.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [parsekit](https://github.com/andreaisabelmontana/parsekit)
+**A strongly-typed parser-combinator library for TypeScript.**<br>
+<sub><code>seq</code> returns a typed tuple; <code>alt</code> / <code>many</code> / <code>sepBy</code> / <code>lazy</code> handle recursive grammars — with a full JSON parser (agrees with <code>JSON.parse</code>) and an arithmetic evaluator built on top. Strict TS, zero deps, 22 tests.</sub>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -118,7 +153,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## 🧪 Interactive Simulations &amp; Games — curiosity rebuilds
 
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. They double as coursework, so you'll also find them under their related courses below.
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
 &nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15

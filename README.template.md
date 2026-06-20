@@ -31,11 +31,45 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🧑‍💻 About
 
-Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/).
+Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/). Lately I've also been shipping production-grade tools in systems and typed languages — **Rust, Go, C++, and TypeScript** — the four flagships below.
 
 ## ✨ Featured Projects
 
+> Four production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### 🦀 [repoforge](https://andreaisabelmontana.github.io/repoforge/)
+**Async Rust CLI that audits any GitHub account against an 11-check quality rubric — and auto-fixes the gaps.**<br>
+<sub>Scores every repo 0–100 and generates the missing README / license / CI / .gitignore / topics, applied by direct commit or pull request. Run across this account it lifted the average **51.8 → 69.6**. tokio + reqwest, 12 tests, live HTML dashboard, weekly self-audit.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 [linkrot](https://github.com/andreaisabelmontana/linkrot)
+**Fast concurrent broken-link & asset checker, in Go.**<br>
+<sub>Bounded-concurrency BFS crawl of same-host pages, then every link verified in parallel (HEAD→GET), reported broken-first with the page that references it. <code>--fail-on-error</code> CI gate. Standard library + x/net only.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [nanograd](https://github.com/andreaisabelmontana/nanograd)
+**A reverse-mode autograd engine + neural net, from scratch in header-only C++17.**<br>
+<sub>The machinery behind <code>loss.backward()</code> in ~200 lines, zero deps: a dynamic computation graph, topological backprop, and an MLP that learns XOR (loss 5.0 → 0.004). Gradients verified against finite differences.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 [parsekit](https://github.com/andreaisabelmontana/parsekit)
+**A strongly-typed parser-combinator library for TypeScript.**<br>
+<sub><code>seq</code> returns a typed tuple; <code>alt</code> / <code>many</code> / <code>sepBy</code> / <code>lazy</code> handle recursive grammars — with a full JSON parser (agrees with <code>JSON.parse</code>) and an arithmetic evaluator built on top. Strict TS, zero deps, 22 tests.</sub>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
