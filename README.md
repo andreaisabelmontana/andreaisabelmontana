@@ -118,7 +118,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## 🧪 Interactive Simulations &amp; Games — curiosity rebuilds
 
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. They double as coursework, so you'll also find them under their related courses below.
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
 &nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
