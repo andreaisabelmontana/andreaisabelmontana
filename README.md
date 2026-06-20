@@ -6,6 +6,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
+**CS + AI student-athlete at IE University (BCSAI).**
+**I build interactive demos from scratch in plain JavaScript — 205 repos, ~200 live, 0 forks.**
+
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
 <a href="https://github.com/andreaisabelmontana"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
@@ -13,6 +16,26 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 </div>
 
 ---
+
+<div align="center">
+
+### 📊 By the numbers
+
+<!-- STATS_START -->
+<img src="https://img.shields.io/badge/Repositories-205-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="205 repositories" />
+<img src="https://img.shields.io/badge/Live_Sites-200-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="200 live sites" />
+<img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
+<img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
+<img src="https://img.shields.io/badge/BCSAI-Year_4-f59e0b?style=for-the-badge&logo=academia&logoColor=white" alt="Year 4" />
+<!-- STATS_END -->
+
+<sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
+
+</div>
+
+## 🧑‍💻 About
+
+Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/).
 
 ## ✨ Featured Projects
 
@@ -96,7 +119,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 🧪 Interactive Simulations &amp; Games — curiosity rebuilds
 
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** 
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
 &nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
@@ -149,4 +172,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <!-- COURSE_TABLE_END -->
 
-<sub>Last refreshed 2026-06-19 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-20 · auto-generated from GitHub topics</sub>
