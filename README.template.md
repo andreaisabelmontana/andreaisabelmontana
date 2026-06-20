@@ -35,7 +35,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## ✨ Featured Projects
 
-> Five production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+> Six production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
 
 <table>
 <tr>
@@ -71,11 +71,18 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
-### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson) — a regex engine in C
-**Thompson NFA construction: linear-time matching with no backtracking.**<br>
-<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang for seconds. ~350 lines, zero dependencies, tested under ASan + UBSan.</sub>
+### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson)
+**A regex engine in C, on Thompson NFA construction — linear-time, no backtracking.**<br>
+<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang. ~350 lines, zero deps, tested under ASan + UBSan.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔢 [recalc](https://github.com/andreaisabelmontana/recalc)
+**A spreadsheet formula engine in Java.**<br>
+<sub>Recursive-descent parser → a Java 17 sealed-type + record AST → on-read evaluation that recalculates dependents and detects reference cycles (<code>#CYCLE!</code>). Maven + JUnit 5, 19 tests.</sub>
 
 </td>
 </tr>
