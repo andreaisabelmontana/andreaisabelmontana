@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ### 📊 By the numbers
 
 <!-- STATS_START -->
-<img src="https://img.shields.io/badge/Repositories-211-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="211 repositories" />
+<img src="https://img.shields.io/badge/Repositories-212-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="212 repositories" />
 <img src="https://img.shields.io/badge/Live_Sites-201-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="201 live sites" />
 <img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
 <img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
@@ -39,7 +39,7 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## ✨ Featured Projects
 
-> Six production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+> Seven production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
 
 <table>
 <tr>
@@ -87,6 +87,15 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 ### 🔢 [recalc](https://github.com/andreaisabelmontana/recalc)
 **A spreadsheet formula engine in Java.**<br>
 <sub>Recursive-descent parser → a Java 17 sealed-type + record AST → on-read evaluation that recalculates dependents and detects reference cycles (<code>#CYCLE!</code>). Maven + JUnit 5, 19 tests.</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🗃️ [tinysql](https://github.com/andreaisabelmontana/tinysql) — a SQL engine over CSV in Python
+**Lexer → recursive-descent parser → executor, run real queries on a CSV.**<br>
+<sub><code>SELECT</code> with <code>WHERE</code> (AND/OR/parens), <code>ORDER BY</code>, <code>LIMIT</code>, and COUNT/SUM/AVG/MIN/MAX aggregates over a frozen-dataclass AST. Typed (mypy --strict), 26 tests, standard library only.</sub>
 
 </td>
 </tr>
@@ -222,4 +231,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <!-- COURSE_TABLE_END -->
 
-<sub>Last refreshed 2026-06-20 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-21 · auto-generated from GitHub topics</sub>
