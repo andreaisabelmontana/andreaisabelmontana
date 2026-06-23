@@ -26,10 +26,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 </div>
 
-## 🧑‍💻 About
-
-Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/). Lately I've also been shipping production-grade tools in systems and typed languages — **Rust, Go, C++, and TypeScript** — the four flagships below.
-
 ## ✨ Featured Projects
 
 > Seven production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
