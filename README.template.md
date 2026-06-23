@@ -35,111 +35,38 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 
 ## ✨ Featured Projects
 
-> Seven production-grade tools, each from scratch in a different systems/typed language — tested and CI'd.
+> Four flagship tools, each built from scratch in a different language — tested, CI'd, MIT. Everything else is grouped by course below.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🦀 [repoforge](https://andreaisabelmontana.github.io/repoforge/)
-**Async Rust CLI that audits any GitHub account against an 11-check quality rubric — and auto-fixes the gaps.**<br>
-<sub>Scores every repo 0–100 and generates the missing README / license / CI / .gitignore / topics, applied by direct commit or pull request. Run across this account it lifted the average **51.8 → 69.6**. tokio + reqwest, 12 tests, live HTML dashboard, weekly self-audit.</sub>
+### 🦀 [repoforge](https://andreaisabelmontana.github.io/repoforge/) · Rust
+**Audits any GitHub account against an 11-check quality rubric and auto-fixes the gaps.**<br>
+<sub>Async CLI (tokio + reqwest): scores every repo 0–100 and generates the missing README / license / CI / .gitignore / topics, by commit or PR. Applied here it lifted the account average 51.8 → 69.6. 12 tests, live dashboard, weekly self-audit.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🔗 [linkrot](https://github.com/andreaisabelmontana/linkrot)
-**Fast concurrent broken-link & asset checker, in Go.**<br>
-<sub>Bounded-concurrency BFS crawl of same-host pages, then every link verified in parallel (HEAD→GET), reported broken-first with the page that references it. <code>--fail-on-error</code> CI gate. Standard library + x/net only.</sub>
+### 🧠 [nanograd](https://github.com/andreaisabelmontana/nanograd) · C++17
+**A reverse-mode autograd engine + neural net, from scratch in ~200 lines.**<br>
+<sub>The machinery behind <code>loss.backward()</code>, zero deps: a dynamic computation graph, topological backprop, and an MLP that learns XOR (loss 5.0 → 0.004). Gradients checked against finite differences.</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [nanograd](https://github.com/andreaisabelmontana/nanograd)
-**A reverse-mode autograd engine + neural net, from scratch in header-only C++17.**<br>
-<sub>The machinery behind <code>loss.backward()</code> in ~200 lines, zero deps: a dynamic computation graph, topological backprop, and an MLP that learns XOR (loss 5.0 → 0.004). Gradients verified against finite differences.</sub>
+### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson) · C
+**A regex engine on Thompson NFA construction — linear-time, no backtracking.**<br>
+<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang. Zero deps, tested under ASan + UBSan.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### 🧩 [parsekit](https://github.com/andreaisabelmontana/parsekit)
-**A strongly-typed parser-combinator library for TypeScript.**<br>
-<sub><code>seq</code> returns a typed tuple; <code>alt</code> / <code>many</code> / <code>sepBy</code> / <code>lazy</code> handle recursive grammars — with a full JSON parser (agrees with <code>JSON.parse</code>) and an arithmetic evaluator built on top. Strict TS, zero deps, 22 tests.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson)
-**A regex engine in C, on Thompson NFA construction — linear-time, no backtracking.**<br>
-<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang. ~350 lines, zero deps, tested under ASan + UBSan.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔢 [recalc](https://github.com/andreaisabelmontana/recalc)
-**A spreadsheet formula engine in Java.**<br>
-<sub>Recursive-descent parser → a Java 17 sealed-type + record AST → on-read evaluation that recalculates dependents and detects reference cycles (<code>#CYCLE!</code>). Maven + JUnit 5, 19 tests.</sub>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🗃️ [tinysql](https://github.com/andreaisabelmontana/tinysql) — a SQL engine over CSV in Python
-**Lexer → recursive-descent parser → executor, run real queries on a CSV.**<br>
-<sub><code>SELECT</code> with <code>WHERE</code> (AND/OR/parens), <code>ORDER BY</code>, <code>LIMIT</code>, and COUNT/SUM/AVG/MIN/MAX aggregates over a frozen-dataclass AST. Typed (mypy --strict), 26 tests, standard library only.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 👁️ [cs-vision](https://andreaisabelmontana.github.io/cs-vision/)
-**17 computer-vision algorithms written from scratch — no libraries.**<br>
-<sub>Pinhole camera (K[R|t]), DFT, Sobel edges with corner non-max suppression, a CNN forward pass (conv / ReLU / pooling), segmentation, detection, autoencoder, self-supervised learning. 1,589 lines of vanilla JS.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 📐 [linalg-lab](https://andreaisabelmontana.github.io/linalg-lab/)
-**11 interactive 2D linear-algebra demos with exact matrix math.**<br>
-<sub>Span tests via the cross product (|v×w| > 1e-6), determinants as signed area, eigenvectors, and the image of the integer lattice under any 2×2 matrix you drag. 917 lines.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🕳️ [black-hole-simulation](https://andreaisabelmontana.github.io/black-hole-simulation/)
-**12,000-particle Newtonian accretion disk in Three.js.**<br>
-<sub>Inverse-square gravity (a = G·m / d³) integrated every frame, circular-orbit initial velocities (v = √(Gm/r)), optional binary black hole. No textures — the disk is the dynamics.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎥 [vision-proctor](https://andreaisabelmontana.github.io/vision-proctor/)
-**Webcam exam proctor on MediaPipe BlazeFace, fully client-side.**<br>
-<sub>Runs ~30 fps in the browser with no uploads. Flags three states: no face, multiple faces, and looking away (head off-axis for more than 0.4s).</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⛓️ [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/)
-**17 blockchain primitives built up from a hash function.**<br>
-<sub>Proof-of-work mining (increment the nonce until N leading zeros), Merkle trees, ECDSA and SHA-256 via Web Crypto, plus a toy EVM, UTXO and account models, ERC-20, and an AMM. 995 lines.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏊 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/)
-**Triathlon training-load model: NP, IF, TSS, CTL/ATL/TSB.**<br>
-<sub>Normalized Power as the 4th root of mean power⁴, Intensity Factor = NP/FTP, TSS = hours · IF² · 100, fitness/fatigue/form tracking, and race-time forecasting.</sub>
+### 🗃️ [tinysql](https://github.com/andreaisabelmontana/tinysql) · Python
+**A SQL query engine over CSV files — lexer, recursive-descent parser, executor.**<br>
+<sub><code>SELECT</code> with <code>WHERE</code> (AND/OR/parens), <code>ORDER BY</code>, <code>LIMIT</code> and COUNT/SUM/AVG/MIN/MAX over a frozen-dataclass AST. Typed (mypy --strict), 26 tests, standard library only.</sub>
 
 </td>
 </tr>
