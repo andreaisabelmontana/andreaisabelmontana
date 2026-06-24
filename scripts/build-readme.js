@@ -299,7 +299,7 @@ function renderRepoLink(repo) {
   return `${pickEmoji(repo)} [${repo.name}](${pickUrl(repo)})${desc(repo.name)}`;
 }
 
-function buildTable(repos) {
+function buildTable(repos, archived = new Set()) {
   // Map: topic-suffix -> list of repos
   const byTopic = new Map();
   for (const repo of repos) {
@@ -329,7 +329,8 @@ function buildTable(repos) {
       // duplicating them once the API starts returning them again).
       const extra = (EXTRA[slug] || []).filter((s) => {
         const m = s.match(/\[([^\]]+)\]/);
-        return !(m && matchedNames.has(m[1]));
+        if (!m) return true; // non-repo links (e.g. a pitch deck) always stay
+        return !matchedNames.has(m[1]) && !archived.has(m[1]); // drop already-matched or archived
       });
       const links = [...matched, ...extra];
       if (links.length) covered++;
@@ -390,8 +391,9 @@ function renderStats(s) {
 async function main() {
   const all = await fetchAllRepos();
   const repos = all.filter((r) => !r.archived); // archived repos are hidden from the profile
-  console.error(`Fetched ${all.length} repos (${repos.length} active, ${all.length - repos.length} archived & hidden)`);
-  const { table, covered } = buildTable(repos);
+  const archived = new Set(all.filter((r) => r.archived).map((r) => r.name));
+  console.error(`Fetched ${all.length} repos (${repos.length} active, ${archived.size} archived & hidden)`);
+  const { table, covered } = buildTable(repos, archived);
   const stats = accountStats(repos, covered);
   console.error(
     `Stats: ${stats.repos} repos · ${stats.live} live · ${stats.forks} forks · ${stats.courses} courses · Year ${stats.year}`,
