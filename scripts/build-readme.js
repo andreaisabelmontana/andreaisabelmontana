@@ -388,8 +388,9 @@ function renderStats(s) {
 }
 
 async function main() {
-  const repos = await fetchAllRepos();
-  console.error(`Fetched ${repos.length} repos`);
+  const all = await fetchAllRepos();
+  const repos = all.filter((r) => !r.archived); // archived repos are hidden from the profile
+  console.error(`Fetched ${all.length} repos (${repos.length} active, ${all.length - repos.length} archived & hidden)`);
   const { table, covered } = buildTable(repos);
   const stats = accountStats(repos, covered);
   console.error(
