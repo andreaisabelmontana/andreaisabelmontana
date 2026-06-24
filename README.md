@@ -4,7 +4,10 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 # Andrea Isabel Montana
 
-### Computer Science &amp; Artificial Intelligence 
+### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
+
+**CS + AI student-athlete at IE University (BCSAI).**
+**I build interactive demos from scratch in plain JavaScript — 205 repos, ~200 live, 0 forks.**
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
@@ -29,6 +32,10 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 <sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
 
 </div>
+
+## 🧑‍💻 About
+
+Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/). Lately I've also been shipping production-grade tools in systems and typed languages — **Rust, Go, C++, and TypeScript** — the four flagships below.
 
 ## ✨ Featured Projects
 
@@ -151,4 +158,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <!-- COURSE_TABLE_END -->
 
-<sub>Last refreshed 2026-06-23 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-24 · auto-generated from GitHub topics</sub>
