@@ -2,6 +2,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 <div align="center">
 
+# Andrea Isabel Montana
+
+### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
@@ -10,65 +13,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 </div>
 
 ---
-
-<div align="center">
-
-### 📊 By the numbers
-
-<!-- STATS_START -->
-<img src="https://img.shields.io/badge/Repositories-212-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="212 repositories" />
-<img src="https://img.shields.io/badge/Live_Sites-201-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="201 live sites" />
-<img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
-<img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
-<img src="https://img.shields.io/badge/BCSAI-Year_4-f59e0b?style=for-the-badge&logo=academia&logoColor=white" alt="Year 4" />
-<!-- STATS_END -->
-
-<sub>Every repository is original work — <b>0 forks</b> across the whole account. Each course I take gets its own interactive companion site.</sub>
-
-</div>
-
-## 🧑‍💻 About
-
-Most of what I build is single-page interactive demos in plain JavaScript — no engines, no frameworks. The topics track my degree: computer vision, physics simulation, reinforcement learning, linear algebra, blockchain, robotics. Every course has a companion site, and all 38 are in the table below. My research is on healthcare systems that combine AI projection mapping with robotics, which I work on at [CyPhy Life](https://cyphy.life/). Lately I've also been shipping production-grade tools in systems and typed languages — **Rust, Go, C++, and TypeScript** — the four flagships below.
-
-## ✨ Featured Projects
-
-> Four flagship tools, each built from scratch in a different language — tested, CI'd, MIT. Everything else is grouped by course below.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🦀 [repoforge](https://andreaisabelmontana.github.io/repoforge/) · Rust
-**Audits any GitHub account against an 11-check quality rubric and auto-fixes the gaps.**<br>
-<sub>Async CLI (tokio + reqwest): scores every repo 0–100 and generates the missing README / license / CI / .gitignore / topics, by commit or PR. Applied here it lifted the account average 51.8 → 69.6. 12 tests, live dashboard, weekly self-audit.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 [nanograd](https://github.com/andreaisabelmontana/nanograd) · C++17
-**A reverse-mode autograd engine + neural net, from scratch in ~200 lines.**<br>
-<sub>The machinery behind <code>loss.backward()</code>, zero deps: a dynamic computation graph, topological backprop, and an MLP that learns XOR (loss 5.0 → 0.004). Gradients checked against finite differences.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔤 [thompson](https://github.com/andreaisabelmontana/thompson) · C
-**A regex engine on Thompson NFA construction — linear-time, no backtracking.**<br>
-<sub>Tokeniser → shunting-yard → NFA → multi-state simulation. Matches pathological patterns like <code>(a*)*</code> in microseconds where backtracking engines hang. Zero deps, tested under ASan + UBSan.</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🗃️ [tinysql](https://github.com/andreaisabelmontana/tinysql) · Python
-**A SQL query engine over CSV files — lexer, recursive-descent parser, executor.**<br>
-<sub><code>SELECT</code> with <code>WHERE</code> (AND/OR/parens), <code>ORDER BY</code>, <code>LIMIT</code> and COUNT/SUM/AVG/MIN/MAX over a frozen-dataclass AST. Typed (mypy --strict), 26 tests, standard library only.</sub>
-
-</td>
-</tr>
-</table>
 
 ## 🛠️ Skills &amp; Tools
 
@@ -83,26 +27,11 @@ Most of what I build is single-page interactive demos in plain JavaScript — no
 <tr><td><b>Robotics &amp; Systems</b></td><td>Digital twins · Arduino · Raspberry Pi · HPC · Cloud · DevOps</td></tr>
 </table>
 
-## 🔬 Experience &amp; Research
+## 🧪 Interactive Simulations &amp; Games
 
-[🔗 CyPhy Life](https://cyphy.life/)
-&nbsp;&nbsp;&nbsp;&nbsp;AI, robotics, and HCI research at IE University
-
-[🔗 Top Living Inmobiliaria](https://andreaisabelmontana.github.io/topliving-inmobiliaria/properties.html)
-&nbsp;&nbsp;&nbsp;&nbsp;Search homes to buy or rent in Bogotá, Colombia
-
-[🔗 Arte de la Montaña](https://andreaisabelmontana.github.io/Arte-De-La-Montana/index.html)
-&nbsp;&nbsp;&nbsp;&nbsp;Original paintings and custom commissions
-
-[🔗 Alma de María](https://andreaisabelmontana.github.io/Alma-De-Maria/)
-&nbsp;&nbsp;&nbsp;&nbsp;Handcrafted rosaries and religious jewelry
-
-## 🧪 Interactive Simulations &amp; Games — curiosity rebuilds
-
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea.** Each one recreates an existing project or concept that caught my eye — and curiosity about *how it actually works* pushed me to rebuild it my own way, with no engine or framework, and to make it a little different and better as I went. They double as coursework, so you'll also find them under their related courses below.
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea** — each recreates an existing project that caught my eye, rebuilt my own way with no engine or framework.
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
-&nbsp;&nbsp;&nbsp;&nbsp;The hub linking all 15
 
 ## 📚 Course Portfolio
 
