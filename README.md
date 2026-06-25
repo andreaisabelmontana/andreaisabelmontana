@@ -81,4 +81,4 @@ A collection of 15 interactive simulations, games, and small apps I rebuilt from
 
 <!-- COURSE_TABLE_END -->
 
-<sub>Last refreshed 2026-06-24 · auto-generated from GitHub topics</sub>
+<sub>Last refreshed 2026-06-25 · auto-generated from GitHub topics</sub>
