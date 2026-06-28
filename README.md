@@ -2,7 +2,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 <div align="center">
 
-### Computer Science &amp; Artificial Intelligence 
+# Andrea Isabel Montana
+
+### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
@@ -24,6 +26,10 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 <tr><td><b>Web &amp; Graphics</b></td><td>React · Next.js · Three.js / WebGL · Canvas · Node.js · Tailwind</td></tr>
 <tr><td><b>Robotics &amp; Systems</b></td><td>Arduino · Raspberry Pi · HPC · Cloud · DevOps</td></tr>
 </table>
+
+## 🧪 Interactive Simulations &amp; Games
+
+A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea** — each recreates an existing project that caught my eye, rebuilt my own way with no engine or framework.
 
 [🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
 
