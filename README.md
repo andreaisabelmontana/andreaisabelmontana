@@ -2,7 +2,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 <div align="center">
 
-### Computer Science &amp; Artificial Intelligence
+# Andrea Isabel Montana
+
+### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
@@ -15,14 +17,14 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 ## 🛠️ Skills &amp; Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,cpp,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,vscode,firebase,vercel,docker,figma,arduino,unity,blender,raspberrypi&perline=12" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,java,cpp,rust,go,react,nextjs,nodejs,tailwind,threejs,pytorch,git,github,vscode,firebase,vercel,docker,figma,raspberrypi,arduino&perline=12" />
 </p>
 
 <table align="center">
-<tr><td><b>Languages</b></td><td>Python · JavaScript · TypeScript · Java · C · C++ · SQL · HTML/CSS</td></tr>
-<tr><td><b>AI / ML</b></td><td>Computer vision · NLP · Reinforcement learning · Statistical learning · TensorFlow</td></tr>
+<tr><td><b>Languages</b></td><td>Python · JavaScript · TypeScript · Java · C · C++ · Rust · Go · SQL · HTML/CSS</td></tr>
+<tr><td><b>AI / ML</b></td><td>Computer vision · NLP · Reinforcement learning · Statistical learning · PyTorch · scikit-learn</td></tr>
 <tr><td><b>Web &amp; Graphics</b></td><td>React · Next.js · Three.js / WebGL · Canvas · Node.js · Tailwind</td></tr>
-<tr><td><b>Robotics &amp; Systems</b></td><td>Digital twins · Arduino · Raspberry Pi · HPC · Cloud · DevOps</td></tr>
+<tr><td><b>Robotics &amp; Systems</b></td><td>Arduino · Raspberry Pi · HPC &amp; parallel computing · Cloud · DevOps</td></tr>
 </table>
 
 ## 🧪 Interactive Simulations &amp; Games
