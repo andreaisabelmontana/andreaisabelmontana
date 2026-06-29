@@ -1,6 +1,6 @@
-https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
-
 <div align="center">
+
+https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 # Computer Science &amp; Artificial Intelligence
 
