@@ -83,7 +83,7 @@ Fifteen simulations, games, and small apps rebuilt from scratch in the browser. 
 - **Computer Programming II** — 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/)
 - **IE Challenge** — 🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)
 - **Software Development & DevOps** — 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/)
-- **AI: Reasoning & Problem Solving** — 🌐 [reasoning-project](https://andreaisabelmontana.github.io/reasoning-project/)
+- **AI: Reasoning & Problem Solving** — 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/)
 - **Introduction to Robotics Lab** — 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/)
 - **High Performance Computing** — 🌐 [hpc-final-project](https://andreaisabelmontana.github.io/hpc-final-project/)
 

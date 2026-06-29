@@ -261,7 +261,7 @@ const PRIMARY = {
   db: 'sql-lab', entrep: 'entrep-lab', linalg: 'linalg-lab', prob: 'stats-lab',
   // Year 3
   cp2: 'java-study', iec: null /* pitch deck only */, sddo: 'sddo-notes',
-  reason: 'reasoning-project', robolab: 'robotics-lab-interactive', hpc: 'hpc-final-project',
+  reason: 'ai-reasoning-games', robolab: 'robotics-lab-interactive', hpc: 'hpc-final-project',
   chat: 'chatbots-recsys-lab', vision: 'cs-vision', nlp: 'nlp-lab',
   rl: 'reinforce-interactive', stat: 'stat-learning',
   // Year 4
