@@ -25,12 +25,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 <tr><td><b>Robotics &amp; Systems</b></td><td>Arduino · Raspberry Pi · HPC · Cloud · DevOps</td></tr>
 </table>
 
-## 🧪 Interactive Simulations &amp; Games
-
-A collection of 15 interactive simulations, games, and small apps I rebuilt from scratch in the browser. **None of these began as my own idea** — each recreates an existing project that caught my eye, rebuilt my own way with no engine or framework.
-
-[🔗 Open the collection](https://andreaisabelmontana.github.io/interactive-simulations-and-games/)
-
 ## 📚 Course Portfolio
 
 > One interactive companion site per course, across the full four-year BCSAI degree. Auto-generated from GitHub topics.
