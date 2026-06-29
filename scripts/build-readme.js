@@ -245,10 +245,9 @@ const EXTRA = {
   capstone: [SRC('Final-Project')],
 };
 
-// One canonical hub link per course for the minimal top-level list. Every other
-// link for that course still lives in the folded "Full project index" below, so
-// nothing is hidden — the index just keeps the surface area off the main view.
-// As each companion site grows into a real hub, its index entries fall away.
+// The canonical hub repo per course. Its URL is what the course title links to
+// in the portfolio table; the full set of links for that course still lives in
+// the table's "Coursework & Projects" column.
 const PRIMARY = {
   // Year 1
   discrete: 'discrete-math-lab', fps: 'prob-stats-lab', business: 'business-lab',
@@ -269,10 +268,10 @@ const PRIMARY = {
   uxui: 'uxui-hci-interactive', capstone: 'apex-athlete',
 };
 
-// The single hub link shown for a course in the minimal list. Falls back to the
-// best topic-tagged repo (live sites first) if the chosen primary isn't found.
-function primaryCell(slug, byName, byTopic) {
-  if (slug === 'iec') return '🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)';
+// The hub URL a course title links to: its chosen PRIMARY repo, or the best
+// topic-tagged repo (live sites first) as a fallback. null if nothing matches.
+function primaryUrl(slug, byName, byTopic) {
+  if (slug === 'iec') return 'https://canva.link/hah28m2jrnhfj42';
   let repo = null;
   const want = PRIMARY[slug];
   if (want) {
@@ -286,33 +285,7 @@ function primaryCell(slug, byName, byTopic) {
     repo = matched[0] || null;
     if (repo && want) console.error(`PRIMARY ${slug}: fell back to ${repo.name}`);
   }
-  if (!repo) return '_— coming soon —_';
-  const emoji = repo.has_pages ? '🌐' : '📂';
-  return `${emoji} [${repo.name}](${pickUrl(repo)})`;
-}
-
-// Minimal, scannable view: semester sections (newest first), one hub link per
-// course. The detailed link set lives in the folded index produced by buildTable.
-function buildMinimalList(repos) {
-  const byName = new Map(repos.map((r) => [r.name, r]));
-  const byTopic = new Map();
-  for (const repo of repos) {
-    for (const t of repo.topics || []) {
-      if (!t.startsWith(TOPIC_PREFIX)) continue;
-      const slug = t.slice(TOPIC_PREFIX.length);
-      if (!byTopic.has(slug)) byTopic.set(slug, []);
-      byTopic.get(slug).push(repo);
-    }
-  }
-  const out = [];
-  for (const [header, courses] of [...CATEGORIES].reverse()) {
-    out.push(`#### ${header}`, '');
-    for (const [slug, name] of courses) {
-      out.push(`- **${name}** — ${primaryCell(slug, byName, byTopic)}`);
-    }
-    out.push('');
-  }
-  return out.join('\n').trim();
+  return repo ? pickUrl(repo) : null;
 }
 
 function ghRequest(url) {
@@ -371,6 +344,7 @@ function renderRepoLink(repo) {
 
 function buildTable(repos, archived = new Set()) {
   // Map: topic-suffix -> list of repos
+  const byName = new Map(repos.map((r) => [r.name, r]));
   const byTopic = new Map();
   for (const repo of repos) {
     const topics = repo.topics || [];
@@ -405,7 +379,9 @@ function buildTable(repos, archived = new Set()) {
       const links = [...matched, ...extra];
       if (links.length) covered++;
       const cell = links.length ? links.join('<br>') : '_— coming soon —_';
-      rows.push(`| ${year}.${perYear[year]} | ${name} | ${cell} |`);
+      const url = primaryUrl(slug, byName, byTopic);
+      const title = url ? `[${name}](${url})` : name;
+      rows.push(`| ${year}.${perYear[year]} | ${title} | ${cell} |`);
     }
   }
   rows.reverse(); // most recent / last-year courses first
@@ -464,23 +440,12 @@ async function main() {
   const archived = new Set(all.filter((r) => r.archived).map((r) => r.name));
   console.error(`Fetched ${all.length} repos (${repos.length} active, ${archived.size} archived & hidden)`);
   const { table, covered } = buildTable(repos, archived);
-  const minimal = buildMinimalList(repos);
   const stats = accountStats(repos, covered);
   console.error(
     `Stats: ${stats.repos} repos · ${stats.live} live · ${stats.forks} forks · ${stats.courses} courses · Year ${stats.year}`,
   );
 
-  // Minimal list up top; every other link folded into a single details block so
-  // the main view stays clean but no project is ever orphaned from the profile.
-  const portfolio = [
-    minimal,
-    '',
-    '<details>',
-    `<summary>📂 <b>Full project index</b> — every build for every course (${stats.live} live sites)</summary>`,
-    '',
-    table,
-    '</details>',
-  ].join('\n');
+  const portfolio = table;
 
   const template = fs.readFileSync(path.join(ROOT, 'README.template.md'), 'utf8');
   const stamp = new Date().toISOString().slice(0, 10);
