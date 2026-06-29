@@ -27,8 +27,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## 📚 Course Portfolio
 
-> One interactive companion site per course, across the full four-year BCSAI degree. Auto-generated from GitHub topics.
-
 <!-- COURSE_TABLE_START -->
 | # | Course | Coursework & Projects |
 |---|---|---|
