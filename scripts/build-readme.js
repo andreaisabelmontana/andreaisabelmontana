@@ -245,6 +245,76 @@ const EXTRA = {
   capstone: [SRC('Final-Project')],
 };
 
+// One canonical hub link per course for the minimal top-level list. Every other
+// link for that course still lives in the folded "Full project index" below, so
+// nothing is hidden — the index just keeps the surface area off the main view.
+// As each companion site grows into a real hub, its index entries fall away.
+const PRIMARY = {
+  // Year 1
+  discrete: 'discrete-math-lab', fps: 'prob-stats-lab', business: 'business-lab',
+  research: 'research-methods-lab', history: 'big-history-lab',
+  data: 'data-analysis-lab', humanities: 'humanities-lab', physics: 'physics-cs-lab',
+  pop: 'programming-principles-lab', modeling: 'modeling-lab',
+  // Year 2
+  algos: 'algos-lab', calc: 'calc-lab', cloud: 'cloud-lab', arch: 'arch-lab',
+  cp1: 'cp1-lab', tech: 'tech-lab', mlf: 'ml-lab', affect: 'affect-lab',
+  db: 'sql-lab', entrep: 'entrep-lab', linalg: 'linalg-lab', prob: 'stats-lab',
+  // Year 3
+  cp2: 'java-study', iec: null /* pitch deck only */, sddo: 'sddo-notes',
+  reason: 'reasoning-project', robolab: 'robotics-lab-interactive', hpc: 'hpc-final-project',
+  chat: 'chatbots-recsys-lab', vision: 'cs-vision', nlp: 'nlp-lab',
+  rl: 'reinforce-interactive', stat: 'stat-learning',
+  // Year 4
+  blockchain: 'blockchain-playground', ethics: 'cs-ethics', robo: 'Robotics-Automation',
+  uxui: 'uxui-hci-interactive', capstone: 'apex-athlete',
+};
+
+// The single hub link shown for a course in the minimal list. Falls back to the
+// best topic-tagged repo (live sites first) if the chosen primary isn't found.
+function primaryCell(slug, byName, byTopic) {
+  if (slug === 'iec') return '🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)';
+  let repo = null;
+  const want = PRIMARY[slug];
+  if (want) {
+    if (byName.has(want)) repo = byName.get(want);
+    else console.error(`PRIMARY ${slug} -> ${want} not found in API repos`);
+  }
+  if (!repo) {
+    const matched = (byTopic.get(slug) || [])
+      .slice()
+      .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name));
+    repo = matched[0] || null;
+    if (repo && want) console.error(`PRIMARY ${slug}: fell back to ${repo.name}`);
+  }
+  if (!repo) return '_— coming soon —_';
+  const emoji = repo.has_pages ? '🌐' : '📂';
+  return `${emoji} [${repo.name}](${pickUrl(repo)})`;
+}
+
+// Minimal, scannable view: semester sections (newest first), one hub link per
+// course. The detailed link set lives in the folded index produced by buildTable.
+function buildMinimalList(repos) {
+  const byName = new Map(repos.map((r) => [r.name, r]));
+  const byTopic = new Map();
+  for (const repo of repos) {
+    for (const t of repo.topics || []) {
+      if (!t.startsWith(TOPIC_PREFIX)) continue;
+      const slug = t.slice(TOPIC_PREFIX.length);
+      if (!byTopic.has(slug)) byTopic.set(slug, []);
+      byTopic.get(slug).push(repo);
+    }
+  }
+  const out = [];
+  for (const [header, courses] of [...CATEGORIES].reverse()) {
+    out.push(`#### ${header}`, '');
+    for (const [slug, name] of courses) {
+      out.push(`- **${name}** — ${primaryCell(slug, byName, byTopic)}`);
+    }
+    out.push('');
+  }
+  return out.join('\n').trim();
+}
+
 function ghRequest(url) {
   return new Promise((resolve, reject) => {
     const headers = {
@@ -394,10 +464,23 @@ async function main() {
   const archived = new Set(all.filter((r) => r.archived).map((r) => r.name));
   console.error(`Fetched ${all.length} repos (${repos.length} active, ${archived.size} archived & hidden)`);
   const { table, covered } = buildTable(repos, archived);
+  const minimal = buildMinimalList(repos);
   const stats = accountStats(repos, covered);
   console.error(
     `Stats: ${stats.repos} repos · ${stats.live} live · ${stats.forks} forks · ${stats.courses} courses · Year ${stats.year}`,
   );
+
+  // Minimal list up top; every other link folded into a single details block so
+  // the main view stays clean but no project is ever orphaned from the profile.
+  const portfolio = [
+    minimal,
+    '',
+    '<details>',
+    `<summary>📂 <b>Full project index</b> — every build for every course (${stats.live} live sites)</summary>`,
+    '',
+    table,
+    '</details>',
+  ].join('\n');
 
   const template = fs.readFileSync(path.join(ROOT, 'README.template.md'), 'utf8');
   const stamp = new Date().toISOString().slice(0, 10);
@@ -405,7 +488,7 @@ async function main() {
   const output = template
     .replace(
       /<!-- COURSE_TABLE_START -->[\s\S]*?<!-- COURSE_TABLE_END -->/,
-      `<!-- COURSE_TABLE_START -->\n${table}\n<!-- COURSE_TABLE_END -->`,
+      `<!-- COURSE_TABLE_START -->\n${portfolio}\n<!-- COURSE_TABLE_END -->`,
     )
     .replace(
       /<!-- STATS_START -->[\s\S]*?<!-- STATS_END -->/,
