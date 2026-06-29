@@ -377,8 +377,33 @@ function buildTable(repos, archived = new Set()) {
         return !matchedNames.has(m[1]) && !archived.has(m[1]); // drop already-matched or archived
       });
       const links = [...matched, ...extra];
-      if (links.length) covered++;
-      const cell = links.length ? links.join('<br>') : '_— coming soon —_';
+
+      // Organize the cell as Notes (the course hub) then Coursework (everything
+      // built behind it). The hub keeps its one-line description; coursework is
+      // a concise list of linked names — the per-project detail now lives in
+      // each hub's own "Coursework" section, so the index stays tight.
+      const linkName = (s) => { const m = s.match(/\[([^\]]+)\]/); return m ? m[1] : null; };
+      const conciseLink = (s) => { const m = s.match(/(\[[^\]]+\]\([^)]+\))/); return m ? m[1] : s; };
+      const hubName = PRIMARY[slug];
+      let notesLink = null;
+      let courseLinks = links;
+      if (hubName) {
+        const idx = links.findIndex((s) => linkName(s) === hubName);
+        if (idx >= 0) { notesLink = links[idx]; courseLinks = links.filter((_, i) => i !== idx); }
+        else if (byName.has(hubName)) { notesLink = renderRepoLink(byName.get(hubName)); }
+      }
+      if (links.length || notesLink) covered++;
+
+      let cell;
+      if (notesLink) {
+        const parts = [`**📓 Notes** — ${notesLink}`];
+        if (courseLinks.length) parts.push(`**🧪 Coursework** — ${courseLinks.map(conciseLink).join(' · ')}`);
+        cell = parts.join('<br>');
+      } else if (links.length) {
+        cell = links.map(conciseLink).join(' · ');
+      } else {
+        cell = '_— coming soon —_';
+      }
       const url = primaryUrl(slug, byName, byTopic);
       const title = url ? `[${name}](${url})` : name;
       rows.push(`| ${year}.${perYear[year]} | ${title} | ${cell} |`);
