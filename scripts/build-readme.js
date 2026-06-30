@@ -288,6 +288,46 @@ function primaryUrl(slug, byName, byTopic) {
   return repo ? pickUrl(repo) : null;
 }
 
+// One markdown hub link for the minimal list: emoji + repo name + url.
+function primaryCell(slug, byName, byTopic) {
+  if (slug === 'iec') return '🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)';
+  let repo = null;
+  const want = PRIMARY[slug];
+  if (want && byName.has(want)) repo = byName.get(want);
+  if (!repo) {
+    const matched = (byTopic.get(slug) || [])
+      .slice()
+      .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name));
+    repo = matched[0] || null;
+  }
+  if (!repo) return '_— coming soon —_';
+  return `${repo.has_pages ? '🌐' : '📂'} [${repo.name}](${pickUrl(repo)})`;
+}
+
+// Minimal, scannable view: semester sections (newest first), one hub link per
+// course. The full per-course link set lives in the folded index (buildTable).
+function buildMinimalList(repos) {
+  const byName = new Map(repos.map((r) => [r.name, r]));
+  const byTopic = new Map();
+  for (const repo of repos) {
+    for (const t of repo.topics || []) {
+      if (!t.startsWith(TOPIC_PREFIX)) continue;
+      const slug = t.slice(TOPIC_PREFIX.length);
+      if (!byTopic.has(slug)) byTopic.set(slug, []);
+      byTopic.get(slug).push(repo);
+    }
+  }
+  const out = [];
+  for (const [header, courses] of [...CATEGORIES].reverse()) {
+    out.push(`#### ${header}`, '');
+    for (const [slug, name] of courses) {
+      out.push(`- **${name}** — ${primaryCell(slug, byName, byTopic)}`);
+    }
+    out.push('');
+  }
+  return out.join('\n').trim();
+}
+
 function ghRequest(url) {
   return new Promise((resolve, reject) => {
     const headers = {
@@ -470,7 +510,19 @@ async function main() {
     `Stats: ${stats.repos} repos · ${stats.live} live · ${stats.forks} forks · ${stats.courses} courses · Year ${stats.year}`,
   );
 
-  const portfolio = table;
+  // Minimal one-hub-per-course list up top; the full Notes + Coursework table
+  // folded into a single details block so the surface stays minimal but every
+  // project is one click away.
+  const minimal = buildMinimalList(repos);
+  const portfolio = [
+    minimal,
+    '',
+    '<details>',
+    `<summary>📂 <b>Full project index</b> — Notes hub + every coursework project, per course (${stats.live} live sites)</summary>`,
+    '',
+    table,
+    '</details>',
+  ].join('\n');
 
   const template = fs.readFileSync(path.join(ROOT, 'README.template.md'), 'utf8');
   const stamp = new Date().toISOString().slice(0, 10);
