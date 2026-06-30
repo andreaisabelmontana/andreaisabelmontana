@@ -8,8 +8,6 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
 <a href="https://github.com/andreaisabelmontana"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-## 🛠️ Skills &amp; Tools
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,rust,go,html,css,react,nextjs,nodejs,tailwind,threejs,tensorflow,git,github,docker,vercel,firebase,figma,arduino,raspberrypi&perline=12" />
 </p>
