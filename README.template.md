@@ -19,6 +19,20 @@ Building systems from scratch — one course, and one language, at a time.
 
 ---
 
+## 🚀 Flagship Engineering
+
+Seven systems projects — **each in a different language, each built from scratch with zero or standard-library-only dependencies.**
+
+| Project | Language | What it is |
+|---|---|---|
+| [**repoforge**](https://github.com/andreaisabelmontana/repoforge) | Rust | Audits any GitHub account against an 11-point quality rubric, then auto-generates whatever's missing — README, license, CI, `.gitignore`, topics. [Live dashboard ↗](https://andreaisabelmontana.github.io/repoforge/) |
+| [**linkrot**](https://github.com/andreaisabelmontana/linkrot) | Go | Concurrent broken-link &amp; asset checker — crawls same-host pages and verifies every link in parallel. |
+| [**nanograd**](https://github.com/andreaisabelmontana/nanograd) | C++ | Reverse-mode autograd engine + neural net in ~200 lines of header-only C++17. Learns XOR; gradients checked against finite differences. |
+| [**parsekit**](https://github.com/andreaisabelmontana/parsekit) | TypeScript | Strongly-typed parser-combinator library — typed-tuple `seq`, recursive grammars, JSON &amp; arithmetic parsers built on top. |
+| [**thompson**](https://github.com/andreaisabelmontana/thompson) | C | Regex engine via Thompson NFA construction — linear-time, no backtracking, survives `(a*)*` patterns that hang naive engines. |
+| [**recalc**](https://github.com/andreaisabelmontana/recalc) | Java | Spreadsheet formula engine — recursive-descent parser, cell references, on-read recalculation, cycle detection. |
+| [**tinysql**](https://github.com/andreaisabelmontana/tinysql) | Python | SQL query engine over CSV — lexer → parser → executor with `WHERE` / `ORDER BY` / `LIMIT` and aggregates. |
+
 ## 🛠️ Skills &amp; Tools
 
 <p align="center">
