@@ -2,25 +2,13 @@
 
 https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
-# Andrea Isabel Montana
-
-### Computer Science &amp; Artificial Intelligence · Student-Athlete @ IE University
+# Computer Science
 
 Building systems from scratch — one course, and one language, at a time.
 
 <a href="mailto:amontana.ieu2023@student.ie.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://cyphy.life/"><img src="https://img.shields.io/badge/Research_at_CyPhy_Life-8b5cf6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="CyPhy Life" /></a>
 <a href="https://github.com/andreaisabelmontana"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-
-<!-- STATS_START -->
-<img src="https://img.shields.io/badge/Repositories-156-8b5cf6?style=for-the-badge&logo=github&logoColor=white" alt="156 repositories" />
-<img src="https://img.shields.io/badge/Live_Sites-145-22c55e?style=for-the-badge&logo=githubpages&logoColor=white" alt="145 live sites" />
-<img src="https://img.shields.io/badge/Forks-0-ec4899?style=for-the-badge&logo=git&logoColor=white" alt="0 forks" />
-<img src="https://img.shields.io/badge/Courses_Documented-38-3b82f6?style=for-the-badge&logo=googlescholar&logoColor=white" alt="38 courses" />
-<img src="https://img.shields.io/badge/BCSAI-Year_4-f59e0b?style=for-the-badge&logo=academia&logoColor=white" alt="Year 4" />
-<!-- STATS_END -->
-
-</div>
 
 ---
 
