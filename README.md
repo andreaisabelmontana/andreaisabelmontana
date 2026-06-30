@@ -27,62 +27,62 @@ Fifteen simulations, games, and small apps rebuilt from scratch in the browser. 
 <!-- COURSE_TABLE_START -->
 #### 📕 Year 4 — Semester 2
 
-- **Blockchain, Cryptocurrencies & FinTech** — 🌐 [blockchain-playground](https://andreaisabelmontana.github.io/blockchain-playground/)
-- **Ethics, Policy & Legislation in CS** — 🌐 [cs-ethics](https://andreaisabelmontana.github.io/cs-ethics/)
-- **Robotics & Automation** — 🌐 [Robotics-Automation](https://andreaisabelmontana.github.io/Robotics-Automation/)
-- **UX/UI & Human-Computer Interaction** — 🌐 [uxui-hci-interactive](https://andreaisabelmontana.github.io/uxui-hci-interactive/)
-- **Capstone Project** — 🌐 [apex-athlete](https://andreaisabelmontana.github.io/apex-athlete/)
+- **[Blockchain, Cryptocurrencies & FinTech](https://andreaisabelmontana.github.io/blockchain-playground/)**
+- **[Ethics, Policy & Legislation in CS](https://andreaisabelmontana.github.io/cs-ethics/)**
+- **[Robotics & Automation](https://andreaisabelmontana.github.io/Robotics-Automation/)**
+- **[UX/UI & Human-Computer Interaction](https://andreaisabelmontana.github.io/uxui-hci-interactive/)**
+- **[Capstone Project](https://andreaisabelmontana.github.io/apex-athlete/)**
 
 #### 📙 Year 3 — Semester 2
 
-- **AI: Chatbots & Recommendation Engines** — 🌐 [chatbots-recsys-lab](https://andreaisabelmontana.github.io/chatbots-recsys-lab/)
-- **AI: Computer Vision** — 🌐 [cs-vision](https://andreaisabelmontana.github.io/cs-vision/)
-- **AI: NLP & Semantic Analysis** — 🌐 [nlp-lab](https://andreaisabelmontana.github.io/nlp-lab/)
-- **AI: Reinforcement Learning** — 🌐 [reinforce-interactive](https://andreaisabelmontana.github.io/reinforce-interactive/)
-- **AI: Statistical Learning & Prediction** — 🌐 [stat-learning](https://andreaisabelmontana.github.io/stat-learning/)
+- **[AI: Chatbots & Recommendation Engines](https://andreaisabelmontana.github.io/chatbots-recsys-lab/)**
+- **[AI: Computer Vision](https://andreaisabelmontana.github.io/cs-vision/)**
+- **[AI: NLP & Semantic Analysis](https://andreaisabelmontana.github.io/nlp-lab/)**
+- **[AI: Reinforcement Learning](https://andreaisabelmontana.github.io/reinforce-interactive/)**
+- **[AI: Statistical Learning & Prediction](https://andreaisabelmontana.github.io/stat-learning/)**
 
 #### 📙 Year 3 — Semester 1
 
-- **Computer Programming II** — 🌐 [java-study](https://andreaisabelmontana.github.io/java-study/)
-- **IE Challenge** — 🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)
-- **Software Development & DevOps** — 🌐 [sddo-notes](https://andreaisabelmontana.github.io/sddo-notes/)
-- **AI: Reasoning & Problem Solving** — 🌐 [ai-reasoning-games](https://andreaisabelmontana.github.io/ai-reasoning-games/)
-- **Introduction to Robotics Lab** — 🌐 [robotics-lab-interactive](https://andreaisabelmontana.github.io/robotics-lab-interactive/)
-- **High Performance Computing** — 🌐 [hpc-final-project](https://andreaisabelmontana.github.io/hpc-final-project/)
+- **[Computer Programming II](https://andreaisabelmontana.github.io/java-study/)**
+- **[IE Challenge](https://canva.link/hah28m2jrnhfj42)**
+- **[Software Development & DevOps](https://andreaisabelmontana.github.io/sddo-notes/)**
+- **[AI: Reasoning & Problem Solving](https://andreaisabelmontana.github.io/ai-reasoning-games/)**
+- **[Introduction to Robotics Lab](https://andreaisabelmontana.github.io/robotics-lab-interactive/)**
+- **[High Performance Computing](https://andreaisabelmontana.github.io/hpc-final-project/)**
 
 #### 📗 Year 2 — Semester 2
 
-- **AI: Machine Learning Foundations** — 🌐 [ml-lab](https://andreaisabelmontana.github.io/ml-lab/)
-- **AI: Personality & Emotion for AI Design** — 🌐 [affect-lab](https://andreaisabelmontana.github.io/affect-lab/)
-- **Designing and Using Databases** — 🌐 [sql-lab](https://andreaisabelmontana.github.io/sql-lab/)
-- **IE Impact Entrepreneurship** — 🌐 [entrep-lab](https://andreaisabelmontana.github.io/entrep-lab/)
-- **Matrices & Linear Transformations** — 🌐 [linalg-lab](https://andreaisabelmontana.github.io/linalg-lab/)
-- **Probability for Computing Science** — 🌐 [stats-lab](https://andreaisabelmontana.github.io/stats-lab/)
+- **[AI: Machine Learning Foundations](https://andreaisabelmontana.github.io/ml-lab/)**
+- **[AI: Personality & Emotion for AI Design](https://andreaisabelmontana.github.io/affect-lab/)**
+- **[Designing and Using Databases](https://andreaisabelmontana.github.io/sql-lab/)**
+- **[IE Impact Entrepreneurship](https://andreaisabelmontana.github.io/entrep-lab/)**
+- **[Matrices & Linear Transformations](https://andreaisabelmontana.github.io/linalg-lab/)**
+- **[Probability for Computing Science](https://andreaisabelmontana.github.io/stats-lab/)**
 
 #### 📗 Year 2 — Semester 1
 
-- **Algorithms & Data Structures** — 🌐 [algos-lab](https://andreaisabelmontana.github.io/algos-lab/)
-- **Calculus for Computer Science** — 🌐 [calc-lab](https://andreaisabelmontana.github.io/calc-lab/)
-- **Cloud Computing** — 🌐 [cloud-lab](https://andreaisabelmontana.github.io/cloud-lab/)
-- **Computer Architecture, Networks & OS** — 🌐 [arch-lab](https://andreaisabelmontana.github.io/arch-lab/)
-- **Computer Programming I** — 🌐 [cp1-lab](https://andreaisabelmontana.github.io/cp1-lab/)
-- **Technology with Impact** — 🌐 [tech-lab](https://andreaisabelmontana.github.io/tech-lab/)
+- **[Algorithms & Data Structures](https://andreaisabelmontana.github.io/algos-lab/)**
+- **[Calculus for Computer Science](https://andreaisabelmontana.github.io/calc-lab/)**
+- **[Cloud Computing](https://andreaisabelmontana.github.io/cloud-lab/)**
+- **[Computer Architecture, Networks & OS](https://andreaisabelmontana.github.io/arch-lab/)**
+- **[Computer Programming I](https://andreaisabelmontana.github.io/cp1-lab/)**
+- **[Technology with Impact](https://andreaisabelmontana.github.io/tech-lab/)**
 
 #### 📘 Year 1 — Semester 2
 
-- **Fundamentals of Data Analysis** — 🌐 [data-analysis-lab](https://andreaisabelmontana.github.io/data-analysis-lab/)
-- **Humanities** — 🌐 [humanities-lab](https://andreaisabelmontana.github.io/humanities-lab/)
-- **Physics for Computer Science** — 🌐 [physics-cs-lab](https://andreaisabelmontana.github.io/physics-cs-lab/)
-- **Principles of Programming** — 🌐 [programming-principles-lab](https://andreaisabelmontana.github.io/programming-principles-lab/)
-- **Simulating and Modeling to Understand Change** — 🌐 [modeling-lab](https://andreaisabelmontana.github.io/modeling-lab/)
+- **[Fundamentals of Data Analysis](https://andreaisabelmontana.github.io/data-analysis-lab/)**
+- **[Humanities](https://andreaisabelmontana.github.io/humanities-lab/)**
+- **[Physics for Computer Science](https://andreaisabelmontana.github.io/physics-cs-lab/)**
+- **[Principles of Programming](https://andreaisabelmontana.github.io/programming-principles-lab/)**
+- **[Simulating and Modeling to Understand Change](https://andreaisabelmontana.github.io/modeling-lab/)**
 
 #### 📘 Year 1 — Semester 1
 
-- **Discrete Mathematics** — 🌐 [discrete-math-lab](https://andreaisabelmontana.github.io/discrete-math-lab/)
-- **Fundamentals of Probability & Statistics** — 🌐 [prob-stats-lab](https://andreaisabelmontana.github.io/prob-stats-lab/)
-- **Introduction to Business Management** — 🌐 [business-lab](https://andreaisabelmontana.github.io/business-lab/)
-- **Learning to Observe, Experiment & Survey** — 🌐 [research-methods-lab](https://andreaisabelmontana.github.io/research-methods-lab/)
-- **The Big History of Ideas and Innovation** — 🌐 [big-history-lab](https://andreaisabelmontana.github.io/big-history-lab/)
+- **[Discrete Mathematics](https://andreaisabelmontana.github.io/discrete-math-lab/)**
+- **[Fundamentals of Probability & Statistics](https://andreaisabelmontana.github.io/prob-stats-lab/)**
+- **[Introduction to Business Management](https://andreaisabelmontana.github.io/business-lab/)**
+- **[Learning to Observe, Experiment & Survey](https://andreaisabelmontana.github.io/research-methods-lab/)**
+- **[The Big History of Ideas and Innovation](https://andreaisabelmontana.github.io/big-history-lab/)**
 
 <details>
 <summary>📂 <b>Full project index</b> — Notes hub + every coursework project, per course (145 live sites)</summary>

@@ -288,24 +288,9 @@ function primaryUrl(slug, byName, byTopic) {
   return repo ? pickUrl(repo) : null;
 }
 
-// One markdown hub link for the minimal list: emoji + repo name + url.
-function primaryCell(slug, byName, byTopic) {
-  if (slug === 'iec') return '🎤 [Pitch deck](https://canva.link/hah28m2jrnhfj42)';
-  let repo = null;
-  const want = PRIMARY[slug];
-  if (want && byName.has(want)) repo = byName.get(want);
-  if (!repo) {
-    const matched = (byTopic.get(slug) || [])
-      .slice()
-      .sort((a, b) => Number(b.has_pages) - Number(a.has_pages) || a.name.localeCompare(b.name));
-    repo = matched[0] || null;
-  }
-  if (!repo) return '_— coming soon —_';
-  return `${repo.has_pages ? '🌐' : '📂'} [${repo.name}](${pickUrl(repo)})`;
-}
-
-// Minimal, scannable view: semester sections (newest first), one hub link per
-// course. The full per-course link set lives in the folded index (buildTable).
+// Minimal, scannable view: semester sections (newest first). Each course NAME
+// is itself the link to that course's notes hub (no repo name shown). The full
+// per-course link set lives in the folded index (buildTable).
 function buildMinimalList(repos) {
   const byName = new Map(repos.map((r) => [r.name, r]));
   const byTopic = new Map();
@@ -321,7 +306,8 @@ function buildMinimalList(repos) {
   for (const [header, courses] of [...CATEGORIES].reverse()) {
     out.push(`#### ${header}`, '');
     for (const [slug, name] of courses) {
-      out.push(`- **${name}** — ${primaryCell(slug, byName, byTopic)}`);
+      const url = primaryUrl(slug, byName, byTopic);
+      out.push(url ? `- **[${name}](${url})**` : `- **${name}** _— coming soon —_`);
     }
     out.push('');
   }
