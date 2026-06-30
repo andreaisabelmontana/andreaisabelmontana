@@ -12,6 +12,9 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ## Course Portfolio
 
+<details>
+<summary>37 courses across the four-year BCSAI degree — click to expand</summary>
+
 | Term | Course | | |
 |---|---|---|---|
 | 📕 Y4 · S2 | Blockchain, Cryptocurrencies & FinTech | [notes](https://andreaisabelmontana.github.io/blockchain-playground/course.html) | [project](https://andreaisabelmontana.github.io/blockchain-playground/project.html) |
@@ -52,3 +55,5 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 | | Introduction to Business Management | [notes](https://andreaisabelmontana.github.io/business-lab/course.html) | [project](https://andreaisabelmontana.github.io/business-lab/project.html) |
 | | Learning to Observe, Experiment & Survey | [notes](https://andreaisabelmontana.github.io/research-methods-lab/course.html) | [project](https://andreaisabelmontana.github.io/research-methods-lab/project.html) |
 | | The Big History of Ideas and Innovation | [notes](https://andreaisabelmontana.github.io/big-history-lab/course.html) | [project](https://andreaisabelmontana.github.io/big-history-lab/project.html) |
+
+</details>
