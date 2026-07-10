@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 | 📙 Y3 · S1 | [Computer Programming II](https://andreaisabelmontana.github.io/java-study/course.html) | [projects](https://andreaisabelmontana.github.io/java-study/projects.html) |
 | | [Software Development & DevOps](https://andreaisabelmontana.github.io/sddo-notes/course.html) | [projects](https://andreaisabelmontana.github.io/sddo-notes/projects.html) |
 | | [Introduction to Robotics Lab](https://andreaisabelmontana.github.io/robotics-lab-interactive/course.html) | [projects](https://andreaisabelmontana.github.io/robotics-lab-interactive/projects.html) |
-| | [AI: Reasoning & Problem Solving](https://andreaisabelmontana.github.io/ai-reasoning-games/) | [projects](https://andreaisabelmontana.github.io/ai-reasoning-games/projects.html) |
+| | [AI: Reasoning & Problem Solving](https://andreaisabelmontana.github.io/ai-reasoning-games/course.html) | [projects](https://andreaisabelmontana.github.io/ai-reasoning-games/projects.html) |
 | | [High Performance Computing](https://andreaisabelmontana.github.io/hpc-lab/course.html) | [projects](https://andreaisabelmontana.github.io/hpc-lab/projects.html) |
 | | [IE Challenge](https://canva.link/hah28m2jrnhfj42) | — |
 | 📗 Y2 · S2 | [AI: Machine Learning Foundations](https://andreaisabelmontana.github.io/ml-lab/course.html) | [projects](https://andreaisabelmontana.github.io/ml-lab/projects.html) |
