@@ -4,6 +4,11 @@ https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 </div>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/andrea-isabel-montana"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-andrea%20isabel%20montana-0a66c2?style=for-the-badge&labelColor=0b0f16"></a>
+  <a href="mailto:amontana.ieu2023@student.ie.edu"><img alt="Email" src="https://img.shields.io/badge/Email-amontana.ieu2023-a78bfa?style=for-the-badge&labelColor=0b0f16"></a>
+</p>
+
 ## Toolkit
 
 <table>
