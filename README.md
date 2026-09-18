@@ -1,8 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/andreaisabelmontana/andreaisabelmontana/main/assets/banner-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/andreaisabelmontana/andreaisabelmontana/main/assets/banner-light.svg?v=1">
-  <img alt="Andrea Montaña. Computer Science and Artificial Intelligence at IE University, Madrid. Computer vision, augmented reality, spatial computing." src="https://raw.githubusercontent.com/andreaisabelmontana/andreaisabelmontana/main/assets/banner-light.svg?v=1">
-</picture>
+<div align="center">
+
+https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
+
+</div>
 
 <p align="center">
   <a href="https://andreamontana.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-andreamontana.com-0d9488?style=for-the-badge&labelColor=0b0f16"></a>
@@ -120,12 +120,6 @@ project, which is where the vision, rigging and real time rendering threads meet
 Certificates completed in 2026: Anthropic Academy (17 courses), Google AI (7 courses), Microsoft
 AI and ML Engineering (5 courses), DeepLearning.AI. Spanish native, English fluent, German
 beginner.
-
-## Where the robotics came from
-
-Before any of the above, this.
-
-https://github.com/user-attachments/assets/2e790415-f167-48b1-9b38-4019f42498f2
 
 ---
 
